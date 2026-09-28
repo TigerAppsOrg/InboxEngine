@@ -16,8 +16,9 @@ const worker = process.env.RUN_WORKER === 'true' ? runPoller(sql, abort.signal) 
 const stop = async () => {
   abort.abort();
   server.close();
-  await worker;
-  await closeDb();
+  // Let an in-flight poll finish briefly; never hold a deploy hostage to a slow upstream.
+  await Promise.race([worker, new Promise((r) => setTimeout(r, 5000))]);
+  await closeDb().catch(() => {});
   process.exit(0);
 };
 process.on('SIGINT', stop);

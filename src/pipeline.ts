@@ -134,8 +134,10 @@ export async function ingestMessage(sql: Sql, raw: RawMessage, options: IngestOp
   const withinDays = options.extractWithinDays ?? Number(process.env.EXTRACT_WITHIN_DAYS || 45);
   const recent = now.getTime() - new Date(row.sentAt as string).getTime() <= withinDays * 86400_000;
   const mode = extractorMode();
-  const needs =
-    row.complete && recent && (!row.extractionVersion || !String(row.extractionVersion).startsWith(mode === 'llm' ? 'llm' : 'rules') || !unchanged);
+  // A cross-posted copy reuses the canonical message's extraction; only the canonical copy's own
+  // body changes (or a missing/outdated extraction) trigger another run.
+  const outdated = !row.extractionVersion || !String(row.extractionVersion).startsWith(mode === 'llm' ? 'llm' : 'rules');
+  const needs = row.complete && recent && (outdated || (canonicalId === id && !unchanged));
   if (needs) {
     const extractor = options.extractor ?? ((input) => extractEvents(input, mode));
     const result = await extractor({

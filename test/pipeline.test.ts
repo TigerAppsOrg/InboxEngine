@@ -28,9 +28,13 @@ test('ingest merges residential cross-posts and extracts once', { skip: !url }, 
     headers
   };
   const now = new Date('2026-09-28T15:00:00Z');
-  const a = await ingestMessage(sql, { ...base, listserv: 'WHITMANWIRE', archiveId: 'w1' }, { now });
-  const b = await ingestMessage(sql, { ...base, listserv: 'BUTLERBUZZ', archiveId: 'b1' }, { now });
+  let calls = 0;
+  const { extractWithRules } = await import('../src/events/index.ts');
+  const extractor = async (input: Parameters<typeof extractWithRules>[0]) => (calls++, extractWithRules(input));
+  const a = await ingestMessage(sql, { ...base, listserv: 'WHITMANWIRE', archiveId: 'w1' }, { now, extractor });
+  const b = await ingestMessage(sql, { ...base, listserv: 'BUTLERBUZZ', archiveId: 'b1' }, { now, extractor });
   assert.equal(b.canonicalId, a.id);
+  assert.equal(calls, 1, 'a cross-posted copy must not re-run extraction');
   const events = await sql`SELECT * FROM events WHERE status = 'active'`;
   assert.equal(events.length, 1);
   assert.equal(events[0].locationId, 'frist-campus-center');

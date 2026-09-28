@@ -12,6 +12,7 @@ EnvironmentFile=/opt/inbox-engine/shared/environment
 ExecStart=/usr/bin/node --import tsx src/server/main.ts
 Restart=always
 RestartSec=5
+TimeoutStopSec=20
 MemoryMax=512M
 NoNewPrivileges=true
 ProtectSystem=strict
