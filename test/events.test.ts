@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { extractWithRules, resolveLocation, campusLocalToUtc, cleanTitle } from '../src/events/index.ts';
-import { mapMpuItem, seriesKey } from '../src/sources/mpu-events.ts';
+import { mapMpuItem, seriesKey, withoutGenericImages } from '../src/sources/mpu-events.ts';
 
 const sentAt = new Date('2026-09-28T14:00:00Z'); // Monday 10:00 ET
 
@@ -67,4 +67,13 @@ test('recurring official events share a series key', () => {
   assert.equal(seriesKey('mpu:1', 'Daily Prayer Monday 9/28'), seriesKey('mpu:1', 'Daily Prayer Tuesday 9/29'));
   assert.notEqual(seriesKey('mpu:1', 'Daily Prayer'), seriesKey('mpu:2', 'Daily Prayer'));
   assert.notEqual(seriesKey('mpu:1', 'Daily Prayer'), seriesKey('mpu:1', 'Spring Formal'));
+});
+
+test('platform-default event images are dropped', () => {
+  const shared = 'https://my.princeton.edu/upload/x/banner.png';
+  const rows = [1, 2, 3, 4, 5].map((i) => ({ imageUrl: shared, hostOrgId: `mpu:${i}` }));
+  rows.push({ imageUrl: 'https://my.princeton.edu/upload/x/real.png', hostOrgId: 'mpu:9' });
+  const out = withoutGenericImages(rows);
+  assert.equal(out.filter((r) => r.imageUrl === shared).length, 0);
+  assert.equal(out.at(-1)?.imageUrl, 'https://my.princeton.edu/upload/x/real.png');
 });

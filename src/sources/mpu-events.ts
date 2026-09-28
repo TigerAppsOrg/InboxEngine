@@ -112,6 +112,23 @@ export function mapMpuItem(item: Item) {
   };
 }
 
+/**
+ * MyPrincetonU fills missing event photos with platform defaults (e.g. the "MyPrinceton" banner on
+ * ~400 events). An image shared by five or more different host groups is treated as a default.
+ */
+export function withoutGenericImages<T extends { imageUrl: string | null; hostOrgId: string | null }>(rows: T[]): T[] {
+  const hosts = new Map<string, Set<string>>();
+  for (const r of rows) {
+    if (!r.imageUrl) continue;
+    const set = hosts.get(r.imageUrl) ?? new Set<string>();
+    set.add(r.hostOrgId ?? '');
+    hosts.set(r.imageUrl, set);
+  }
+  return rows.map((r) =>
+    r.imageUrl && ((hosts.get(r.imageUrl)?.size ?? 0) >= 5 || /MyPrinceton_\d+x\d+/i.test(r.imageUrl)) ? { ...r, imageUrl: null } : r
+  );
+}
+
 /** Series key: same host and the same title once dates, numbers and weekdays are removed. */
 export function seriesKey(hostOrgId: string | null, title: string): string {
   const norm = title
@@ -141,7 +158,7 @@ export async function syncMpuEvents(sql: Sql, fetchImpl: typeof fetch = fetch) {
   if (!res.ok) throw new Error(`MyPrincetonU feed ${res.status}`);
   const mapped = parseMpuFeed(await res.text()).map(mapMpuItem).filter((r) => r !== null);
   if (mapped.length < 20) throw new Error(`MyPrincetonU feed returned only ${mapped.length} events; refusing to withdraw`);
-  const rows = withSeries(mapped);
+  const rows = withSeries(withoutGenericImages(mapped));
   let changed = 0;
   for (const row of rows) {
     const [out] = await sql`
