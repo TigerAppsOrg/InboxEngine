@@ -48,6 +48,8 @@ export function summarize(body: string, max = 600): string {
 }
 
 /** Candidate location phrases, most explicit first. */
+const tidy = (phrase: string) => phrase.replace(/[\s.,;:!]+$/, '').trim();
+
 export function locationCandidates(text: string): string[] {
   const out: string[] = [];
   for (const m of text.matchAll(/(?:^|\n)\s*(?:📍|\*?\s*(?:location|where|place|venue|room)\s*\*?\s*[:\-–—])\s*([^\n]{2,120})/gi))
@@ -56,7 +58,7 @@ export function locationCandidates(text: string): string[] {
   const prepositional =
     /\b(?:in|at|@|by|outside|inside|near|on)\s+((?:the\s+)?(?:[A-Z][\w'’&.\-/]*|\d{1,4}[A-Z]?)(?:\s+(?:[A-Z0-9][\w'’&.\-/]*|of|and|for|the|&|[A-Z]?\d{1,4}[A-Z]?))*)/g;
   for (const m of text.matchAll(prepositional)) out.push(m[1].trim());
-  return out;
+  return out.map(tidy).filter(Boolean);
 }
 
 export function findLocation(text: string): { phrase: string; match: LocationMatch | null; online: boolean } | null {
@@ -66,7 +68,7 @@ export function findLocation(text: string): { phrase: string; match: LocationMat
     if (match) return { phrase, match, online: match.location.id === ONLINE_LOCATION_ID };
   }
   const label = /(?:^|\n)\s*(?:📍|\*?\s*(?:location|where|place|venue|room)\s*\*?\s*[:\-–—])\s*([^\n]{2,120})/i.exec(text);
-  if (label) return { phrase: label[1].trim(), match: null, online: ONLINE.test(label[1]) || /^(?:zoom|online|virtual)/i.test(label[1].trim()) };
+  if (label) return { phrase: tidy(label[1]), match: null, online: ONLINE.test(label[1]) || /^(?:zoom|online|virtual)/i.test(label[1].trim()) };
   if (ONLINE.test(text)) return { phrase: 'Online', match: null, online: true };
   return null;
 }
