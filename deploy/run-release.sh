@@ -24,8 +24,8 @@ cd "$dir"
 npm ci --omit=dev --no-audit --no-fund --loglevel=error
 chown -R root:root "$dir"
 # Migrations run before traffic moves; they are additive and idempotent.
-set -a; . "$root/shared/environment"; set +a
-node --import tsx src/store/migrate.ts
+# Node parses the env file itself; shell-sourcing breaks on secrets with $, ! or spaces.
+node --env-file="$root/shared/environment" --import tsx src/store/migrate.ts
 
 previous=$(readlink -f "$root/current" || true)
 ln -sfn "$dir" "$root/current.next" && mv -Tf "$root/current.next" "$root/current"
