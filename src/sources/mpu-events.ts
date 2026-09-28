@@ -192,7 +192,7 @@ export async function syncMpuEvents(sql: Sql, fetchImpl: typeof fetch = fetch) {
  * minutes, overlapping title words) become `duplicate` of the official record.
  */
 export async function markDuplicates(sql: Sql): Promise<number> {
-  const rows = await sql`
+  const official = await sql`
     UPDATE events l SET status = 'duplicate', duplicate_of = o.id, updated_at = now(), revision = nextval('revision_seq')
     FROM events o
     WHERE l.source = 'listserv' AND l.status = 'active' AND o.source = 'myprincetonu' AND o.status = 'active'
@@ -204,5 +204,27 @@ export async function markDuplicates(sql: Sql): Promise<number> {
         OR similarity_words(l.title, o.title) >= 0.5
       )
     RETURNING l.id`;
-  return rows.length;
+  // Reminder emails ("final call", "tomorrow!") re-announce the same event: keep the earliest
+  // extraction and mark later ones as its duplicates.
+  const reminders = await sql`
+    UPDATE events l SET status = 'duplicate', duplicate_of = o.id, updated_at = now(), revision = nextval('revision_seq')
+    FROM events o
+    WHERE l.source = 'listserv' AND o.source = 'listserv' AND l.id <> o.id
+      AND l.status = 'active' AND o.status = 'active'
+      AND (o.created_at, o.id) < (l.created_at, l.id)
+      AND l.starts_at > now() - interval '1 day'
+      AND abs(extract(epoch FROM l.starts_at - o.starts_at)) <= 1800
+      AND (l.host_org_id IS NULL OR o.host_org_id IS NULL OR l.host_org_id = o.host_org_id)
+      AND (
+        similarity_words(l.title, o.title) >= 0.4
+        OR (l.host_org_id IS NOT NULL AND l.host_org_id = o.host_org_id AND l.location_id IS NOT DISTINCT FROM o.location_id)
+      )
+      AND NOT EXISTS (
+        SELECT 1 FROM events p WHERE p.id <> o.id AND p.source = 'listserv' AND p.status = 'active'
+          AND (p.created_at, p.id) < (o.created_at, o.id)
+          AND abs(extract(epoch FROM p.starts_at - o.starts_at)) <= 1800
+          AND similarity_words(p.title, o.title) >= 0.4
+      )
+    RETURNING l.id`;
+  return official.length + reminders.length;
 }

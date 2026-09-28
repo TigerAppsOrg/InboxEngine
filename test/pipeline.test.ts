@@ -47,3 +47,22 @@ test('ingest merges residential cross-posts and extracts once', { skip: !url }, 
   await closeDb();
 });
 void postgres;
+
+test('reminder emails for the same event collapse to the first announcement', { skip: !url }, async () => {
+  process.env.DATABASE_URL = url;
+  const { db, closeDb } = await import('../src/store/db.ts');
+  const { ingestMessage } = await import('../src/pipeline.ts');
+  const sql = db();
+  const now = new Date('2026-09-28T15:00:00Z');
+  const mk = (id: string, subject: string, sentAt: string) => ({
+    listserv: 'FREEFOOD', archiveId: id, subject, authorName: 'MealMates', authorEmail: 'm@princeton.edu',
+    sentAt: new Date(sentAt), bodyHtml: '<p>MealMates dinner tonight at 5:30pm in Whitman College. Free food!</p>', complete: true
+  });
+  await ingestMessage(sql, mk('r1', 'MealMates Dinner tonight', '2026-09-28T13:00:00Z'), { now });
+  await ingestMessage(sql, mk('r2', 'REMINDER: MealMates Dinner tonight', '2026-09-28T14:00:00Z'), { now });
+  const active = await sql`SELECT title FROM events WHERE status = 'active' AND title ILIKE '%MealMates%'`;
+  const dupes = await sql`SELECT duplicate_of FROM events WHERE status = 'duplicate' AND title ILIKE '%MealMates%'`;
+  assert.equal(active.length, 1);
+  assert.equal(dupes.length, 1);
+  await closeDb();
+});
