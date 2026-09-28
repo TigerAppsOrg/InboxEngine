@@ -15,6 +15,8 @@ export type Organization = {
   groupType: string;
   categories: string[];
   urls: string[];
+  /** Whether links to subdomains of `urls` count as evidence (false for shared hosting domains). */
+  urlSubdomains: boolean;
   sources: string[];
   profile: OrganizationProfile;
 };
@@ -44,6 +46,7 @@ type Override = {
   groupType?: string;
   categories?: string[];
   urls?: string[];
+  urlSubdomains?: boolean;
   sources?: string[];
 };
 
@@ -70,7 +73,7 @@ for (const org of directory.organizations) {
   if (profile.acronym && /^[A-Za-z][A-Za-z0-9&-]{2,11}$/.test(profile.acronym) && !/^\d/.test(profile.acronym))
     aliases.push(profile.acronym);
   const urls = profile.website && /^https?:\/\/(?!(?:www\.)?(?:princeton\.edu|my\.princeton\.edu|instagram\.com|facebook\.com|linktr\.ee|docs\.google\.com|forms\.gle|sites\.google\.com)\/?$)/i.test(profile.website) ? [profile.website] : [];
-  records.set(org.id, { ...org, aliases, urls, sources: [directory.source], profile });
+  records.set(org.id, { ...org, aliases, urls, urlSubdomains: true, sources: [directory.source], profile });
 }
 for (const override of overrides as Override[]) {
   const old = records.get(override.id);
@@ -83,6 +86,7 @@ for (const override of overrides as Override[]) {
     categories: override.categories || old?.categories || [],
     aliases: [...new Set([...(old?.aliases || []), ...(override.aliases || []), name])],
     urls: override.urls || old?.urls || [],
+    urlSubdomains: override.urlSubdomains ?? old?.urlSubdomains ?? true,
     sources: [...(old?.sources || []), ...(override.sources || [])],
     profile: old?.profile ?? profiles[override.id] ?? {}
   });

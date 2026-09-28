@@ -34,3 +34,14 @@ test('registered contact email is a strong sender signal', () => {
 test('forum category mapping is total', () => {
   for (const o of organizations) assert.ok(forumCategory(o));
 });
+
+test('shared hosting subdomains are not organization evidence for TigerApps', () => {
+  const r = classifyMessage({
+    subject: 'Community Organizing Wintersession workshop',
+    body: 'Sign up at https://wintersession.tigerapps.org/course/123',
+    sender: 'A Student'
+  });
+  assert.notEqual(r.organizationId, 'mpu:70043');
+  const own = classifyMessage({ subject: 'News', body: 'Details: https://tigerapps.org/', sender: 'Someone' });
+  assert.equal(own.organizationId, 'mpu:70043');
+});

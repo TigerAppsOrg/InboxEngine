@@ -7,7 +7,8 @@ import { createHash } from 'node:crypto';
 import { organizations, normalize, registryVersion, organizationByEmail, type Organization } from './registry.ts';
 import { classifyCategory } from './category.ts';
 // 2.3: exact MyPrincetonU contact-email sender signal; org websites from group pages.
-export const CLASSIFIER_VERSION = `2.3:${registryVersion}`;
+// 2.4: owned-URL subdomain matching can be disabled per organization (shared hosting domains).
+export const CLASSIFIER_VERSION = `2.4:${registryVersion}`;
 export type ClassificationInput = {
   subject: string;
   body: string;
@@ -168,7 +169,9 @@ export function classifyMessage(input: ClassificationInput): Classification {
         urls.some(
           (u) =>
             (u.hostname === target.hostname ||
-              (target.pathname === '/' && u.hostname.endsWith('.' + target.hostname))) &&
+              (org.urlSubdomains &&
+                target.pathname === '/' &&
+                u.hostname.endsWith('.' + target.hostname))) &&
             u.pathname.startsWith(target.pathname)
         )
       )
