@@ -72,7 +72,7 @@ All `/v1/*` and `/mcp` routes require `Authorization: Bearer <token>` (per-clien
 | `GET /v1/events/:id` | one event |
 | `GET /v1/messages?q&organization&sender&listserv&from&to&sort` | full-text search (deduplicated) |
 | `GET /v1/messages/changes?after=<rev>` | incremental message feed (bodies included) |
-| `GET /v1/messages/:id` | one message (aliases resolve) |
+| `GET /v1/messages/:id` | one message (aliases resolve); fetches the full body from LISTSERV on demand if only a preview is stored (`?full=false` to skip) |
 | `GET /v1/organizations?q` · `/v1/organizations/:id` | registry with profiles, logos, MyPrincetonU links |
 | `GET /v1/locations` | campus venue gazetteer |
 | `POST /v1/analyze` | stateless pipeline run on caller-supplied email |

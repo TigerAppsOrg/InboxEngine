@@ -24,6 +24,8 @@ import { getOrganization } from '../orgs/index.ts';
 import { campusLocations } from '../events/index.ts';
 import { analyzeEmail } from '../analyze.ts';
 import { createMcpServer } from './mcp.ts';
+import { ListservClient } from '../listserv/index.ts';
+import { ingestMessage } from '../pipeline.ts';
 
 type Env = { Variables: { client: string } };
 
@@ -100,10 +102,54 @@ export function createApp(sql: Sql, tokens = parseTokens()) {
     );
   });
   app.get('/v1/messages/changes', async (c) => c.json(await messageChanges(sql, int(c.req.query('after'), 0), int(c.req.query('limit'), 200))));
+  // Full bodies are fetched from the LISTSERV archive on demand (as TigerInbox does) when a
+  // reader opens a message that was only stored as an RSS preview. Bounded concurrency.
+  let listserv: ListservClient | undefined;
+  let inflight = 0;
+  const completeBody = async (id: string) => {
+    if (inflight >= 3) return;
+    const [row] = await sql`SELECT m.* FROM messages m JOIN messages c ON c.id = COALESCE(m.canonical_id, m.id) WHERE c.id = ${id} AND m.source_url IS NOT NULL ORDER BY m.ingested_at LIMIT 1`;
+    if (!row || row.complete) return;
+    listserv ??= new ListservClient();
+    if (!listserv.configured) return;
+    inflight++;
+    try {
+      const full = await listserv.fetchMessage(String(row.sourceUrl));
+      if (!full) return;
+      await ingestMessage(
+        sql,
+        {
+          listserv: String(row.listserv),
+          archiveId: String(row.archiveId),
+          sourceUrl: String(row.sourceUrl),
+          subject: String(row.subject),
+          authorName: String(row.senderName),
+          authorEmail: String(row.senderEmail),
+          sentAt: new Date(row.sentAt as string),
+          bodyHtml: full.bodyHtml,
+          bodyText: full.bodyPlain,
+          complete: true,
+          headers: full.headers,
+          attachments: full.attachments,
+          viaHoagie: row.via === 'HoagieMail'
+        },
+        {}
+      );
+    } catch (error) {
+      console.error('[http] full body fetch failed', error instanceof Error ? error.message : error);
+    } finally {
+      inflight--;
+    }
+  };
+
   app.get('/v1/messages/:id', async (c) => {
     const id = c.req.param('id');
     if (!/^[a-f0-9]{24}$/.test(id)) return c.notFound();
-    const [message] = await readMessages(sql, [id], { length: 1_000_000 });
+    let [message] = await readMessages(sql, [id], { length: 1_000_000 });
+    if (message && !message.complete && c.req.query('full') !== 'false') {
+      await completeBody(message.id);
+      [message] = await readMessages(sql, [id], { length: 1_000_000 });
+    }
     return message ? c.json(message) : c.notFound();
   });
 
