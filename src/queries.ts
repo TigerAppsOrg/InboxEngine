@@ -175,6 +175,7 @@ function eventPayload(r: Row) {
     publishable: !!r.publishable,
     extractionVersion: String(r.extractionVersion),
     imageUrl: (r.imageUrl as string) ?? null,
+    series: r.seriesId ? { id: String(r.seriesId), size: Number(r.seriesSize) } : null,
     duplicateOf: (r.duplicateOf as string) ?? null,
     source:
       r.source === 'myprincetonu'
@@ -249,7 +250,8 @@ export function organizationPayload(org: Organization | undefined, id: string, f
     groupType: org?.groupType ?? null,
     categories: org?.categories ?? [],
     forumCategory: org ? forumCategory(org) : null,
-    acronym: org?.profile.acronym ?? null,
+    // MyPrincetonU "login" slugs are only acronyms when written that way (ACM, not ptonacm).
+    acronym: org?.profile.acronym && /^[A-Z][A-Z0-9&-]{1,11}$/.test(org.profile.acronym) ? org.profile.acronym : null,
     tagline: org?.profile.tagline ?? null,
     description: org?.profile.description ?? null,
     whatWeDo: org?.profile.whatWeDo ?? null,

@@ -30,7 +30,13 @@ export function cleanTitle(subject: string): string {
       .replace(/^\s*\[[^\]]{1,40}\]\s*/, '')
       .replace(/^\s*(?:re|fwd?|fw)\s*:\s*/i, '')
       .trim();
-  title = title.replace(/^(?:TODAY|TONIGHT|TOMORROW|THIS \w+|REMINDER|LAST CHANCE|NOW|NEW)\s*[:!\-–—|]+\s*/i, '');
+  title = title.replace(/^(?:TODAY|TONIGHT|TOMORROW|TMRW|THIS \w+|REMINDER|LAST CHANCE|NOW|NEW)\s*[:!\-–—|]+\s*/i, '');
+  // Drop trailing logistics ("… THIS Tuesday @4:30 in Frist 207") once the name has 2+ words.
+  const logistics =
+    /\s+(?:[-–—|:(]\s*)?(?:(?:this|next|on)\s+)?(?:(?:mon|tues?|wed(?:nes)?|thu(?:rs)?|fri|sat(?:ur)?|sun)(?:day)?\b|tonight\b|tomorrow\b|tmrw\b|today\b|(?:@|at)\s*\d{1,2}(?::\d{2})?\s*(?:am|pm)?\b|\d{1,2}\/\d{1,2}\b)/i;
+  const cut = logistics.exec(title);
+  if (cut && title.slice(0, cut.index).trim().split(/\s+/).length >= 2) title = title.slice(0, cut.index);
+  title = title.replace(/[\s!:,\-–—|(]+$/, '').trim();
   return (title || subject || 'Untitled event').slice(0, 200);
 }
 

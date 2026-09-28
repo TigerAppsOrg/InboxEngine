@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { extractWithRules, resolveLocation, campusLocalToUtc, cleanTitle } from '../src/events/index.ts';
-import { mapMpuItem } from '../src/sources/mpu-events.ts';
+import { mapMpuItem, seriesKey } from '../src/sources/mpu-events.ts';
 
 const sentAt = new Date('2026-09-28T14:00:00Z'); // Monday 10:00 ET
 
@@ -43,6 +43,10 @@ test('sales, deadlines and applications are not events', () => {
 
 test('titles lose list tags and shouty prefixes', () => {
   assert.equal(cleanTitle('[WHITMANWIRE] Fwd: TONIGHT: Free boba'), 'Free boba');
+  assert.equal(cleanTitle('[OrangeHat] Mini-CTF Competition THIS Tuesday @4:30 in Frist 207'), 'Mini-CTF Competition');
+  assert.equal(cleanTitle('NEWB ARCH TONIGHT (9/26) @ 9 PM in BLAIR ARCH'), 'NEWB ARCH');
+  assert.equal(cleanTitle('[POPS] Boris Godunov Screening Oct 1!'), 'Boris Godunov Screening Oct 1');
+  assert.equal(cleanTitle('Friday Night Lights'), 'Friday Night Lights');
 });
 
 test('official MyPrincetonU items map to authoritative events', () => {
@@ -57,4 +61,10 @@ test('official MyPrincetonU items map to authoritative events', () => {
   const ongoing = mapMpuItem({ eventId: '2', title: 'Interest list', eventStartDateTime: '2026-06-01T13:00:00-04:00', eventEndDateTime: '2026-12-31T13:00:00-05:00', eventLocation: 'Private Location (sign in to display)' })!;
   assert.equal(ongoing.publishable, false);
   assert.equal(ongoing.locationText, null);
+});
+
+test('recurring official events share a series key', () => {
+  assert.equal(seriesKey('mpu:1', 'Daily Prayer Monday 9/28'), seriesKey('mpu:1', 'Daily Prayer Tuesday 9/29'));
+  assert.notEqual(seriesKey('mpu:1', 'Daily Prayer'), seriesKey('mpu:2', 'Daily Prayer'));
+  assert.notEqual(seriesKey('mpu:1', 'Daily Prayer'), seriesKey('mpu:1', 'Spring Formal'));
 });

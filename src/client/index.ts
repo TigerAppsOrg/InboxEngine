@@ -52,6 +52,8 @@ export type EngineEvent = {
   publishable: boolean;
   extractionVersion: string;
   imageUrl: string | null;
+  /** Recurring official events share a series (same host + title); `size` counts occurrences in the feed. */
+  series: { id: string; size: number } | null;
   duplicateOf: string | null;
   source: {
     kind: 'listserv' | 'myprincetonu';

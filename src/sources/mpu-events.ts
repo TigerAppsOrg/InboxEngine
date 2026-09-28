@@ -112,12 +112,36 @@ export function mapMpuItem(item: Item) {
   };
 }
 
+/** Series key: same host and the same title once dates, numbers and weekdays are removed. */
+export function seriesKey(hostOrgId: string | null, title: string): string {
+  const norm = title
+    .toLowerCase()
+    .replace(/\b(?:mon|tues?|wed(?:nes)?|thu(?:rs)?|fri|sat(?:ur)?|sun)(?:day)?\b/g, ' ')
+    .replace(/\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\b/g, ' ')
+    .replace(/[\d/:.#-]+/g, ' ')
+    .replace(/[^a-z]+/g, ' ')
+    .trim();
+  return createHash('sha256').update(`${hostOrgId ?? ''}|${norm}`).digest('hex').slice(0, 16);
+}
+
+type MpuRow = NonNullable<ReturnType<typeof mapMpuItem>>;
+export function withSeries(rows: MpuRow[]): (MpuRow & { seriesId: string | null; seriesSize: number | null })[] {
+  const keys = rows.map((r) => seriesKey(r.hostOrgId, r.title));
+  const counts = new Map<string, number>();
+  for (const k of keys) counts.set(k, (counts.get(k) ?? 0) + 1);
+  return rows.map((r, i) => {
+    const size = counts.get(keys[i]) ?? 1;
+    return { ...r, seriesId: size > 1 ? keys[i] : null, seriesSize: size > 1 ? size : null };
+  });
+}
+
 /** Pull the feed, upsert official events, and withdraw future events that disappeared from it. */
 export async function syncMpuEvents(sql: Sql, fetchImpl: typeof fetch = fetch) {
   const res = await fetchImpl(MPU_EVENTS_URL, { signal: AbortSignal.timeout(60_000), headers: { 'User-Agent': 'InboxEngine/0.1 (+https://tigerapps.org)' } });
   if (!res.ok) throw new Error(`MyPrincetonU feed ${res.status}`);
-  const rows = parseMpuFeed(await res.text()).map(mapMpuItem).filter((r) => r !== null);
-  if (rows.length < 20) throw new Error(`MyPrincetonU feed returned only ${rows.length} events; refusing to withdraw`);
+  const mapped = parseMpuFeed(await res.text()).map(mapMpuItem).filter((r) => r !== null);
+  if (mapped.length < 20) throw new Error(`MyPrincetonU feed returned only ${mapped.length} events; refusing to withdraw`);
+  const rows = withSeries(mapped);
   let changed = 0;
   for (const row of rows) {
     const [out] = await sql`
@@ -130,9 +154,10 @@ export async function syncMpuEvents(sql: Sql, fetchImpl: typeof fetch = fetch) {
         room = excluded.room, online = excluded.online, tags = excluded.tags, free_food = excluded.free_food,
         rsvp_url = excluded.rsvp_url, host_org_id = excluded.host_org_id, host_org_name = excluded.host_org_name,
         publishable = excluded.publishable, extraction_version = excluded.extraction_version,
+        series_id = excluded.series_id, series_size = excluded.series_size,
         updated_at = now(), revision = nextval('revision_seq')
-      WHERE (events.title, events.summary, events.starts_at, events.ends_at, events.location_text, events.status, events.image_url, events.publishable)
-        IS DISTINCT FROM (excluded.title, excluded.summary, excluded.starts_at, excluded.ends_at, excluded.location_text, excluded.status, excluded.image_url, excluded.publishable)
+      WHERE (events.title, events.summary, events.starts_at, events.ends_at, events.location_text, events.status, events.image_url, events.publishable, events.series_size)
+        IS DISTINCT FROM (excluded.title, excluded.summary, excluded.starts_at, excluded.ends_at, excluded.location_text, excluded.status, excluded.image_url, excluded.publishable, excluded.series_size)
       RETURNING id`;
     if (out) changed++;
   }
