@@ -1,0 +1,53 @@
+{
+  "name": "@tigerapps/inbox-engine",
+  "version": "0.1.0",
+  "description": "Single source of truth for Princeton listserv ingestion, organization resolution, and event extraction. Serves The Forum, TigerInbox, and MCP agents.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./core": "./src/core/index.ts",
+    "./orgs": "./src/orgs/index.ts",
+    "./events": "./src/events/index.ts",
+    "./listserv": "./src/listserv/index.ts",
+    "./client": "./src/client/index.ts"
+  },
+  "scripts": {
+    "dev": "tsx watch --env-file-if-exists=.env src/server/main.ts",
+    "start": "tsx --env-file-if-exists=.env src/server/main.ts",
+    "worker": "tsx --env-file-if-exists=.env src/server/worker-main.ts",
+    "mcp": "tsx --env-file-if-exists=.env src/server/mcp-stdio.ts",
+    "migrate": "tsx --env-file-if-exists=.env src/store/migrate.ts",
+    "import:json": "tsx --env-file-if-exists=.env scripts/import-json.ts",
+    "build:locations": "tsx scripts/build-locations.ts",
+    "check": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.126.0",
+    "@hono/node-server": "^1.14.0",
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "chrono-node": "^2.8.0",
+    "dom-serializer": "^3.1.1",
+    "domhandler": "^6.0.1",
+    "fast-xml-parser": "^5.2.5",
+    "hono": "^4.7.0",
+    "html-to-text": "^10.0.1",
+    "htmlparser2": "^12.0.0",
+    "linkifyjs": "^4.3.3",
+    "postgres": "^3.4.5",
+    "sanitize-html": "^2.17.7",
+    "tsx": "^4.20.5",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/html-to-text": "^9.0.4",
+    "@types/node": "^24.0.0",
+    "@types/sanitize-html": "^2.16.1",
+    "sharp": "^0.35.5",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,0 +1,6585 @@
+{
+  "source": "https://my.princeton.edu/club_signup",
+  "retrievedAt": "2026-09-28T06:46:54.255Z",
+  "organizations": [
+    {
+      "id": "mpu:71571",
+      "name": "\"Chen Qing\" Princeton Peking Opera Society",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity",
+        "Dance",
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:71308",
+      "name": "Academic Advising",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:71446",
+      "name": "AccessAbility Center",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Advocacy & Activism",
+        "Cultural/Identity",
+        "Dialogues & Partnerships",
+        "Educational",
+        "Health",
+        "Special Interest",
+        "Campus Engagement",
+        "Public Lectures"
+      ]
+    },
+    {
+      "id": "mpu:52941",
+      "name": "ACM Group, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:71659",
+      "name": "Active Minds Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism"
+      ]
+    },
+    {
+      "id": "mpu:53307",
+      "name": "Acts of Kindess Initiative",
+      "groupType": "Pace Center Student Organization",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71384",
+      "name": "Aerial Arts Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Dance",
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:71382",
+      "name": "Africa World Initiative",
+      "groupType": "Administrative Office",
+      "categories": []
+    },
+    {
+      "id": "mpu:52942",
+      "name": "African Students Association (PASA)",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71725",
+      "name": "AI Alignment & Safety",
+      "groupType": "Academic Department",
+      "categories": [
+        "Artificial Intelligence (AI)"
+      ]
+    },
+    {
+      "id": "mpu:67393",
+      "name": "AI at Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Educational",
+        "Entrepreneurship/Innovation",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:71649",
+      "name": "AI� (AI for Accelerating Invention), Princeton AI Lab",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Academic",
+        "Research",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:53372",
+      "name": "Alabaster Princeton",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53258",
+      "name": "Albania-Kosovo Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:69029",
+      "name": "Alexander Hamilton Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Political"
+      ]
+    },
+    {
+      "id": "mpu:52945",
+      "name": "All-Nighter",
+      "groupType": "ODUS",
+      "categories": [
+        "Performing Arts",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:52946",
+      "name": "Alliance of Jewish Progressives",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Cultural/Identity",
+        "Political",
+        "Social Justice"
+      ]
+    },
+    {
+      "id": "mpu:53373",
+      "name": "Alpha Omega Ministry Student Group",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:52947",
+      "name": "American Institute of Chemical Engineers",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71625",
+      "name": "American Lung Cancer Screening Initiative",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:52948",
+      "name": "American Physician Scientists Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Health"
+      ]
+    },
+    {
+      "id": "mpu:55715",
+      "name": "American Society of Civil Engineers (ASCE) Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational",
+        "Professional"
+      ]
+    },
+    {
+      "id": "mpu:71346",
+      "name": "Andlinger Center for Energy & the Environment",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:52950",
+      "name": "Anime-Manga Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Cultural/Identity",
+        "Games",
+        "Special Interest",
+        "Media"
+      ]
+    },
+    {
+      "id": "mpu:52951",
+      "name": "Anscombe Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Advocacy & Activism",
+        "Educational",
+        "Political",
+        "Special Interest",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:71342",
+      "name": "Anthropology Department",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:53374",
+      "name": "Aquinas",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Service",
+        "Religious",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:53789",
+      "name": "Aquinas Chaplaincy",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:71504",
+      "name": "Aquinas Institute Grad Fellowship",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53333",
+      "name": "Archery",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71549",
+      "name": "Art Alliance",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Arts",
+        "Cultural/Identity",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71448",
+      "name": "AS@P - Asian Staff @ Princeton",
+      "groupType": "ERG",
+      "categories": []
+    },
+    {
+      "id": "mpu:55463",
+      "name": "Asian Student Athletes of Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity",
+        "Service",
+        "Social",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:52956",
+      "name": "Asian-American Students Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:70643",
+      "name": "Association of Californian Graduate Students",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:61809",
+      "name": "Association of Chinese Students and Scholars at Princeton University",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:61810",
+      "name": "Association of South Asians at Princeton",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:53375",
+      "name": "Astra",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53376",
+      "name": "Athletes in Action",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53407",
+      "name": "Athletes in Action Chaplaincy",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:52960",
+      "name": "Autonomous Vehicle Engineering, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Career Opportunity",
+        "Environmental",
+        "Entrepreneurship/Innovation",
+        "Professional",
+        "Special Interest",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:53334",
+      "name": "Badminton",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71626",
+      "name": "Baking Bad",
+      "groupType": "ODUS",
+      "categories": [
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:52962",
+      "name": "Ballet, Princeton University",
+      "groupType": "ODUS",
+      "categories": [
+        "Dance"
+      ]
+    },
+    {
+      "id": "mpu:53335",
+      "name": "Ballroom Dance",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:52963",
+      "name": "Band, Princeton University",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Music",
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:53377",
+      "name": "Baptist Student Fellowship",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53408",
+      "name": "Baptist Student Fellowship Chaplaincy",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53336",
+      "name": "Baseball",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53338",
+      "name": "Basketball (M)",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53339",
+      "name": "Basketball (W)",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:52965",
+      "name": "Bee Team, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational",
+        "Environmental"
+      ]
+    },
+    {
+      "id": "mpu:68856",
+      "name": "Bengal Tigers",
+      "groupType": "ODUS",
+      "categories": [
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71642",
+      "name": "Bevs and Bad TV club",
+      "groupType": "ODUS",
+      "categories": [
+        "Dialogues & Partnerships",
+        "Health",
+        "Food",
+        "Special Interest",
+        "Media",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:71720",
+      "name": "Beyond College Mentorship",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Career Opportunity",
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:71388",
+      "name": "Biomedical Engineering Society, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Educational",
+        "Professional"
+      ]
+    },
+    {
+      "id": "mpu:52969",
+      "name": "Black Arts Company-Dance",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity",
+        "Dance"
+      ]
+    },
+    {
+      "id": "mpu:61841",
+      "name": "Black Graduate Caucus",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:52971",
+      "name": "Black Premedical Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Health",
+        "Professional"
+      ]
+    },
+    {
+      "id": "mpu:52972",
+      "name": "Black Student Union",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:56468",
+      "name": "Black Student-Athlete Collective",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity",
+        "Special Interest",
+        "Social",
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71226",
+      "name": "BlackGen Capital",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity",
+        "Finance"
+      ]
+    },
+    {
+      "id": "mpu:71379",
+      "name": "Bloom: A Graduate Wellness Collective",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity",
+        "Environmental",
+        "Health",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:71443",
+      "name": "Blooming: A Fiber Arts Installation",
+      "groupType": "ERG",
+      "categories": [
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71575",
+      "name": "Blossom Together",
+      "groupType": "ODUS",
+      "categories": [
+        "Health",
+        "Service",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:52974",
+      "name": "BodyHype",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Dance",
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:70108",
+      "name": "Boquitas Pintadas Film Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": []
+    },
+    {
+      "id": "mpu:66989",
+      "name": "Brazil Lab",
+      "groupType": "Academic Department",
+      "categories": []
+    },
+    {
+      "id": "mpu:52976",
+      "name": "Brazil Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71310",
+      "name": "Brazilian Graduate Association",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53337",
+      "name": "Brazilian Jiu Jitsu",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:52977",
+      "name": "Bridge Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:52980",
+      "name": "Business Today",
+      "groupType": "ODUS",
+      "categories": [
+        "Professional",
+        "Publication"
+      ]
+    },
+    {
+      "id": "mpu:61752",
+      "name": "Butler College",
+      "groupType": "Residential Colleges",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:71481",
+      "name": "B�Artzeinu",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Advocacy & Activism",
+        "Community Immersion",
+        "Cultural/Identity",
+        "Educational",
+        "Political",
+        "Racial Justice",
+        "Social Justice",
+        "Religious",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:53308",
+      "name": "Camp Kesem Princeton",
+      "groupType": "Pace Center Student Organization",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71380",
+      "name": "Campus Club",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:61830",
+      "name": "Campus Light",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational",
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:61811",
+      "name": "Canadian Graduate Student Association",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Community Immersion",
+        "Cultural/Identity",
+        "Educational",
+        "Food",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:71515",
+      "name": "Canterbury Society",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:71638",
+      "name": "Cantonese Cultural Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:52982",
+      "name": "Caribbean Connection, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71392",
+      "name": "Caribbean Graduate Student Association",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:66860",
+      "name": "Carl A. Fields Center for Equality & Cultural Understanding",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71383",
+      "name": "Center for Culture, Society & Religion",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:71572",
+      "name": "Center for Digital Humanities",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Arts",
+        "Research",
+        "Campus Engagement",
+        "Public Lectures"
+      ]
+    },
+    {
+      "id": "mpu:71411",
+      "name": "Center for Information Technology Policy",
+      "groupType": "Academic Department",
+      "categories": []
+    },
+    {
+      "id": "mpu:53791",
+      "name": "Center for Jewish Life Chaplaincy",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious",
+        "Chaplaincies"
+      ]
+    },
+    {
+      "id": "mpu:52878",
+      "name": "Center for Jewish Life Student Board",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:66985",
+      "name": "Center on Contemporary China",
+      "groupType": "Academic Department",
+      "categories": []
+    },
+    {
+      "id": "mpu:58950",
+      "name": "Center on Science and Technology.",
+      "groupType": "Academic Department",
+      "categories": [
+        "Arts",
+        "Educational",
+        "Wintersession",
+        "Public Lectures"
+      ]
+    },
+    {
+      "id": "mpu:53379",
+      "name": "Chabad",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53790",
+      "name": "Chabad Chaplaincy",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:61812",
+      "name": "Chabad Graduate Organization",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71672",
+      "name": "Change-Ringers",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Cultural/Identity",
+        "Educational",
+        "Music"
+      ]
+    },
+    {
+      "id": "mpu:53380",
+      "name": "Chapel Choir",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:52983",
+      "name": "Cheese and Bad Movies Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Food",
+        "Media"
+      ]
+    },
+    {
+      "id": "mpu:52984",
+      "name": "Chess Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Games"
+      ]
+    },
+    {
+      "id": "mpu:52985",
+      "name": "Child's Play Improv Comedy",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:56720",
+      "name": "Chinese Language Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Arts",
+        "Cultural/Identity",
+        "Games",
+        "Music",
+        "Food",
+        "Special Interest",
+        "Public Lectures"
+      ]
+    },
+    {
+      "id": "mpu:71565",
+      "name": "Chinese Language Program",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:52987",
+      "name": "Chinese Students Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:52988",
+      "name": "Chinese Theatre, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts"
+      ]
+    },
+    {
+      "id": "mpu:53381",
+      "name": "Christian Science Organization",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53382",
+      "name": "Christian Union Nova",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:68546",
+      "name": "Civic Leadership Council (Pace Center)",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Advocacy & Activism"
+      ]
+    },
+    {
+      "id": "mpu:71368",
+      "name": "Class of 2027",
+      "groupType": "ODUS",
+      "categories": [
+        "Student Government"
+      ]
+    },
+    {
+      "id": "mpu:71490",
+      "name": "Class of 2028",
+      "groupType": "ODUS",
+      "categories": [
+        "Student Government"
+      ]
+    },
+    {
+      "id": "mpu:71603",
+      "name": "Class of 2029",
+      "groupType": "ODUS",
+      "categories": [
+        "Student Government"
+      ]
+    },
+    {
+      "id": "mpu:71694",
+      "name": "Class of 2030",
+      "groupType": "ODUS",
+      "categories": [
+        "Student Government"
+      ]
+    },
+    {
+      "id": "mpu:53340",
+      "name": "Climbing",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:52994",
+      "name": "College Democrats",
+      "groupType": "ODUS",
+      "categories": [
+        "Political"
+      ]
+    },
+    {
+      "id": "mpu:52995",
+      "name": "College Republicans",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Political",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:65644",
+      "name": "Colombian Studies Group",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity",
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:68581",
+      "name": "Community House Executive Board",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:68582",
+      "name": "Community House: Academic Success Today",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71545",
+      "name": "Community House: After School Tennis",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Educational",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:68586",
+      "name": "Community House: Big Brothers, Big Sisters",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:68589",
+      "name": "Community House: College Access SAT Prep",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Educational",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71719",
+      "name": "Community House: Community Based Tutoring Mentoring Matching",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Educational",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:68588",
+      "name": "Community House: Preschool Program",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Educational",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:68585",
+      "name": "Community House: Princeton Community Health Connections",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Educational",
+        "Health",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71546",
+      "name": "Community House: Princeton HS",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71696",
+      "name": "Community House: Princeton MS",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71695",
+      "name": "Community House: SUCCEED TCHS",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:68587",
+      "name": "Community House: Youth Enrichment",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71665",
+      "name": "Comparative Literature Department",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:52998",
+      "name": "Composers Collective, Undergraduate",
+      "groupType": "ODUS",
+      "categories": [
+        "Music",
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:71395",
+      "name": "Computer Science Department",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:71422",
+      "name": "Conference & Event Services",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:52999",
+      "name": "Conservation Society, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Environmental",
+        "Sustained Volunteering",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:53509",
+      "name": "Corporate Finance, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Career Opportunity",
+        "Finance"
+      ]
+    },
+    {
+      "id": "mpu:71657",
+      "name": "COS Council",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71302",
+      "name": "Counseling & Psychological Services",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Health",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71699",
+      "name": "Coverdale House Student Group",
+      "groupType": "Graduate Student Organizations",
+      "categories": []
+    },
+    {
+      "id": "mpu:53341",
+      "name": "Cricket",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71057",
+      "name": "Crypto TigerTrek",
+      "groupType": "ODUS",
+      "categories": [
+        "Entrepreneurship/Innovation"
+      ]
+    },
+    {
+      "id": "mpu:53001",
+      "name": "Cube Club, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:53342",
+      "name": "Cycling",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71576",
+      "name": "Cypriot Student Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71520",
+      "name": "Data-Driven Social Science",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic",
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:53003",
+      "name": "Debate Panel",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational",
+        "Political"
+      ]
+    },
+    {
+      "id": "mpu:53004",
+      "name": "Decem",
+      "groupType": "ODUS",
+      "categories": [
+        "Music"
+      ]
+    },
+    {
+      "id": "mpu:71550",
+      "name": "Department of History Undergraduate Program",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:71602",
+      "name": "Department of Physics",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic",
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71345",
+      "name": "Department of Religion",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:70185",
+      "name": "Department of Spanish and Portuguese",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:67529",
+      "name": "Developmental Biology Colloquium",
+      "groupType": "Graduate Student Organizations",
+      "categories": []
+    },
+    {
+      "id": "mpu:68595",
+      "name": "Digital Learning Lab",
+      "groupType": "McGraw Center",
+      "categories": []
+    },
+    {
+      "id": "mpu:53005",
+      "name": "diSiac Dance Company",
+      "groupType": "ODUS",
+      "categories": [
+        "Dance",
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:53006",
+      "name": "DoroBucci",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity",
+        "Dance"
+      ]
+    },
+    {
+      "id": "mpu:71631",
+      "name": "Dutch Student Association Princeton",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53260",
+      "name": "E-Club: Alimtas Bioventures",
+      "groupType": "ODUS",
+      "categories": [
+        "Entrepreneurship/Innovation"
+      ]
+    },
+    {
+      "id": "mpu:71525",
+      "name": "E-Club: Creative Care",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational",
+        "Health",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:53010",
+      "name": "E-Club: Forge",
+      "groupType": "ODUS",
+      "categories": [
+        "Entrepreneurship/Innovation"
+      ]
+    },
+    {
+      "id": "mpu:53009",
+      "name": "E-Club: HackPrinceton",
+      "groupType": "ODUS",
+      "categories": [
+        "Entrepreneurship/Innovation"
+      ]
+    },
+    {
+      "id": "mpu:53261",
+      "name": "E-Club: IgniteSTEM",
+      "groupType": "ODUS",
+      "categories": [
+        "Entrepreneurship/Innovation"
+      ]
+    },
+    {
+      "id": "mpu:53262",
+      "name": "E-Club: New York TigerTrek",
+      "groupType": "ODUS",
+      "categories": [
+        "Entrepreneurship/Innovation"
+      ]
+    },
+    {
+      "id": "mpu:53265",
+      "name": "E-Club: Silicon Valley TigerTrek",
+      "groupType": "ODUS",
+      "categories": [
+        "Community Immersion",
+        "Dialogues & Partnerships",
+        "Entrepreneurship/Innovation",
+        "Professional",
+        "Special Interest",
+        "Wintersession"
+      ]
+    },
+    {
+      "id": "mpu:53266",
+      "name": "E-Club: TigerLaunch",
+      "groupType": "ODUS",
+      "categories": [
+        "Entrepreneurship/Innovation"
+      ]
+    },
+    {
+      "id": "mpu:53268",
+      "name": "E-Club: Women in Entrepreneurship",
+      "groupType": "ODUS",
+      "categories": [
+        "Entrepreneurship/Innovation"
+      ]
+    },
+    {
+      "id": "mpu:71630",
+      "name": "East Asian Cultural Association",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Arts",
+        "Cultural/Identity",
+        "Games",
+        "Music",
+        "Performing Arts",
+        "Social",
+        "Public Lectures"
+      ]
+    },
+    {
+      "id": "mpu:71663",
+      "name": "Eastern European Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71486",
+      "name": "Ebru (Water Marbling) Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Cultural/Identity",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:71610",
+      "name": "Econ Statistical Services",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Educational",
+        "Professional"
+      ]
+    },
+    {
+      "id": "mpu:62663",
+      "name": "Effron Center for the Study of America",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:70641",
+      "name": "Electrochemical Society",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Career Opportunity"
+      ]
+    },
+    {
+      "id": "mpu:65234",
+      "name": "Elevated Threads",
+      "groupType": "Student organization",
+      "categories": []
+    },
+    {
+      "id": "mpu:53013",
+      "name": "Ellipses",
+      "groupType": "ODUS",
+      "categories": [
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:71690",
+      "name": "Elms Equity",
+      "groupType": "ODUS",
+      "categories": []
+    },
+    {
+      "id": "mpu:53014",
+      "name": "Energy Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Career Opportunity",
+        "Environmental",
+        "Professional",
+        "Publication",
+        "Social",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:53015",
+      "name": "Engineering Council",
+      "groupType": "ODUS",
+      "categories": [
+        "Student Government",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:53017",
+      "name": "Envision",
+      "groupType": "ODUS",
+      "categories": [
+        "Entrepreneurship/Innovation"
+      ]
+    },
+    {
+      "id": "mpu:53383",
+      "name": "Episcopal Church at Princeton Chaplaincy",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious",
+        "Chaplaincies"
+      ]
+    },
+    {
+      "id": "mpu:53343",
+      "name": "Equestrian",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71375",
+      "name": "ETHICOM",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71315",
+      "name": "European Union Program at Princeton",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:53020",
+      "name": "Expressions Dance Company",
+      "groupType": "ODUS",
+      "categories": [
+        "Dance"
+      ]
+    },
+    {
+      "id": "mpu:71447",
+      "name": "Facilities Women in Construction",
+      "groupType": "Administrative Office",
+      "categories": []
+    },
+    {
+      "id": "mpu:53021",
+      "name": "Farmers Market, Princeton University",
+      "groupType": "ODUS",
+      "categories": [
+        "Environmental",
+        "Health",
+        "Food",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71438",
+      "name": "FemaleFounded",
+      "groupType": "ODUS",
+      "categories": [
+        "Entrepreneurship/Innovation"
+      ]
+    },
+    {
+      "id": "mpu:53344",
+      "name": "Fencing",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53345",
+      "name": "Field Hockey",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53022",
+      "name": "figments Magazine",
+      "groupType": "ODUS",
+      "categories": [
+        "Publication"
+      ]
+    },
+    {
+      "id": "mpu:53346",
+      "name": "Figure Skating",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:61943",
+      "name": "Finance & Treasury",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Finance"
+      ]
+    },
+    {
+      "id": "mpu:64853",
+      "name": "Financial Literacy",
+      "groupType": "Professional Development",
+      "categories": []
+    },
+    {
+      "id": "mpu:61814",
+      "name": "FIRST + (First Generation at SPIA)",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:53347",
+      "name": "Flag Football",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53027",
+      "name": "Footnotes",
+      "groupType": "ODUS",
+      "categories": [
+        "A Cappella"
+      ]
+    },
+    {
+      "id": "mpu:61753",
+      "name": "Forbes College",
+      "groupType": "Residential Colleges",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:71408",
+      "name": "Free Elizabeth Tsurkov",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Political",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:68433",
+      "name": "French and Francophone Society",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity",
+        "Dance",
+        "Music"
+      ]
+    },
+    {
+      "id": "mpu:66673",
+      "name": "Friends of MSF",
+      "groupType": "ODUS",
+      "categories": [
+        "Health"
+      ]
+    },
+    {
+      "id": "mpu:64342",
+      "name": "Fung Global Fellows Program, PIIRS",
+      "groupType": "Academic Department",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:53029",
+      "name": "Fuzzy Dice",
+      "groupType": "ODUS",
+      "categories": [
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:53271",
+      "name": "Garden Project",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational",
+        "Environmental",
+        "Health",
+        "Sustained Volunteering",
+        "Food",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:64344",
+      "name": "Gender + Sexuality Resource Center",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Advocacy & Activism",
+        "Cultural/Identity",
+        "Dialogues & Partnerships",
+        "Educational",
+        "Social Justice",
+        "Special Interest",
+        "Social",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:70035",
+      "name": "Generational African American Students Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53030",
+      "name": "Geoscience Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Educational",
+        "Environmental"
+      ]
+    },
+    {
+      "id": "mpu:62779",
+      "name": "German Department",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:71367",
+      "name": "German Society",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71587",
+      "name": "Ghanaian Student Association of Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71524",
+      "name": "Girls Who Code",
+      "groupType": "ODUS",
+      "categories": [
+        "Career Opportunity",
+        "Educational",
+        "Service",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:71670",
+      "name": "Girls Who Lead",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Career Opportunity",
+        "Educational",
+        "Political",
+        "Entrepreneurship/Innovation",
+        "Social Justice"
+      ]
+    },
+    {
+      "id": "mpu:71564",
+      "name": "Global Indigenous Collective",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:70119",
+      "name": "Global Japan Lab, PIIRS",
+      "groupType": "Academic Department",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71683",
+      "name": "Global Medical Missions Alliance",
+      "groupType": "ODUS",
+      "categories": [
+        "Service",
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53348",
+      "name": "Golf",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53033",
+      "name": "Gospel Ensemble",
+      "groupType": "ODUS",
+      "categories": [
+        "Religious",
+        "Music"
+      ]
+    },
+    {
+      "id": "mpu:61815",
+      "name": "Grad Yoga at Princeton",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:49684",
+      "name": "GradFUTURES",
+      "groupType": "Professional Development",
+      "categories": [
+        "Career Opportunity",
+        "Entrepreneurship/Innovation",
+        "Professional",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:61817",
+      "name": "Graduate Board Games Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71619",
+      "name": "Graduate Buddhist Student Organization",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:71366",
+      "name": "Graduate Ceramics Association",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:61805",
+      "name": "Graduate College House Committee/DBAr",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:61818",
+      "name": "Graduate Economics Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:61819",
+      "name": "Graduate Engineering Council",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:65124",
+      "name": "Graduate Financial Wellness",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Professional",
+        "Financial Literacy"
+      ]
+    },
+    {
+      "id": "mpu:61820",
+      "name": "Graduate Improv Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71311",
+      "name": "Graduate Muay Thai Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Dance",
+        "Performing Arts",
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71317",
+      "name": "Graduate Muslim Students Association",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity",
+        "Political",
+        "Social Justice",
+        "Service",
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:61821",
+      "name": "Graduate Princeton Christian Fellowship",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational",
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:65643",
+      "name": "Graduate Princeton Quantum Computing",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Entrepreneurship/Innovation",
+        "Special Interest",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:71434",
+      "name": "Graduate Queer Womxn",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:61803",
+      "name": "Graduate Student Government",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71344",
+      "name": "Graduate Student Government Events Board",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Student Government"
+      ]
+    },
+    {
+      "id": "mpu:61823",
+      "name": "Graduate Turkish Student Association",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity",
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:61824",
+      "name": "Graduate Women in Science & Engineering (GradSWE)",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:66577",
+      "name": "Graduate Women of Color Caucus",
+      "groupType": "Graduate Student Organizations",
+      "categories": []
+    },
+    {
+      "id": "mpu:61872",
+      "name": "GSG Events Board",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Community Immersion",
+        "Educational",
+        "Finance",
+        "Social",
+        "Student Government",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71647",
+      "name": "Halftime Retreat 2026",
+      "groupType": "ODUS",
+      "categories": []
+    },
+    {
+      "id": "mpu:53385",
+      "name": "Hallelujah!",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:71493",
+      "name": "Health Professions Advising",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Academic",
+        "Professional"
+      ]
+    },
+    {
+      "id": "mpu:65334",
+      "name": "Health Promotion & Prevention Services",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:61826",
+      "name": "Highwire Earth",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:53386",
+      "name": "Hindu Life Program",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53039",
+      "name": "Hoagie.io",
+      "groupType": "ODUS",
+      "categories": [
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:53040",
+      "name": "Hong Kong Students Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:66752",
+      "name": "HUA Chinese Dance Group",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Arts",
+        "Cultural/Identity",
+        "Dance",
+        "Music",
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:61754",
+      "name": "Huo College",
+      "groupType": "Residential Colleges",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:71306",
+      "name": "Huo College Ceramics Studio",
+      "groupType": "Residential Colleges",
+      "categories": []
+    },
+    {
+      "id": "mpu:53349",
+      "name": "Ice Hockey",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:61870",
+      "name": "Innovative Approaches in Science",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71373",
+      "name": "International Students, Inc.",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity",
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:61827",
+      "name": "Intersecting Queer Identities",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71440",
+      "name": "InterVarsity Christian Fellowhip",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:61828",
+      "name": "Iranian Student Association",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity",
+        "Educational",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:53049",
+      "name": "IRC: International Relations Council",
+      "groupType": "ODUS",
+      "categories": [
+        "Political"
+      ]
+    },
+    {
+      "id": "mpu:53050",
+      "name": "J Street U Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Political"
+      ]
+    },
+    {
+      "id": "mpu:53051",
+      "name": "J-Lats",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71566",
+      "name": "Japan Now",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Educational",
+        "Special Interest",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:53052",
+      "name": "Japanese Students Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71615",
+      "name": "Julis-Rabinowitz Center for Public Policy & Finance",
+      "groupType": "Academic Department",
+      "categories": []
+    },
+    {
+      "id": "mpu:66167",
+      "name": "Kalaa",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Cultural/Identity",
+        "Dance",
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:53057",
+      "name": "Katzenjammers",
+      "groupType": "ODUS",
+      "categories": [
+        "A Cappella"
+      ]
+    },
+    {
+      "id": "mpu:53370",
+      "name": "Kesher",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53058",
+      "name": "Kindred Spirit",
+      "groupType": "ODUS",
+      "categories": [
+        "A Cappella",
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53879",
+      "name": "Kindred Spirit",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53332",
+      "name": "Koach",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53275",
+      "name": "KoKo Pops",
+      "groupType": "ODUS",
+      "categories": [
+        "Dance"
+      ]
+    },
+    {
+      "id": "mpu:53059",
+      "name": "Koleinu",
+      "groupType": "ODUS",
+      "categories": [
+        "A Cappella"
+      ]
+    },
+    {
+      "id": "mpu:61831",
+      "name": "Korean Graduate Student Association",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71543",
+      "name": "Korean Literature Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53060",
+      "name": "Korean Students Association of Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53276",
+      "name": "Kurdish Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53062",
+      "name": "La Vie en Cello",
+      "groupType": "ODUS",
+      "categories": [
+        "Music"
+      ]
+    },
+    {
+      "id": "mpu:53350",
+      "name": "Lacrosse (M)",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53351",
+      "name": "Lacrosse (W)",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:61804",
+      "name": "Lakeside Committee",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:61832",
+      "name": "Lakeside Committee Garden",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71668",
+      "name": "LAKOU-Wellness for the Mind, Body, and Soul",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational",
+        "Health"
+      ]
+    },
+    {
+      "id": "mpu:53064",
+      "name": "Latines en Medicina",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Cultural/Identity",
+        "Educational",
+        "Health"
+      ]
+    },
+    {
+      "id": "mpu:61833",
+      "name": "Latino Graduate Student Association",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71499",
+      "name": "Latino Princetonians",
+      "groupType": "ERG",
+      "categories": []
+    },
+    {
+      "id": "mpu:71528",
+      "name": "Latinx Athlete Student Organization",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity",
+        "Service",
+        "Social",
+        "Sports/Recreation",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:61834",
+      "name": "Lawrence Committee",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:53792",
+      "name": "LDSSA Chaplaincy",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:71500",
+      "name": "Lesbian, Gay, Bisexual, Transgender, Queer, Questioning, Intersex & Asexual+ (LGBTQIA+) ERG",
+      "groupType": "ERG",
+      "categories": [
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:53313",
+      "name": "Letters to Strangers",
+      "groupType": "Pace Center Student Organization",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:61944",
+      "name": "Lewis Center for the Arts",
+      "groupType": "Academic Department",
+      "categories": [
+        "Arts"
+      ]
+    },
+    {
+      "id": "mpu:53070",
+      "name": "Liars' Club, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Games"
+      ]
+    },
+    {
+      "id": "mpu:71496",
+      "name": "Ludwig Princeton Branch",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:53388",
+      "name": "Lutheran Campus Ministry",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious",
+        "Chaplaincies"
+      ]
+    },
+    {
+      "id": "mpu:53074",
+      "name": "Magic: The Gathering",
+      "groupType": "ODUS",
+      "categories": [
+        "Games"
+      ]
+    },
+    {
+      "id": "mpu:67251",
+      "name": "MakeNet",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:53077",
+      "name": "Malaysian and Singaporean Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53389",
+      "name": "Manna Christian Fellowship",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53794",
+      "name": "Manna Christian Fellowship Chaplaincy",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:71298",
+      "name": "Mariachi Los Tigres de Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity",
+        "Music",
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:53078",
+      "name": "Mas Flow",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity",
+        "Dance",
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:53079",
+      "name": "MASJID (Muslim Advocates for Social Justice)",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Community Immersion",
+        "Social Justice"
+      ]
+    },
+    {
+      "id": "mpu:53080",
+      "name": "Materials Research Society, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational",
+        "Environmental",
+        "Special Interest",
+        "Research",
+        "Public Lectures"
+      ]
+    },
+    {
+      "id": "mpu:53081",
+      "name": "Mathematics Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Educational",
+        "Social",
+        "Campus Engagement",
+        "Public Lectures"
+      ]
+    },
+    {
+      "id": "mpu:61755",
+      "name": "Mathey College",
+      "groupType": "Residential Colleges",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:68593",
+      "name": "McGraw Center",
+      "groupType": "McGraw Center",
+      "categories": [
+        "Academic",
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71560",
+      "name": "Meadows Committee",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Service",
+        "Social",
+        "Student Government"
+      ]
+    },
+    {
+      "id": "mpu:71682",
+      "name": "MealMates",
+      "groupType": "ODUS",
+      "categories": [
+        "Food",
+        "Social",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71534",
+      "name": "Melange-A Journal of Prose Poetry and the Arts",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Arts",
+        "Career Opportunity",
+        "Cultural/Identity",
+        "Dialogues & Partnerships",
+        "Educational",
+        "Music",
+        "Performing Arts",
+        "Media",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71573",
+      "name": "Micro/Nanofabrication Center",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:71475",
+      "name": "Middle Eastern and Mediterranean Jews Alliance",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71570",
+      "name": "Middle Eastern and North African Graduate Association",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53085",
+      "name": "Mock Trial",
+      "groupType": "ODUS",
+      "categories": [
+        "Political"
+      ]
+    },
+    {
+      "id": "mpu:53086",
+      "name": "Model Congress, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Political"
+      ]
+    },
+    {
+      "id": "mpu:67396",
+      "name": "Moon Press",
+      "groupType": "ODUS",
+      "categories": [
+        "Publication"
+      ]
+    },
+    {
+      "id": "mpu:71616",
+      "name": "Mossavar-Rahmani Center for Iran & Persian Gulf Studies",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:53390",
+      "name": "Murray-Dodge Caf�",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:67103",
+      "name": "Muslim Engineers for Social Impact and Justice",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Cultural/Identity",
+        "Racial Justice",
+        "Social Justice",
+        "Sustained Volunteering",
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53392",
+      "name": "Muslim Life Program",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53391",
+      "name": "Muslim Student Association",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:33164",
+      "name": "My PrincetonU",
+      "groupType": "Administrative Office",
+      "categories": []
+    },
+    {
+      "id": "mpu:53087",
+      "name": "Naacho",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Cultural/Identity",
+        "Dance"
+      ]
+    },
+    {
+      "id": "mpu:71479",
+      "name": "NAACP, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Community Immersion",
+        "Criminal Justice",
+        "Dialogues & Partnerships",
+        "Educational",
+        "Political",
+        "Health",
+        "Racial Justice",
+        "Social Justice",
+        "Sustained Volunteering",
+        "Professional",
+        "Service",
+        "Campus Engagement",
+        "Public Lectures"
+      ]
+    },
+    {
+      "id": "mpu:53088",
+      "name": "Nassau Literary Review",
+      "groupType": "ODUS",
+      "categories": [
+        "Publication"
+      ]
+    },
+    {
+      "id": "mpu:53279",
+      "name": "Nassau Weekly",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Publication",
+        "Media"
+      ]
+    },
+    {
+      "id": "mpu:53089",
+      "name": "Nassoons",
+      "groupType": "ODUS",
+      "categories": [
+        "A Cappella",
+        "Arts",
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:67263",
+      "name": "National Alzheimer's Buddies",
+      "groupType": "ODUS",
+      "categories": [
+        "Community Immersion",
+        "Dialogues & Partnerships",
+        "Educational",
+        "Health",
+        "Sustained Volunteering",
+        "Service",
+        "Special Interest",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:53090",
+      "name": "National Society of Black Engineers",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Cultural/Identity",
+        "Professional"
+      ]
+    },
+    {
+      "id": "mpu:71303",
+      "name": "Native Graduate Students of Princeton",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53091",
+      "name": "Natives at Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71727",
+      "name": "Natural & Artificial Minds (NAM)",
+      "groupType": "Academic Department",
+      "categories": [
+        "Artificial Intelligence (AI)"
+      ]
+    },
+    {
+      "id": "mpu:66873",
+      "name": "Near Eastern Studies",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic",
+        "Professional",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71608",
+      "name": "Negative Capability Collective",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:53092",
+      "name": "Nepali Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53094",
+      "name": "Neuroscience Network, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:71417",
+      "name": "Oceanic Society at Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71363",
+      "name": "Office of Campus Engagement (OCE)",
+      "groupType": "Campus Life",
+      "categories": [
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:53482",
+      "name": "Office of Campus Recreation",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Sports/Recreation",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71544",
+      "name": "Office of Disability Services",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71623",
+      "name": "Office of Diversity and Inclusion - Campus Life",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:61730",
+      "name": "Office of Information Technology",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Professional"
+      ]
+    },
+    {
+      "id": "mpu:71351",
+      "name": "Office of Innovation",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Academic",
+        "Entrepreneurship/Innovation"
+      ]
+    },
+    {
+      "id": "mpu:68609",
+      "name": "Office of International Programs",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:55118",
+      "name": "Office of Orientation",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:58949",
+      "name": "Office of Sustainability",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Environmental",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:62058",
+      "name": "Office of the Dean of Religious Life",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:71330",
+      "name": "Office of the Dean of the College",
+      "groupType": "Administrative Office",
+      "categories": []
+    },
+    {
+      "id": "mpu:56763",
+      "name": "Office of the Vice President for Campus Life (VPCL)",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71327",
+      "name": "OIT - Information Security Office",
+      "groupType": "Administrative Office",
+      "categories": []
+    },
+    {
+      "id": "mpu:66515",
+      "name": "OIT - Web Development Services",
+      "groupType": "Administrative Office",
+      "categories": []
+    },
+    {
+      "id": "mpu:62016",
+      "name": "OIT - Website Wednesday",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Professional"
+      ]
+    },
+    {
+      "id": "mpu:53096",
+      "name": "Old NasSoul",
+      "groupType": "ODUS",
+      "categories": [
+        "A Cappella"
+      ]
+    },
+    {
+      "id": "mpu:71627",
+      "name": "Oncology Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:53097",
+      "name": "Open Campus Coalition, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Advocacy & Activism",
+        "Dialogues & Partnerships",
+        "Political",
+        "Campus Engagement",
+        "Public Lectures"
+      ]
+    },
+    {
+      "id": "mpu:53098",
+      "name": "Opera Company, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Music",
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:71691",
+      "name": "Opera Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Arts",
+        "Music",
+        "Performing Arts",
+        "Media"
+      ]
+    },
+    {
+      "id": "mpu:71599",
+      "name": "Operation Smile at Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Educational",
+        "Health",
+        "Service",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:53099",
+      "name": "OPUS",
+      "groupType": "ODUS",
+      "categories": [
+        "Music",
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:53100",
+      "name": "Orange Pan-Hellenic Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71474",
+      "name": "OrangeHat Cybersecurity Collective",
+      "groupType": "ODUS",
+      "categories": [
+        "Career Opportunity",
+        "Educational",
+        "Professional",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:61743",
+      "name": "ORL UN Women Faith and Gender Justice Fellowship",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Social Justice"
+      ]
+    },
+    {
+      "id": "mpu:53393",
+      "name": "Orthodox Christian Fellowship",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53411",
+      "name": "Orthodox Christian Fellowship Chaplaincy",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53414",
+      "name": "Outdoor Action",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Environmental",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:67398",
+      "name": "P Pop Up",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Food"
+      ]
+    },
+    {
+      "id": "mpu:56983",
+      "name": "Pace Center for Civic Engagement",
+      "groupType": "Pace Center Administrative",
+      "categories": [
+        "Racial Justice",
+        "Social Justice",
+        "Sustained Volunteering",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:53102",
+      "name": "Pakistani Students Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:69325",
+      "name": "Peer Health Advisers",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71655",
+      "name": "Pentecost Students and Associates (PENSA)",
+      "groupType": "ORL- Student Organizations",
+      "categories": []
+    },
+    {
+      "id": "mpu:53105",
+      "name": "Pianists Ensemble, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Music",
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:71632",
+      "name": "PIIRS UG Fellowship",
+      "groupType": "Academic Department",
+      "categories": []
+    },
+    {
+      "id": "mpu:71449",
+      "name": "Pilipino Graduate Student Association (PGSA)",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71530",
+      "name": "Plant-Based Princeton",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Health",
+        "Food",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:53108",
+      "name": "Players, Princeton University",
+      "groupType": "ODUS",
+      "categories": [
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:53109",
+      "name": "Poker Club, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Games"
+      ]
+    },
+    {
+      "id": "mpu:53295",
+      "name": "Policy Punchline",
+      "groupType": "ODUS",
+      "categories": [
+        "Publication"
+      ]
+    },
+    {
+      "id": "mpu:53110",
+      "name": "Polish Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71444",
+      "name": "Politics Department",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:53352",
+      "name": "Powerlifting",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:66880",
+      "name": "Pre-Dental Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:53111",
+      "name": "Pre-Law Society, Princeton University",
+      "groupType": "ODUS",
+      "categories": [
+        "Professional"
+      ]
+    },
+    {
+      "id": "mpu:67347",
+      "name": "Premedical Society, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Career Opportunity",
+        "Educational",
+        "Health"
+      ]
+    },
+    {
+      "id": "mpu:53113",
+      "name": "Pride Alliance",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Cultural/Identity",
+        "Social Justice",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:71658",
+      "name": "Princeton Affordable Housing Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Career Opportunity",
+        "Educational",
+        "Hunger & Homelessness",
+        "Social Justice",
+        "Public Lectures"
+      ]
+    },
+    {
+      "id": "mpu:61837",
+      "name": "Princeton African Graduate Student Assoc",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:66990",
+      "name": "Princeton African Humanities Colloquium",
+      "groupType": "Academic Department",
+      "categories": []
+    },
+    {
+      "id": "mpu:71361",
+      "name": "Princeton AI Alignment",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational",
+        "Political",
+        "Entrepreneurship/Innovation",
+        "Professional",
+        "Social",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:71582",
+      "name": "Princeton AI for Climate Network",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:61838",
+      "name": "Princeton American Indian and Indigenous Studies Working Group",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71541",
+      "name": "Princeton Architecture Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Educational",
+        "Environmental",
+        "Professional",
+        "Special Interest",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:52954",
+      "name": "Princeton Armenian Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71724",
+      "name": "Princeton Artificial Intelligence (AI)",
+      "groupType": "Academic Department",
+      "categories": [
+        "Artificial Intelligence (AI)"
+      ]
+    },
+    {
+      "id": "mpu:61839",
+      "name": "Princeton Arts & Sciences Society",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71651",
+      "name": "Princeton ASL Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Community Immersion",
+        "Cultural/Identity",
+        "Special Interest",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:52957",
+      "name": "Princeton Association of Black Women",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:61840",
+      "name": "Princeton Association of Taiwanese Students (PATS)",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:53116",
+      "name": "Princeton Astronomy Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:71607",
+      "name": "Princeton Bachata Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Dance",
+        "Music"
+      ]
+    },
+    {
+      "id": "mpu:71556",
+      "name": "Princeton Barn Dancing",
+      "groupType": "ODUS",
+      "categories": [
+        "Dance",
+        "Music",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:71401",
+      "name": "Princeton Baseball Analytics Group",
+      "groupType": "ODUS",
+      "categories": [
+        "Special Interest",
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:52967",
+      "name": "Princeton Bhangra",
+      "groupType": "ODUS",
+      "categories": [
+        "Dance"
+      ]
+    },
+    {
+      "id": "mpu:71365",
+      "name": "Princeton Bioethics Exchange",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Career Opportunity"
+      ]
+    },
+    {
+      "id": "mpu:70038",
+      "name": "Princeton Biotechnology Group",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Educational",
+        "Entrepreneurship/Innovation"
+      ]
+    },
+    {
+      "id": "mpu:53120",
+      "name": "Princeton Birding Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Environmental"
+      ]
+    },
+    {
+      "id": "mpu:53121",
+      "name": "Princeton Black Men's Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71656",
+      "name": "Princeton Black Pre-Law Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Social Justice"
+      ]
+    },
+    {
+      "id": "mpu:71526",
+      "name": "Princeton Blacksmithing Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:65290",
+      "name": "Princeton Blockchain Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational",
+        "Entrepreneurship/Innovation"
+      ]
+    },
+    {
+      "id": "mpu:71334",
+      "name": "Princeton Blood Cancer United",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Educational",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:71393",
+      "name": "Princeton Bookbinding Society",
+      "groupType": "Graduate Student Organizations",
+      "categories": []
+    },
+    {
+      "id": "mpu:71577",
+      "name": "Princeton Boxing Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Special Interest",
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:65006",
+      "name": "Princeton Buddhist Student Group",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53282",
+      "name": "Princeton Camerata",
+      "groupType": "ODUS",
+      "categories": [
+        "Music"
+      ]
+    },
+    {
+      "id": "mpu:52981",
+      "name": "Princeton Canada Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:61842",
+      "name": "Princeton Capoeira",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:61946",
+      "name": "Princeton Center for Language Study",
+      "groupType": "Academic Department",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:53394",
+      "name": "Princeton Christian Fellowship",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53000",
+      "name": "Princeton Christian Fellowship Chaplaincy",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious",
+        "Chaplaincies"
+      ]
+    },
+    {
+      "id": "mpu:61844",
+      "name": "Princeton Citizen Scientists",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Advocacy & Activism",
+        "Educational",
+        "Environmental"
+      ]
+    },
+    {
+      "id": "mpu:71583",
+      "name": "Princeton COC RPG",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71359",
+      "name": "Princeton Collegiate Moot Court (PCMC)",
+      "groupType": "ODUS",
+      "categories": [
+        "Political",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:53297",
+      "name": "Princeton Curling Club",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71721",
+      "name": "Princeton Data & Intelligent Systems (DaIS)",
+      "groupType": "Academic Department",
+      "categories": [
+        "Artificial Intelligence (AI)"
+      ]
+    },
+    {
+      "id": "mpu:71540",
+      "name": "Princeton DJ Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Music",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:71539",
+      "name": "Princeton Economic Policy Student Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Finance",
+        "Special Interest",
+        "Research",
+        "Financial Literacy"
+      ]
+    },
+    {
+      "id": "mpu:71421",
+      "name": "Princeton Education Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Career Opportunity",
+        "Community Immersion",
+        "Educational",
+        "Professional",
+        "Service",
+        "Social",
+        "Research",
+        "Campus Engagement",
+        "Public Lectures"
+      ]
+    },
+    {
+      "id": "mpu:53317",
+      "name": "Princeton Effective Altruism",
+      "groupType": "Pace Center Student Organization",
+      "categories": [
+        "Career Opportunity",
+        "Educational",
+        "Service",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:61845",
+      "name": "Princeton Effective Altruism",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Advocacy & Activism",
+        "Career Opportunity",
+        "Educational",
+        "Social Justice",
+        "Professional",
+        "Social",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:66080",
+      "name": "Princeton Electric Speedboating",
+      "groupType": "ODUS",
+      "categories": [
+        "Entrepreneurship/Innovation"
+      ]
+    },
+    {
+      "id": "mpu:71312",
+      "name": "Princeton Entomology Group (PEG)",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Career Opportunity"
+      ]
+    },
+    {
+      "id": "mpu:53016",
+      "name": "Princeton Entrepreneurship Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Career Opportunity",
+        "Entrepreneurship/Innovation"
+      ]
+    },
+    {
+      "id": "mpu:71353",
+      "name": "Princeton Ethics Bowl",
+      "groupType": "ODUS",
+      "categories": [
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:53126",
+      "name": "Princeton Ethiopian and Eritrean Students Association (PEESA)",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53127",
+      "name": "Princeton Federalist Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Political",
+        "Professional",
+        "Public Lectures"
+      ]
+    },
+    {
+      "id": "mpu:65243",
+      "name": "Princeton Fiber Arts Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Sustained Volunteering",
+        "Service",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:53128",
+      "name": "Princeton Filipino Community",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71394",
+      "name": "Princeton Film Festival",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71487",
+      "name": "Princeton Fitness Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Health",
+        "Special Interest",
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71617",
+      "name": "Princeton for Health Literacy and Equity",
+      "groupType": "Pace Center Student Organization",
+      "categories": [
+        "Advocacy & Activism",
+        "Health",
+        "Service",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:71614",
+      "name": "Princeton Forest Crew",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Community Immersion",
+        "Environmental",
+        "Service",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:71681",
+      "name": "Princeton Formula 1 Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Career Opportunity",
+        "Educational",
+        "Entrepreneurship/Innovation",
+        "Games",
+        "Food",
+        "Special Interest",
+        "Media",
+        "Social",
+        "Sports/Recreation",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71654",
+      "name": "Princeton Fragrance Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Special Interest",
+        "Sports/Recreation",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71645",
+      "name": "Princeton Game Theory Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Educational",
+        "Games",
+        "Special Interest",
+        "Research",
+        "Public Lectures"
+      ]
+    },
+    {
+      "id": "mpu:71456",
+      "name": "Princeton Girls into VC",
+      "groupType": "ODUS",
+      "categories": [
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:71553",
+      "name": "Princeton Global Net-Zero Initiative",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational",
+        "Environmental",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:71495",
+      "name": "Princeton Grad Running Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71536",
+      "name": "Princeton Graduate Amateur Musicians",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity",
+        "Dance",
+        "Music"
+      ]
+    },
+    {
+      "id": "mpu:71708",
+      "name": "Princeton Graduate Biotechnology Club (PGBC)",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Professional"
+      ]
+    },
+    {
+      "id": "mpu:71574",
+      "name": "Princeton Graduate Cycling Club (PGCC)",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Health",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:71700",
+      "name": "Princeton Graduate Dance Company",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Dance",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:71318",
+      "name": "Princeton Graduate Pet Owner Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Special Interest",
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71339",
+      "name": "Princeton Graduate Students United",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Political",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71666",
+      "name": "Princeton Haiku Society",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71403",
+      "name": "Princeton Health Policy Forum",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Educational",
+        "Health",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:53395",
+      "name": "Princeton Hindu Satsangam",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53131",
+      "name": "Princeton HOSA: Future Health Professionals",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Career Opportunity",
+        "Health",
+        "Sustained Volunteering",
+        "Professional",
+        "Service",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71405",
+      "name": "Princeton in Hollywood",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Career Opportunity",
+        "Professional"
+      ]
+    },
+    {
+      "id": "mpu:71685",
+      "name": "Princeton Indonesia Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity",
+        "Food"
+      ]
+    },
+    {
+      "id": "mpu:70723",
+      "name": "Princeton Innovation",
+      "groupType": "Administrative Office",
+      "categories": []
+    },
+    {
+      "id": "mpu:61846",
+      "name": "Princeton Insights",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71590",
+      "name": "Princeton Israel Community",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity",
+        "Dialogues & Partnerships",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:71674",
+      "name": "Princeton Journaling and Scrapbooking",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts"
+      ]
+    },
+    {
+      "id": "mpu:71728",
+      "name": "Princeton Language & Intelligence (PLI)",
+      "groupType": "Academic Department",
+      "categories": [
+        "Artificial Intelligence (AI)"
+      ]
+    },
+    {
+      "id": "mpu:53133",
+      "name": "Princeton Latin American Student Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53400",
+      "name": "Princeton Latter Day Saints Chaplaincy",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious",
+        "Chaplaincies"
+      ]
+    },
+    {
+      "id": "mpu:53134",
+      "name": "Princeton Legal Journal",
+      "groupType": "ODUS",
+      "categories": [
+        "Publication"
+      ]
+    },
+    {
+      "id": "mpu:71398",
+      "name": "Princeton Libations Association",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity",
+        "Food",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:71613",
+      "name": "Princeton Life Drawing Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71316",
+      "name": "Princeton Luddite Society",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity",
+        "Political",
+        "Service",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:70935",
+      "name": "Princeton Mechanical Keyboard Gang",
+      "groupType": "ODUS",
+      "categories": [
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:71425",
+      "name": "Princeton Needle Arts",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Arts",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:62568",
+      "name": "Princeton NeuroTech",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Educational",
+        "Health",
+        "Entrepreneurship/Innovation",
+        "Professional",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:71300",
+      "name": "Princeton Nigerian Student Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53321",
+      "name": "Princeton Partners in Health Engage",
+      "groupType": "Pace Center Student Organization",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:53136",
+      "name": "Princeton Peer Nightline",
+      "groupType": "ODUS",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71688",
+      "name": "Princeton Peregrine",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Media"
+      ]
+    },
+    {
+      "id": "mpu:71552",
+      "name": "Princeton Peruvian Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53023",
+      "name": "Princeton Pictures",
+      "groupType": "ODUS",
+      "categories": [
+        "Media"
+      ]
+    },
+    {
+      "id": "mpu:66386",
+      "name": "Princeton Playhouse",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic",
+        "Arts"
+      ]
+    },
+    {
+      "id": "mpu:61847",
+      "name": "Princeton Polish Society",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:53285",
+      "name": "Princeton Political Review",
+      "groupType": "ODUS",
+      "categories": [
+        "Political"
+      ]
+    },
+    {
+      "id": "mpu:71680",
+      "name": "Princeton Pool Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Games"
+      ]
+    },
+    {
+      "id": "mpu:53397",
+      "name": "Princeton Presbyterians Chaplaincy",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious",
+        "Chaplaincies"
+      ]
+    },
+    {
+      "id": "mpu:71477",
+      "name": "Princeton Private Equity",
+      "groupType": "ODUS",
+      "categories": [
+        "Finance"
+      ]
+    },
+    {
+      "id": "mpu:71320",
+      "name": "Princeton Progressive Law Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71299",
+      "name": "Princeton Psychology Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71568",
+      "name": "Princeton Quantitative Traders",
+      "groupType": "ODUS",
+      "categories": [
+        "Finance",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:53166",
+      "name": "Princeton Racing Electric",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Educational",
+        "Entrepreneurship/Innovation",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:55739",
+      "name": "Princeton Research Day",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Entrepreneurship/Innovation",
+        "Special Interest",
+        "Research",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:53141",
+      "name": "Princeton Rocketry Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71523",
+      "name": "Princeton Rover Team",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:61849",
+      "name": "Princeton Salsa Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71579",
+      "name": "Princeton Saxophone Ensemble",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Music",
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:71591",
+      "name": "Princeton School of Architecture Film Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Media"
+      ]
+    },
+    {
+      "id": "mpu:65408",
+      "name": "Princeton School of Architecture Radio",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Dance",
+        "Music"
+      ]
+    },
+    {
+      "id": "mpu:71559",
+      "name": "Princeton Science Communication Group",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Career Opportunity"
+      ]
+    },
+    {
+      "id": "mpu:71313",
+      "name": "Princeton Science Fiction Society",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:53142",
+      "name": "Princeton Science of Psychedelics Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:71650",
+      "name": "Princeton Shotokan Karate Organization",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:52955",
+      "name": "Princeton Sketchbook: Arts & Crafts Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts"
+      ]
+    },
+    {
+      "id": "mpu:61850",
+      "name": "Princeton Slavic Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity",
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:53143",
+      "name": "Princeton Soccer Appreciation Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:61851",
+      "name": "Princeton Soccer Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71726",
+      "name": "Princeton Societal AI",
+      "groupType": "Academic Department",
+      "categories": [
+        "Artificial Intelligence (AI)"
+      ]
+    },
+    {
+      "id": "mpu:53284",
+      "name": "Princeton Society of Philosophy",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:53144",
+      "name": "Princeton Society of Physics Students",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:71594",
+      "name": "Princeton Sport Fishing Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Environmental",
+        "Special Interest",
+        "Social",
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:65233",
+      "name": "Princeton Star Wars Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:71722",
+      "name": "Princeton Statistics & Data Science (SDS)",
+      "groupType": "Academic Department",
+      "categories": [
+        "Artificial Intelligence (AI)"
+      ]
+    },
+    {
+      "id": "mpu:71679",
+      "name": "Princeton String Studio",
+      "groupType": "ODUS",
+      "categories": [
+        "Music",
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:53780",
+      "name": "Princeton Student Agencies",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71415",
+      "name": "Princeton Student Ventures",
+      "groupType": "ODUS",
+      "categories": [
+        "Entrepreneurship/Innovation"
+      ]
+    },
+    {
+      "id": "mpu:53145",
+      "name": "Princeton Student Veteran's Alliance",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53325",
+      "name": "Princeton Students for Immigrant Empowerment",
+      "groupType": "Pace Center Student Organization",
+      "categories": [
+        "Advocacy & Activism",
+        "Social Justice",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71453",
+      "name": "Princeton Students for Justice in Palestine",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Cultural/Identity",
+        "Political",
+        "Social Justice",
+        "Public Lectures"
+      ]
+    },
+    {
+      "id": "mpu:53205",
+      "name": "Princeton Students for Reproductive Justice",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Educational",
+        "Health",
+        "Social Justice",
+        "Service",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:56464",
+      "name": "Princeton Students in Quantum",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational",
+        "Entrepreneurship/Innovation",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:53326",
+      "name": "Princeton Students United Restoration Foundation",
+      "groupType": "Pace Center Student Organization",
+      "categories": [
+        "Environmental",
+        "Service",
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71723",
+      "name": "Princeton Survey Research Center (PSRC)",
+      "groupType": "Academic Department",
+      "categories": [
+        "Artificial Intelligence (AI)"
+      ]
+    },
+    {
+      "id": "mpu:61852",
+      "name": "Princeton Tai Chi Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:61853",
+      "name": "Princeton Tango Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Dance",
+        "Music",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:71675",
+      "name": "Princeton Tea Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity",
+        "Educational",
+        "Food",
+        "Social",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71639",
+      "name": "Princeton Trading Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Entrepreneurship/Innovation",
+        "Professional",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:53301",
+      "name": "Princeton Transfer Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71644",
+      "name": "Princeton Undergraduate Chemical Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71580",
+      "name": "Princeton Undergraduate Francophone Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:53149",
+      "name": "Princeton Undergraduate Research Journal",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Professional",
+        "Publication",
+        "Media",
+        "Research",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71662",
+      "name": "Princeton UNICEF",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71340",
+      "name": "Princeton University Art Museum",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Arts",
+        "Educational",
+        "Social",
+        "Campus Engagement",
+        "Public Lectures"
+      ]
+    },
+    {
+      "id": "mpu:53398",
+      "name": "Princeton University Baha'i Club",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:65241",
+      "name": "Princeton University Balkan Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity",
+        "Dialogues & Partnerships",
+        "Educational",
+        "Food",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:71598",
+      "name": "Princeton University BioBridge Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Career Opportunity",
+        "Political",
+        "Finance",
+        "Special Interest",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:61855",
+      "name": "Princeton University Chinese Christian Fellowship",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:70041",
+      "name": "Princeton University Economic Development Organization (PUEDO)",
+      "groupType": "ODUS",
+      "categories": [
+        "Dialogues & Partnerships",
+        "Educational",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:61807",
+      "name": "Princeton University Graduate Consulting Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:53401",
+      "name": "Princeton University Latter Day Saints Student Association",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:62015",
+      "name": "Princeton University Library",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Academic",
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:58778",
+      "name": "Princeton University Mixed Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71660",
+      "name": "Princeton University Molecular Biology Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational",
+        "Health",
+        "Professional",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:61856",
+      "name": "Princeton University Mountaineering Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:65409",
+      "name": "Princeton University Neurodiversity Collective",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:53151",
+      "name": "Princeton University Nonprofit Consulting",
+      "groupType": "ODUS",
+      "categories": [
+        "Professional"
+      ]
+    },
+    {
+      "id": "mpu:66188",
+      "name": "Princeton University OPTICA Chapter",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:71641",
+      "name": "Princeton University Percussion Players Ensemble",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Music",
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:61857",
+      "name": "Princeton University Policy Student Government (formerly WWAC)",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:61806",
+      "name": "Princeton University SACNAS Chapter",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71497",
+      "name": "Princeton University School of Architecture NOMAS",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71686",
+      "name": "Princeton University Student Farmworkers Alliance",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Environmental",
+        "Social Justice"
+      ]
+    },
+    {
+      "id": "mpu:61871",
+      "name": "Princeton University Student Veterans Organization",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:61859",
+      "name": "Princeton University Swing Dance Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71416",
+      "name": "Princeton University Wind Ensemble",
+      "groupType": "ODUS",
+      "categories": [
+        "Music"
+      ]
+    },
+    {
+      "id": "mpu:71551",
+      "name": "Princeton Varsity Athlete Premedical Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Career Opportunity",
+        "Educational",
+        "Health",
+        "Special Interest",
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71692",
+      "name": "Princeton Venture Philanthropy",
+      "groupType": "ODUS",
+      "categories": [
+        "Dialogues & Partnerships",
+        "Educational",
+        "Entrepreneurship/Innovation",
+        "Social Justice",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71537",
+      "name": "Princeton Wine Tasting Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:71407",
+      "name": "Princeton Women in Business",
+      "groupType": "ODUS",
+      "categories": [
+        "Career Opportunity",
+        "Cultural/Identity",
+        "Entrepreneurship/Innovation",
+        "Professional",
+        "Finance",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:61861",
+      "name": "Princeton Women in Chemistry",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:53155",
+      "name": "Princeton Women in Economics & Policy",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Entrepreneurship/Innovation",
+        "Professional",
+        "Finance",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:71431",
+      "name": "Princeton Women in Law",
+      "groupType": "ODUS",
+      "categories": [
+        "Professional",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:61862",
+      "name": "Princeton Women in Plasma Physics",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:61863",
+      "name": "Princeton Women in STEM Leadership Council",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71640",
+      "name": "Princeton Women Veterans",
+      "groupType": "ODUS",
+      "categories": [
+        "Service",
+        "Special Interest",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:71586",
+      "name": "Princeton Women's Health Network",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Cultural/Identity",
+        "Health"
+      ]
+    },
+    {
+      "id": "mpu:61864",
+      "name": "Princeton Zen Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:68601",
+      "name": "Prison Teaching Initiative",
+      "groupType": "McGraw Center",
+      "categories": []
+    },
+    {
+      "id": "mpu:53158",
+      "name": "Pro-Life, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Political"
+      ]
+    },
+    {
+      "id": "mpu:61947",
+      "name": "Program for Community-Engaged Scholarship",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:66980",
+      "name": "Program in African Studies",
+      "groupType": "Academic Department",
+      "categories": []
+    },
+    {
+      "id": "mpu:66981",
+      "name": "Program in Contemporary European Politics and Society",
+      "groupType": "Academic Department",
+      "categories": []
+    },
+    {
+      "id": "mpu:71377",
+      "name": "Program in Gender and Sexuality Studies",
+      "groupType": "Academic Department",
+      "categories": []
+    },
+    {
+      "id": "mpu:71371",
+      "name": "Program in Latin American Studies",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:66982",
+      "name": "Program in South Asian Studies",
+      "groupType": "Academic Department",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:66983",
+      "name": "Program in Translation and Intercultural Communications",
+      "groupType": "Academic Department",
+      "categories": []
+    },
+    {
+      "id": "mpu:71385",
+      "name": "Public Lectures",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Public Lectures"
+      ]
+    },
+    {
+      "id": "mpu:53162",
+      "name": "PUZZLES",
+      "groupType": "ODUS",
+      "categories": [
+        "Games"
+      ]
+    },
+    {
+      "id": "mpu:61865",
+      "name": "Queer Graduate Caucus",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:53163",
+      "name": "Quest Scholars Network, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:53164",
+      "name": "Quipfire! Improv Comedy",
+      "groupType": "ODUS",
+      "categories": [
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:53165",
+      "name": "Quiz Bowl",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Games"
+      ]
+    },
+    {
+      "id": "mpu:71323",
+      "name": "Rah-Rah Princeton Arts Magazine",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Publication"
+      ]
+    },
+    {
+      "id": "mpu:53168",
+      "name": "Raqs: Princeton Belly Dance Company",
+      "groupType": "ODUS",
+      "categories": [
+        "Dance"
+      ]
+    },
+    {
+      "id": "mpu:71507",
+      "name": "Ratio Christi",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Educational",
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53169",
+      "name": "Real Estate, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Career Opportunity",
+        "Entrepreneurship/Innovation",
+        "Professional",
+        "Finance",
+        "Financial Literacy"
+      ]
+    },
+    {
+      "id": "mpu:71374",
+      "name": "Recreational Tennis Club",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:66988",
+      "name": "Reimagining World Order",
+      "groupType": "Academic Department",
+      "categories": []
+    },
+    {
+      "id": "mpu:53402",
+      "name": "Religious Life Council",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:71332",
+      "name": "Rem and Company",
+      "groupType": "ODUS",
+      "categories": [
+        "Career Opportunity",
+        "Finance",
+        "Financial Literacy"
+      ]
+    },
+    {
+      "id": "mpu:61570",
+      "name": "Research Computing",
+      "groupType": "Academic Department",
+      "categories": [
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:53171",
+      "name": "Rise Up Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Music"
+      ]
+    },
+    {
+      "id": "mpu:53172",
+      "name": "Roaring 20",
+      "groupType": "ODUS",
+      "categories": [
+        "A Cappella",
+        "Music",
+        "Performing Arts",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:53173",
+      "name": "Robotics Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:53174",
+      "name": "Rock Ensemble, Princeton University",
+      "groupType": "ODUS",
+      "categories": [
+        "Music"
+      ]
+    },
+    {
+      "id": "mpu:61756",
+      "name": "Rockefeller College",
+      "groupType": "Residential Colleges",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:53353",
+      "name": "Rugby (M)",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53354",
+      "name": "Rugby (W)",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53355",
+      "name": "Running",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53176",
+      "name": "RUSYAK",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71390",
+      "name": "Safe Princeton Fieldwork",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Professional",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:53356",
+      "name": "Sailing",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:61866",
+      "name": "Salon Series",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:53178",
+      "name": "Scholars of Finance",
+      "groupType": "ODUS",
+      "categories": [
+        "Finance"
+      ]
+    },
+    {
+      "id": "mpu:53179",
+      "name": "Science Olympiad",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:71301",
+      "name": "Science Outreach",
+      "groupType": "Academic Department",
+      "categories": []
+    },
+    {
+      "id": "mpu:68551",
+      "name": "Service Focus (Pace)",
+      "groupType": "Pace Center Administrative",
+      "categories": [
+        "Advocacy & Activism",
+        "Arts",
+        "Criminal Justice",
+        "Cultural/Identity",
+        "Educational",
+        "Environmental",
+        "Health",
+        "Hunger & Homelessness",
+        "Immigration",
+        "Entrepreneurship/Innovation",
+        "Racial Justice",
+        "Social Justice",
+        "Sustained Volunteering",
+        "Service",
+        "Food",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:71605",
+      "name": "SHARE Peers",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Health"
+      ]
+    },
+    {
+      "id": "mpu:53183",
+      "name": "Shere Khan",
+      "groupType": "ODUS",
+      "categories": [
+        "A Cappella"
+      ]
+    },
+    {
+      "id": "mpu:53403",
+      "name": "Sikhs of Princeton",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53184",
+      "name": "Simulation Games Union",
+      "groupType": "ODUS",
+      "categories": [
+        "Games"
+      ]
+    },
+    {
+      "id": "mpu:53185",
+      "name": "Six14 Christian Dance Company",
+      "groupType": "ODUS",
+      "categories": [
+        "Dance"
+      ]
+    },
+    {
+      "id": "mpu:53357",
+      "name": "Skiing",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71391",
+      "name": "Slavic Languages & Literatures",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:53358",
+      "name": "Soccer (M)",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53359",
+      "name": "Soccer (W)",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53187",
+      "name": "Society for African Internationals at Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:70042",
+      "name": "Society of Asian Scientists and Engineers",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity",
+        "Educational",
+        "Professional"
+      ]
+    },
+    {
+      "id": "mpu:53188",
+      "name": "Society of Hispanic Professional Engineers",
+      "groupType": "ODUS",
+      "categories": [
+        "Professional"
+      ]
+    },
+    {
+      "id": "mpu:71671",
+      "name": "Society of North African Princetonians",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53189",
+      "name": "Society of Women Engineers",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Cultural/Identity",
+        "Educational",
+        "Entrepreneurship/Innovation",
+        "Professional"
+      ]
+    },
+    {
+      "id": "mpu:53360",
+      "name": "Softball",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71483",
+      "name": "Soma: Princeton Undergraduate Bioethics Collective",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Educational",
+        "Environmental",
+        "Health",
+        "Publication",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:53193",
+      "name": "South Asian Students Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53194",
+      "name": "South Asian Theatrics, Princeton (PSAT)",
+      "groupType": "ODUS",
+      "categories": [
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:65411",
+      "name": "SPIA Latinx",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53328",
+      "name": "SPLASH",
+      "groupType": "Pace Center Student Organization",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:53361",
+      "name": "Squash",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71296",
+      "name": "Sri Lankans at Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71677",
+      "name": "Starry Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Environmental",
+        "Service",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71635",
+      "name": "Structural Biology Colloquium",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:53451",
+      "name": "Student Advisory Board of the Princeton University Art Museum",
+      "groupType": "Campus Life",
+      "categories": [
+        "Arts"
+      ]
+    },
+    {
+      "id": "mpu:67950",
+      "name": "Student Volunteers Council Board",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:53329",
+      "name": "Students for Prison Education, Abolition & Reform",
+      "groupType": "Pace Center Student Organization",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:70234",
+      "name": "Students of Color and Allies",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71331",
+      "name": "Sudanis At Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71492",
+      "name": "Summer Research & Learning Village",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71562",
+      "name": "Sunrise Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Environmental"
+      ]
+    },
+    {
+      "id": "mpu:71469",
+      "name": "SVC: Arm in Arm",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Hunger & Homelessness",
+        "Social Justice",
+        "Service",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:71510",
+      "name": "SVC: Ballet & Books",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Arts",
+        "Dance",
+        "Educational",
+        "Sustained Volunteering"
+      ]
+    },
+    {
+      "id": "mpu:71328",
+      "name": "SVC: Best Buddies Princeton Chapter",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71622",
+      "name": "SVC: Buddy Up Tennis",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Sustained Volunteering",
+        "Service",
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71512",
+      "name": "SVC: Caring for Kids",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Sustained Volunteering"
+      ]
+    },
+    {
+      "id": "mpu:71508",
+      "name": "SVC: Compassus",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Health",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:67945",
+      "name": "SVC: CONTACT",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:67949",
+      "name": "SVC: El Centro ESL",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71472",
+      "name": "SVC: Food Bank Express",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Hunger & Homelessness",
+        "Social Justice",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71396",
+      "name": "SVC: Kidney Disease Screening Awareness Program",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:67954",
+      "name": "SVC: Loaves and Fishes",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:67952",
+      "name": "SVC: Penn Medicine Princeton Medical Center (PMC)",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71621",
+      "name": "SVC: Perfect Pair",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Health",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71451",
+      "name": "SVC: Princeton Alzheimer�s Buddies",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Health",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:67956",
+      "name": "SVC: Princeton Blood Drive",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:53316",
+      "name": "SVC: Princeton Disability Awareness",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:67947",
+      "name": "SVC: Princeton First Aid and Rescue Squad",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71329",
+      "name": "SVC: Princeton Music Outreach",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Arts",
+        "Health",
+        "Service",
+        "Music",
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:71506",
+      "name": "SVC: Princeton Overdose Prevention Project",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Sustained Volunteering"
+      ]
+    },
+    {
+      "id": "mpu:71478",
+      "name": "SVC: Solidaridad",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Immigration",
+        "Social Justice",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:67951",
+      "name": "SVC: Special Olympics Rowing",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71467",
+      "name": "SVC: Special Olympics Skating",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Sustained Volunteering",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71397",
+      "name": "SVC: The Petey Greene Program",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Social Justice",
+        "Sustained Volunteering",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:71513",
+      "name": "SVC: Tiger Tails",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Sustained Volunteering"
+      ]
+    },
+    {
+      "id": "mpu:71465",
+      "name": "SVC: Trenton Circus Squad",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Arts",
+        "Service",
+        "Performing Arts",
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71463",
+      "name": "SVC: WorkWell",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Sustained Volunteering",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:67948",
+      "name": "SVC: Young Scholars Institute",
+      "groupType": "Pace Center for Civic Engagement",
+      "categories": [
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:52952",
+      "name": "SWANA Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53208",
+      "name": "Swara",
+      "groupType": "ODUS",
+      "categories": [
+        "Music"
+      ]
+    },
+    {
+      "id": "mpu:71673",
+      "name": "Swift Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Music",
+        "Media",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:53362",
+      "name": "Swimming",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53209",
+      "name": "Sympoh",
+      "groupType": "ODUS",
+      "categories": [
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:71542",
+      "name": "Syrian Students Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53363",
+      "name": "Table Tennis",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53364",
+      "name": "Tae Kwon Do",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53210",
+      "name": "Taiwanese American Students Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53211",
+      "name": "TAMID",
+      "groupType": "ODUS",
+      "categories": [
+        "Career Opportunity",
+        "Educational",
+        "Entrepreneurship/Innovation",
+        "Finance",
+        "Financial Literacy"
+      ]
+    },
+    {
+      "id": "mpu:53212",
+      "name": "Tango Club, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Dance",
+        "Music",
+        "Performing Arts",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:53213",
+      "name": "TAPCATS",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Dance",
+        "Music",
+        "Performing Arts",
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53215",
+      "name": "Tau Beta Pi",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Service",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:70183",
+      "name": "Teacher Preparation",
+      "groupType": "Academic Department",
+      "categories": [
+        "Academic",
+        "Professional",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71596",
+      "name": "TEDxPrincetonU",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Educational",
+        "Public Lectures"
+      ]
+    },
+    {
+      "id": "mpu:53365",
+      "name": "Tennis",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53217",
+      "name": "THAIGERS: Thai Students' Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53219",
+      "name": "The Daily Princetonian",
+      "groupType": "ODUS",
+      "categories": [
+        "Publication"
+      ]
+    },
+    {
+      "id": "mpu:59878",
+      "name": "The Graduate School",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:67099",
+      "name": "The Graduate School - Access, Diversity, and Inclusion",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Professional",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71399",
+      "name": "The Hispanic Society of Princeton",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53221",
+      "name": "The Italian Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71452",
+      "name": "The Italian Society",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71624",
+      "name": "The Off-Pitch",
+      "groupType": "ODUS",
+      "categories": [
+        "Publication"
+      ]
+    },
+    {
+      "id": "mpu:52695",
+      "name": "The Office of the Dean of Undergraduate Students (ODUS)",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:67756",
+      "name": "The Office of Undergraduate Research",
+      "groupType": "Administrative Office",
+      "categories": []
+    },
+    {
+      "id": "mpu:55462",
+      "name": "The Princeton Coptic Society",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Cultural/Identity",
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:71436",
+      "name": "The Princeton Medical Review",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Health",
+        "Publication",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:53236",
+      "name": "The Princeton Tory",
+      "groupType": "ODUS",
+      "categories": [
+        "Publication"
+      ]
+    },
+    {
+      "id": "mpu:71418",
+      "name": "The Princeton University Photography Society",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Arts",
+        "Cultural/Identity",
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:71620",
+      "name": "The Program in Visual Arts",
+      "groupType": "Academic Department",
+      "categories": []
+    },
+    {
+      "id": "mpu:71669",
+      "name": "The School for Moral Ambition",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Career Opportunity",
+        "Social Justice"
+      ]
+    },
+    {
+      "id": "mpu:71661",
+      "name": "The Tigress Collective",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Publication"
+      ]
+    },
+    {
+      "id": "mpu:53226",
+      "name": "Theatre Intime",
+      "groupType": "ODUS",
+      "categories": [
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:71687",
+      "name": "Tiger Acquisition Group",
+      "groupType": "ODUS",
+      "categories": [
+        "Career Opportunity",
+        "Finance",
+        "Financial Literacy"
+      ]
+    },
+    {
+      "id": "mpu:53227",
+      "name": "Tiger Anchor Society",
+      "groupType": "ODUS",
+      "categories": [
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:71664",
+      "name": "Tiger Calisthenics",
+      "groupType": "ODUS",
+      "categories": [
+        "Community Immersion",
+        "Health",
+        "Sports/Recreation",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:53228",
+      "name": "Tiger Investments",
+      "groupType": "ODUS",
+      "categories": [
+        "Finance"
+      ]
+    },
+    {
+      "id": "mpu:53229",
+      "name": "Tiger Magazine",
+      "groupType": "ODUS",
+      "categories": [
+        "Publication"
+      ]
+    },
+    {
+      "id": "mpu:71707",
+      "name": "Tiger Open Source Intelligence Forum",
+      "groupType": "ODUS",
+      "categories": [
+        "Professional",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:71653",
+      "name": "Tiger Real Estate Development Group",
+      "groupType": "ODUS",
+      "categories": [
+        "Entrepreneurship/Innovation",
+        "Finance"
+      ]
+    },
+    {
+      "id": "mpu:71521",
+      "name": "Tiger Tails: Princeton Pet Society",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Community Immersion",
+        "Service",
+        "Social",
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71684",
+      "name": "Tiger Tumbao",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Community Immersion",
+        "Cultural/Identity",
+        "Dance",
+        "Educational",
+        "Health",
+        "Music",
+        "Food",
+        "Performing Arts",
+        "Special Interest",
+        "Social",
+        "Sports/Recreation",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:70043",
+      "name": "TigerApps",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational",
+        "Entrepreneurship/Innovation"
+      ]
+    },
+    {
+      "id": "mpu:53230",
+      "name": "Tigerlilies",
+      "groupType": "ODUS",
+      "categories": [
+        "A Cappella"
+      ]
+    },
+    {
+      "id": "mpu:53231",
+      "name": "Tigers for Israel",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Political",
+        "Special Interest",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71689",
+      "name": "Tigers Talk Tech",
+      "groupType": "ODUS",
+      "categories": [
+        "Educational",
+        "Entrepreneurship/Innovation",
+        "Media",
+        "Research"
+      ]
+    },
+    {
+      "id": "mpu:61868",
+      "name": "Tigers With Cubs",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71527",
+      "name": "TigerTale",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Special Interest",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:53232",
+      "name": "Tigertones, The Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "A Cappella"
+      ]
+    },
+    {
+      "id": "mpu:53234",
+      "name": "Tigressions",
+      "groupType": "ODUS",
+      "categories": [
+        "A Cappella"
+      ]
+    },
+    {
+      "id": "mpu:53235",
+      "name": "Tora Taiko, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Music"
+      ]
+    },
+    {
+      "id": "mpu:53241",
+      "name": "Towards an Inclusive Community of Undergraduate Physicists (TiCuP)",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Cultural/Identity",
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:71548",
+      "name": "Trans-Atlantic Gateway (TAG)",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71581",
+      "name": "Transit and Sustainable Communities (TASC)",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Service"
+      ]
+    },
+    {
+      "id": "mpu:53237",
+      "name": "Triangle Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Performing Arts"
+      ]
+    },
+    {
+      "id": "mpu:53238",
+      "name": "Triple 8 Dance Company",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity",
+        "Dance"
+      ]
+    },
+    {
+      "id": "mpu:53239",
+      "name": "Turkish Students Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:71652",
+      "name": "Turning Point USA",
+      "groupType": "ODUS",
+      "categories": [
+        "Political",
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:67157",
+      "name": "Ukraine at Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53366",
+      "name": "Ultimate Frisbee (M)",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53367",
+      "name": "Ultimate Frisbee (W)",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:71628",
+      "name": "Undergraduate Photography Organization",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Special Interest",
+        "Media"
+      ]
+    },
+    {
+      "id": "mpu:53242",
+      "name": "Undergraduate Student Government (USG)",
+      "groupType": "ODUS",
+      "categories": [
+        "Student Government"
+      ]
+    },
+    {
+      "id": "mpu:53404",
+      "name": "Unitarian Universalists Chaplaincy",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious",
+        "Chaplaincies"
+      ]
+    },
+    {
+      "id": "mpu:53243",
+      "name": "United World Colleges Club of Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Special Interest"
+      ]
+    },
+    {
+      "id": "mpu:53244",
+      "name": "University Press Club",
+      "groupType": "ODUS",
+      "categories": [
+        "Publication"
+      ]
+    },
+    {
+      "id": "mpu:53245",
+      "name": "US-China Coalition, Princeton University",
+      "groupType": "ODUS",
+      "categories": [
+        "Dialogues & Partnerships",
+        "Educational",
+        "Political",
+        "Professional",
+        "Special Interest",
+        "Research",
+        "Public Lectures"
+      ]
+    },
+    {
+      "id": "mpu:53247",
+      "name": "Vietnamese Students Association",
+      "groupType": "ODUS",
+      "categories": [
+        "Cultural/Identity"
+      ]
+    },
+    {
+      "id": "mpu:53368",
+      "name": "Volleyball (M)",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53369",
+      "name": "Volleyball (W)",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:53832",
+      "name": "Vote100",
+      "groupType": "Administrative Office",
+      "categories": [
+        "Political",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:53248",
+      "name": "VTone",
+      "groupType": "ODUS",
+      "categories": [
+        "A Cappella"
+      ]
+    },
+    {
+      "id": "mpu:53405",
+      "name": "Wesley Foundation (United Methodist Campus Ministry)",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:53249",
+      "name": "Whig-Cliosophic Society, American",
+      "groupType": "ODUS",
+      "categories": [
+        "Political"
+      ]
+    },
+    {
+      "id": "mpu:61757",
+      "name": "Whitman College",
+      "groupType": "Residential Colleges",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:53250",
+      "name": "Wildcats",
+      "groupType": "ODUS",
+      "categories": [
+        "A Cappella"
+      ]
+    },
+    {
+      "id": "mpu:71459",
+      "name": "Women Aren't Funny",
+      "groupType": "ODUS",
+      "categories": [
+        "Arts",
+        "Performing Arts",
+        "Special Interest",
+        "Social"
+      ]
+    },
+    {
+      "id": "mpu:53253",
+      "name": "Women in Computer Science, Princeton",
+      "groupType": "ODUS",
+      "categories": [
+        "Academic",
+        "Career Opportunity",
+        "Cultural/Identity",
+        "Educational",
+        "Professional",
+        "Social",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:66683",
+      "name": "Women In Medicine",
+      "groupType": "ODUS",
+      "categories": [
+        "Health"
+      ]
+    },
+    {
+      "id": "mpu:71532",
+      "name": "Women's Wrestling Club",
+      "groupType": "Campus Rec",
+      "categories": [
+        "Sports/Recreation"
+      ]
+    },
+    {
+      "id": "mpu:61869",
+      "name": "Womxn in Design and Architecture",
+      "groupType": "Graduate Student Organizations",
+      "categories": [
+        "Educational"
+      ]
+    },
+    {
+      "id": "mpu:66992",
+      "name": "World Politics Journal",
+      "groupType": "Academic Department",
+      "categories": []
+    },
+    {
+      "id": "mpu:53255",
+      "name": "WPRB",
+      "groupType": "ODUS",
+      "categories": [
+        "Media"
+      ]
+    },
+    {
+      "id": "mpu:53306",
+      "name": "Yavneh",
+      "groupType": "ORL- Student Organizations",
+      "categories": [
+        "Religious"
+      ]
+    },
+    {
+      "id": "mpu:68482",
+      "name": "Yeh College",
+      "groupType": "Residential Colleges",
+      "categories": [
+        "Academic"
+      ]
+    },
+    {
+      "id": "mpu:53257",
+      "name": "Young Democratic Socialists of America",
+      "groupType": "ODUS",
+      "categories": [
+        "Advocacy & Activism",
+        "Community Immersion",
+        "Political",
+        "Immigration",
+        "Racial Justice",
+        "Social Justice",
+        "Sustained Volunteering",
+        "Service",
+        "Campus Engagement"
+      ]
+    },
+    {
+      "id": "mpu:71702",
+      "name": "Zamru",
+      "groupType": "ORL- Chaplaincies",
+      "categories": [
+        "Religious"
+      ]
+    }
+  ]
+}

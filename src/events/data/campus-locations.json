@@ -1,0 +1,3425 @@
+{
+ "source": "TheForum campus map pois.json",
+ "generatedAt": "2026-09-28T06:27:16.956Z",
+ "locations": [
+  {
+   "id": "aaron-burr-hall",
+   "name": "Aaron Burr Hall",
+   "aliases": [
+    "Aaron Burr"
+   ],
+   "category": "academic",
+   "latitude": 40.350194,
+   "longitude": -74.656575,
+   "source": "princeton-campus-map:poi:220"
+  },
+  {
+   "id": "addy-hall",
+   "name": "Addy Hall",
+   "aliases": [
+    "Addy"
+   ],
+   "category": "academic",
+   "latitude": 40.342514,
+   "longitude": -74.6552,
+   "source": "princeton-campus-map:poi:589"
+  },
+  {
+   "id": "alexander-beach",
+   "name": "Alexander Beach",
+   "aliases": [],
+   "category": "other",
+   "latitude": 40.347834,
+   "longitude": -74.660306,
+   "source": "princeton-campus-map:poi:2307"
+  },
+  {
+   "id": "andlinger-center-for-the-humanities",
+   "name": "Andlinger Center for the Humanities",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.349078,
+   "longitude": -74.658599,
+   "source": "princeton-campus-map:poi:1149"
+  },
+  {
+   "id": "andlinger-north-wing",
+   "name": "Andlinger North Wing",
+   "aliases": [
+    "Andlinger"
+   ],
+   "category": "academic",
+   "latitude": 40.350172,
+   "longitude": -74.650525,
+   "source": "princeton-campus-map:poi:500"
+  },
+  {
+   "id": "andlinger-south-wing",
+   "name": "Andlinger South Wing",
+   "aliases": [
+    "Andlinger"
+   ],
+   "category": "academic",
+   "latitude": 40.349776,
+   "longitude": -74.650456,
+   "source": "princeton-campus-map:poi:156"
+  },
+  {
+   "id": "annals-of-mathematics",
+   "name": "Annals of Mathematics",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.345803,
+   "longitude": -74.65226,
+   "source": "princeton-campus-map:poi:1199"
+  },
+  {
+   "id": "architecture",
+   "name": "Architecture",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.347935,
+   "longitude": -74.656282,
+   "source": "princeton-campus-map:poi:64"
+  },
+  {
+   "id": "architecture-laboratory",
+   "name": "Architecture Laboratory",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.343562,
+   "longitude": -74.649968,
+   "source": "princeton-campus-map:poi:540"
+  },
+  {
+   "id": "architecture-library",
+   "name": "Architecture Library",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.347834,
+   "longitude": -74.656145,
+   "source": "princeton-campus-map:poi:1120"
+  },
+  {
+   "id": "arts-tower",
+   "name": "Arts Tower",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.342723,
+   "longitude": -74.659699,
+   "source": "princeton-campus-map:poi:290"
+  },
+  {
+   "id": "athletics-operations",
+   "name": "Athletics Operations",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.346069,
+   "longitude": -74.644349,
+   "source": "princeton-campus-map:poi:3205"
+  },
+  {
+   "id": "bainbridge-house",
+   "name": "Bainbridge House",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.350479,
+   "longitude": -74.65759,
+   "source": "princeton-campus-map:poi:237"
+  },
+  {
+   "id": "barn",
+   "name": "Barn",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.353506,
+   "longitude": -74.718985,
+   "source": "princeton-campus-map:poi:528"
+  },
+  {
+   "id": "baseball",
+   "name": "Baseball",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.346654,
+   "longitude": -74.648192,
+   "source": "princeton-campus-map:poi:1197"
+  },
+  {
+   "id": "basketball-arena",
+   "name": "Basketball Arena",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.343385,
+   "longitude": -74.648652,
+   "source": "princeton-campus-map:poi:1196"
+  },
+  {
+   "id": "bedford-field",
+   "name": "Bedford Field",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.341002,
+   "longitude": -74.6524,
+   "source": "princeton-campus-map:poi:1477"
+  },
+  {
+   "id": "bendheim",
+   "name": "Bendheim",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.348723,
+   "longitude": -74.654116,
+   "source": "princeton-campus-map:poi:116"
+  },
+  {
+   "id": "bendheim-house",
+   "name": "Bendheim House",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.348753,
+   "longitude": -74.653452,
+   "source": "princeton-campus-map:poi:539"
+  },
+  {
+   "id": "berlind-theatre",
+   "name": "Berlind Theatre",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.343803,
+   "longitude": -74.660412,
+   "source": "princeton-campus-map:poi:1474"
+  },
+  {
+   "id": "betts-auditorium",
+   "name": "Betts Auditorium",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.347834,
+   "longitude": -74.656145,
+   "source": "princeton-campus-map:poi:1473"
+  },
+  {
+   "id": "blair-arch",
+   "name": "Blair Arch",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.347532,
+   "longitude": -74.660945,
+   "source": "princeton-campus-map:poi:599"
+  },
+  {
+   "id": "blair-hall",
+   "name": "Blair Hall",
+   "aliases": [
+    "Blair"
+   ],
+   "category": "academic",
+   "latitude": 40.347416,
+   "longitude": -74.66148,
+   "source": "princeton-campus-map:poi:403"
+  },
+  {
+   "id": "bloomberg-hall",
+   "name": "Bloomberg Hall",
+   "aliases": [
+    "Bloomberg"
+   ],
+   "category": "academic",
+   "latitude": 40.343513,
+   "longitude": -74.655985,
+   "source": "princeton-campus-map:poi:78"
+  },
+  {
+   "id": "bogle-hall",
+   "name": "Bogle Hall",
+   "aliases": [
+    "Bogle"
+   ],
+   "category": "academic",
+   "latitude": 40.344288,
+   "longitude": -74.655542,
+   "source": "princeton-campus-map:poi:95"
+  },
+  {
+   "id": "bowen-hall",
+   "name": "Bowen Hall",
+   "aliases": [
+    "Bowen"
+   ],
+   "category": "academic",
+   "latitude": 40.349526,
+   "longitude": -74.650317,
+   "source": "princeton-campus-map:poi:56"
+  },
+  {
+   "id": "breakfast-room-coffee-house",
+   "name": "Breakfast Room & Coffee House",
+   "aliases": [],
+   "category": "dining",
+   "latitude": 40.340801,
+   "longitude": -74.665445,
+   "source": "princeton-campus-map:poi:5874"
+  },
+  {
+   "id": "bric-a-brac",
+   "name": "Bric-a-Brac",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346506,
+   "longitude": -74.661173,
+   "source": "princeton-campus-map:poi:1195"
+  },
+  {
+   "id": "broadmead-field",
+   "name": "Broadmead Field",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.348468,
+   "longitude": -74.644086,
+   "source": "princeton-campus-map:poi:1478"
+  },
+  {
+   "id": "broadmead-swim",
+   "name": "Broadmead Swim",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.34752,
+   "longitude": -74.643465,
+   "source": "princeton-campus-map:poi:405"
+  },
+  {
+   "id": "brown-dining-co-op",
+   "name": "Brown Dining Co-op",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346392,
+   "longitude": -74.657805,
+   "source": "princeton-campus-map:poi:1193"
+  },
+  {
+   "id": "brown-hall",
+   "name": "Brown Hall",
+   "aliases": [
+    "Brown"
+   ],
+   "category": "academic",
+   "latitude": 40.346338,
+   "longitude": -74.657976,
+   "source": "princeton-campus-map:poi:179"
+  },
+  {
+   "id": "building-4-lower-harrison-street",
+   "name": "Building 4 Lower Harrison Street",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.340409,
+   "longitude": -74.6355,
+   "source": "princeton-campus-map:poi:439"
+  },
+  {
+   "id": "bunn",
+   "name": "Bunn",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.334889,
+   "longitude": -74.643783,
+   "source": "princeton-campus-map:poi:431"
+  },
+  {
+   "id": "butler-residential-college",
+   "name": "Butler Residential College",
+   "aliases": [
+    "Butler College"
+   ],
+   "category": "residential",
+   "latitude": 40.344083,
+   "longitude": -74.656149,
+   "source": "princeton-campus-map:poi:801"
+  },
+  {
+   "id": "buyers-hall",
+   "name": "Buyers Hall",
+   "aliases": [
+    "Buyers"
+   ],
+   "category": "academic",
+   "latitude": 40.347283,
+   "longitude": -74.660652,
+   "source": "princeton-campus-map:poi:401"
+  },
+  {
+   "id": "caldwell-field-house",
+   "name": "Caldwell Field House",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.344307,
+   "longitude": -74.648327,
+   "source": "princeton-campus-map:poi:97"
+  },
+  {
+   "id": "campbell-field",
+   "name": "Campbell Field",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.345545,
+   "longitude": -74.647085,
+   "source": "princeton-campus-map:poi:1475"
+  },
+  {
+   "id": "campbell-hall",
+   "name": "Campbell Hall",
+   "aliases": [
+    "Campbell"
+   ],
+   "category": "academic",
+   "latitude": 40.348111,
+   "longitude": -74.661291,
+   "source": "princeton-campus-map:poi:321"
+  },
+  {
+   "id": "campus-club",
+   "name": "Campus Club",
+   "aliases": [
+    "Campus"
+   ],
+   "category": "academic",
+   "latitude": 40.347577,
+   "longitude": -74.654434,
+   "source": "princeton-campus-map:poi:51"
+  },
+  {
+   "id": "campus-recreation",
+   "name": "Campus Recreation",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.345428,
+   "longitude": -74.658676,
+   "source": "princeton-campus-map:poi:1148"
+  },
+  {
+   "id": "cannon-green",
+   "name": "Cannon Green",
+   "aliases": [],
+   "category": "other",
+   "latitude": 40.348203,
+   "longitude": -74.659089,
+   "source": "princeton-campus-map:poi:2308"
+  },
+  {
+   "id": "cap-gown",
+   "name": "Cap & Gown Club",
+   "aliases": [
+    "Cap & Gown"
+   ],
+   "category": "social",
+   "latitude": 40.348336,
+   "longitude": -74.651008,
+   "source": "princeton-campus-map:poi:3"
+  },
+  {
+   "id": "carl-a-fields-center-for-equality-and-cultural-understanding",
+   "name": "Carl A. Fields Center for Equality and Cultural Understanding",
+   "aliases": [
+    "Carl A. Fields Center"
+   ],
+   "category": "academic",
+   "latitude": 40.349158,
+   "longitude": -74.651743,
+   "source": "princeton-campus-map:poi:1192"
+  },
+  {
+   "id": "center-for-digital-humanities",
+   "name": "Center for Digital Humanities",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.349614,
+   "longitude": -74.657349,
+   "source": "princeton-campus-map:poi:3235"
+  },
+  {
+   "id": "center-for-jewish-life",
+   "name": "Center for Jewish Life",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346671,
+   "longitude": -74.653615,
+   "source": "princeton-campus-map:poi:1191"
+  },
+  {
+   "id": "center-for-jewish-life-dining-hall",
+   "name": "Center for Jewish Life Dining Hall",
+   "aliases": [
+    "Center for Jewish Life"
+   ],
+   "category": "dining",
+   "latitude": 40.346671,
+   "longitude": -74.653615,
+   "source": "princeton-campus-map:poi:827"
+  },
+  {
+   "id": "chancellor-green",
+   "name": "Chancellor Green",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.349065,
+   "longitude": -74.65859,
+   "source": "princeton-campus-map:poi:155"
+  },
+  {
+   "id": "charter",
+   "name": "Charter Club",
+   "aliases": [
+    "Charter"
+   ],
+   "category": "social",
+   "latitude": 40.34879,
+   "longitude": -74.650026,
+   "source": "princeton-campus-map:poi:132"
+  },
+  {
+   "id": "chemistry-cafe",
+   "name": "Chemistry CaFe",
+   "aliases": [],
+   "category": "dining",
+   "latitude": 40.344016,
+   "longitude": -74.650691,
+   "source": "princeton-campus-map:poi:825"
+  },
+  {
+   "id": "chilled-water-plant",
+   "name": "Chilled Water Plant",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.34182,
+   "longitude": -74.656644,
+   "source": "princeton-campus-map:poi:210"
+  },
+  {
+   "id": "choi-dining-hall-yeh-college-new-college-west",
+   "name": "Choi Dining Hall - Yeh College/New College West",
+   "aliases": [
+    "Choi Dining Hall"
+   ],
+   "category": "dining",
+   "latitude": 40.342169,
+   "longitude": -74.65396,
+   "source": "princeton-campus-map:poi:823"
+  },
+  {
+   "id": "clarke-field",
+   "name": "Clarke Field",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.346441,
+   "longitude": -74.648088,
+   "source": "princeton-campus-map:poi:1479"
+  },
+  {
+   "id": "class-of-1887-boathouse",
+   "name": "Class of 1887 Boathouse",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.339512,
+   "longitude": -74.650671,
+   "source": "princeton-campus-map:poi:186"
+  },
+  {
+   "id": "class-of-1970-theatre",
+   "name": "Class of 1970 Theatre",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.34366,
+   "longitude": -74.657387,
+   "source": "princeton-campus-map:poi:1472"
+  },
+  {
+   "id": "class-of-1986-fitness-and-wellness-center",
+   "name": "Class of 1986 Fitness and Wellness Center",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.345275,
+   "longitude": -74.658157,
+   "source": "princeton-campus-map:poi:3267"
+  },
+  {
+   "id": "cleveland-tower",
+   "name": "Cleveland Tower",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.340573,
+   "longitude": -74.664651,
+   "source": "princeton-campus-map:poi:1546"
+  },
+  {
+   "id": "clio-hall",
+   "name": "Clio Hall",
+   "aliases": [
+    "Clio"
+   ],
+   "category": "academic",
+   "latitude": 40.347669,
+   "longitude": -74.659131,
+   "source": "princeton-campus-map:poi:313"
+  },
+  {
+   "id": "cloister",
+   "name": "Cloister Club",
+   "aliases": [
+    "Cloister"
+   ],
+   "category": "social",
+   "latitude": 40.348619,
+   "longitude": -74.65056,
+   "source": "princeton-campus-map:poi:103"
+  },
+  {
+   "id": "club-sports",
+   "name": "Club Sports",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.345428,
+   "longitude": -74.658676,
+   "source": "princeton-campus-map:poi:1190"
+  },
+  {
+   "id": "cogeneration-plant",
+   "name": "Cogeneration Plant",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.341501,
+   "longitude": -74.657227,
+   "source": "princeton-campus-map:poi:207"
+  },
+  {
+   "id": "colonial",
+   "name": "Colonial Club",
+   "aliases": [
+    "Colonial"
+   ],
+   "category": "social",
+   "latitude": 40.348856,
+   "longitude": -74.65282,
+   "source": "princeton-campus-map:poi:141"
+  },
+  {
+   "id": "community-hall",
+   "name": "Community Hall",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.344183,
+   "longitude": -74.657644,
+   "source": "princeton-campus-map:poi:94"
+  },
+  {
+   "id": "community-house",
+   "name": "Community House",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.349158,
+   "longitude": -74.651743,
+   "source": "princeton-campus-map:poi:1189"
+  },
+  {
+   "id": "computer-science",
+   "name": "Computer Science",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.350124,
+   "longitude": -74.652183,
+   "source": "princeton-campus-map:poi:232"
+  },
+  {
+   "id": "corwin-hall",
+   "name": "Corwin Hall",
+   "aliases": [
+    "Corwin"
+   ],
+   "category": "academic",
+   "latitude": 40.349014,
+   "longitude": -74.654306,
+   "source": "princeton-campus-map:poi:145"
+  },
+  {
+   "id": "cotsen-children-s-library",
+   "name": "Cotsen Children's Library",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.349614,
+   "longitude": -74.657349,
+   "source": "princeton-campus-map:poi:1124"
+  },
+  {
+   "id": "cottage",
+   "name": "Cottage Club",
+   "aliases": [
+    "Cottage"
+   ],
+   "category": "social",
+   "latitude": 40.34832,
+   "longitude": -74.651737,
+   "source": "princeton-campus-map:poi:84"
+  },
+  {
+   "id": "courtyard-annex",
+   "name": "Courtyard Annex",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.341403,
+   "longitude": -74.660468,
+   "source": "princeton-campus-map:poi:3257"
+  },
+  {
+   "id": "cross-country",
+   "name": "Cross Country",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.343385,
+   "longitude": -74.648652,
+   "source": "princeton-campus-map:poi:1187"
+  },
+  {
+   "id": "cross-country-course",
+   "name": "Cross Country Course",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.337065,
+   "longitude": -74.640278,
+   "source": "princeton-campus-map:poi:5908"
+  },
+  {
+   "id": "cuyler-hall",
+   "name": "Cuyler Hall",
+   "aliases": [
+    "Cuyler"
+   ],
+   "category": "academic",
+   "latitude": 40.345954,
+   "longitude": -74.657445,
+   "source": "princeton-campus-map:poi:175"
+  },
+  {
+   "id": "cynthia-lynn-paul-94-field",
+   "name": "Cynthia Lynn Paul ’94 Field",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.338116,
+   "longitude": -74.6418,
+   "source": "princeton-campus-map:poi:5904"
+  },
+  {
+   "id": "data-and-statistical-services-library",
+   "name": "Data and Statistical Services Library",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.349614,
+   "longitude": -74.657349,
+   "source": "princeton-campus-map:poi:1123"
+  },
+  {
+   "id": "davis",
+   "name": "Davis",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.333133,
+   "longitude": -74.644609,
+   "source": "princeton-campus-map:poi:423"
+  },
+  {
+   "id": "davis-international-center",
+   "name": "Davis International Center",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.349267,
+   "longitude": -74.654863,
+   "source": "princeton-campus-map:poi:1186"
+  },
+  {
+   "id": "dbar",
+   "name": "Dbar",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.340801,
+   "longitude": -74.665445,
+   "source": "princeton-campus-map:poi:1145"
+  },
+  {
+   "id": "denunzio-pool",
+   "name": "DeNunzio Pool",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.343894,
+   "longitude": -74.647404,
+   "source": "princeton-campus-map:poi:396"
+  },
+  {
+   "id": "department-of-art-archaeology",
+   "name": "Department of Art & Archaeology",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.347462,
+   "longitude": -74.658104,
+   "source": "princeton-campus-map:poi:5930"
+  },
+  {
+   "id": "dickinson-hall",
+   "name": "Dickinson Hall",
+   "aliases": [
+    "Dickinson"
+   ],
+   "category": "academic",
+   "latitude": 40.34888,
+   "longitude": -74.656197,
+   "source": "princeton-campus-map:poi:153"
+  },
+  {
+   "id": "dillon-gym",
+   "name": "Dillon Gym",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.345477,
+   "longitude": -74.658758,
+   "source": "princeton-campus-map:poi:359"
+  },
+  {
+   "id": "dinky-bar-kitchen",
+   "name": "Dinky Bar & Kitchen",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.343904,
+   "longitude": -74.659628,
+   "source": "princeton-campus-map:poi:311"
+  },
+  {
+   "id": "dod-hall",
+   "name": "Dod Hall",
+   "aliases": [
+    "Dod"
+   ],
+   "category": "academic",
+   "latitude": 40.346791,
+   "longitude": -74.658657,
+   "source": "princeton-campus-map:poi:388"
+  },
+  {
+   "id": "dodds-auditorium",
+   "name": "Dodds Auditorium",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.348411,
+   "longitude": -74.654723,
+   "source": "princeton-campus-map:poi:1471"
+  },
+  {
+   "id": "dodge-hall",
+   "name": "Dodge Hall",
+   "aliases": [
+    "Dodge"
+   ],
+   "category": "academic",
+   "latitude": 40.347925,
+   "longitude": -74.657923,
+   "source": "princeton-campus-map:poi:70"
+  },
+  {
+   "id": "east-asian-library",
+   "name": "East Asian Library",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.346734,
+   "longitude": -74.655155,
+   "source": "princeton-campus-map:poi:1130"
+  },
+  {
+   "id": "east-baker",
+   "name": "East Baker",
+   "aliases": [
+    "E Baker"
+   ],
+   "category": "academic",
+   "latitude": 40.343537,
+   "longitude": -74.657769,
+   "source": "princeton-campus-map:poi:75"
+  },
+  {
+   "id": "east-pyne-hall",
+   "name": "East Pyne Hall",
+   "aliases": [
+    "East Pyne"
+   ],
+   "category": "academic",
+   "latitude": 40.348793,
+   "longitude": -74.658462,
+   "source": "princeton-campus-map:poi:414"
+  },
+  {
+   "id": "eden-way-substation",
+   "name": "Eden Way Substation",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.3369,
+   "longitude": -74.634002,
+   "source": "princeton-campus-map:poi:294"
+  },
+  {
+   "id": "edwards-hall",
+   "name": "Edwards Hall",
+   "aliases": [
+    "Edwards"
+   ],
+   "category": "academic",
+   "latitude": 40.347145,
+   "longitude": -74.659278,
+   "source": "princeton-campus-map:poi:390"
+  },
+  {
+   "id": "effron-music",
+   "name": "Effron Music",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.342577,
+   "longitude": -74.659226,
+   "source": "princeton-campus-map:poi:538"
+  },
+  {
+   "id": "engineering-library",
+   "name": "Engineering Library",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.345803,
+   "longitude": -74.65226,
+   "source": "princeton-campus-map:poi:1129"
+  },
+  {
+   "id": "engineering-quadrangle",
+   "name": "Engineering Quadrangle",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.350644,
+   "longitude": -74.651001,
+   "source": "princeton-campus-map:poi:1547"
+  },
+  {
+   "id": "equad-cafe",
+   "name": "EQuad Cafe",
+   "aliases": [],
+   "category": "dining",
+   "latitude": 40.35045,
+   "longitude": -74.651383,
+   "source": "princeton-campus-map:poi:824"
+  },
+  {
+   "id": "feinberg-hall",
+   "name": "Feinberg Hall",
+   "aliases": [
+    "Feinberg"
+   ],
+   "category": "academic",
+   "latitude": 40.345798,
+   "longitude": -74.656516,
+   "source": "princeton-campus-map:poi:159"
+  },
+  {
+   "id": "fine-collaboration-hub",
+   "name": "Fine Collaboration Hub",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.345803,
+   "longitude": -74.65226,
+   "source": "princeton-campus-map:poi:3227"
+  },
+  {
+   "id": "fine-hall",
+   "name": "Fine Hall",
+   "aliases": [
+    "Fine"
+   ],
+   "category": "academic",
+   "latitude": 40.34574,
+   "longitude": -74.651988,
+   "source": "princeton-campus-map:poi:160"
+  },
+  {
+   "id": "fine-visualization-lab",
+   "name": "Fine Visualization Lab",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.346166,
+   "longitude": -74.652838,
+   "source": "princeton-campus-map:poi:3237"
+  },
+  {
+   "id": "finney-field",
+   "name": "Finney Field",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.345347,
+   "longitude": -74.647777,
+   "source": "princeton-campus-map:poi:1481"
+  },
+  {
+   "id": "firestone-library",
+   "name": "Firestone Library",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.3495,
+   "longitude": -74.657343,
+   "source": "princeton-campus-map:poi:1126"
+  },
+  {
+   "id": "firestone-library-reference-desk",
+   "name": "Firestone Library Reference Desk",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.349614,
+   "longitude": -74.657349,
+   "source": "princeton-campus-map:poi:3228"
+  },
+  {
+   "id": "fisher",
+   "name": "Fisher",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.344663,
+   "longitude": -74.658219,
+   "source": "princeton-campus-map:poi:417"
+  },
+  {
+   "id": "fisher-hall",
+   "name": "Fisher Hall",
+   "aliases": [
+    "Fisher"
+   ],
+   "category": "academic",
+   "latitude": 40.348499,
+   "longitude": -74.654045,
+   "source": "princeton-campus-map:poi:100"
+  },
+  {
+   "id": "fitzrandolph-gate",
+   "name": "FitzRandolph Gate",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.349531,
+   "longitude": -74.659688,
+   "source": "princeton-campus-map:poi:600"
+  },
+  {
+   "id": "food-gallery-at-frist",
+   "name": "Food Gallery at Frist",
+   "aliases": [
+    "Frist Gallery"
+   ],
+   "category": "dining",
+   "latitude": 40.346734,
+   "longitude": -74.655155,
+   "source": "princeton-campus-map:poi:821"
+  },
+  {
+   "id": "football",
+   "name": "Football",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.345767,
+   "longitude": -74.649968,
+   "source": "princeton-campus-map:poi:1185"
+  },
+  {
+   "id": "forbes",
+   "name": "Forbes",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.341885,
+   "longitude": -74.661011,
+   "source": "princeton-campus-map:poi:41"
+  },
+  {
+   "id": "forbes-college-black-box",
+   "name": "Forbes College Black Box",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.342146,
+   "longitude": -74.661155,
+   "source": "princeton-campus-map:poi:1469"
+  },
+  {
+   "id": "forbes-college-dining-hall",
+   "name": "Forbes College Dining Hall",
+   "aliases": [],
+   "category": "dining",
+   "latitude": 40.342146,
+   "longitude": -74.661155,
+   "source": "princeton-campus-map:poi:822"
+  },
+  {
+   "id": "forbes-residential-college",
+   "name": "Forbes Residential College",
+   "aliases": [
+    "Forbes College"
+   ],
+   "category": "residential",
+   "latitude": 40.34236,
+   "longitude": -74.661078,
+   "source": "princeton-campus-map:poi:1431"
+  },
+  {
+   "id": "foulke-hall",
+   "name": "Foulke Hall",
+   "aliases": [
+    "Foulke"
+   ],
+   "category": "academic",
+   "latitude": 40.346338,
+   "longitude": -74.660921,
+   "source": "princeton-campus-map:poi:370"
+  },
+  {
+   "id": "frelinghuysen-field",
+   "name": "Frelinghuysen Field",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.344522,
+   "longitude": -74.64948,
+   "source": "princeton-campus-map:poi:1482"
+  },
+  {
+   "id": "freshman-herald",
+   "name": "Freshman Herald",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346506,
+   "longitude": -74.661173,
+   "source": "princeton-campus-map:poi:1184"
+  },
+  {
+   "id": "frick-chemistry-laboratory",
+   "name": "Frick Chemistry Laboratory",
+   "aliases": [
+    "Frick"
+   ],
+   "category": "academic",
+   "latitude": 40.344027,
+   "longitude": -74.650716,
+   "source": "princeton-campus-map:poi:98"
+  },
+  {
+   "id": "friend-center",
+   "name": "Friend Center",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.350286,
+   "longitude": -74.652784,
+   "source": "princeton-campus-map:poi:90"
+  },
+  {
+   "id": "frist-campus-center",
+   "name": "Frist Campus Center",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346723,
+   "longitude": -74.655146,
+   "source": "princeton-campus-map:poi:193"
+  },
+  {
+   "id": "frist-film-performance-theatre",
+   "name": "Frist Film/Performance Theatre",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.346734,
+   "longitude": -74.655155,
+   "source": "princeton-campus-map:poi:1468"
+  },
+  {
+   "id": "frist-health-center",
+   "name": "Frist Health Center",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.345243,
+   "longitude": -74.655244,
+   "source": "princeton-campus-map:poi:5880"
+  },
+  {
+   "id": "frist-welcome-desk",
+   "name": "Frist Welcome Desk",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346734,
+   "longitude": -74.655155,
+   "source": "princeton-campus-map:poi:1183"
+  },
+  {
+   "id": "furth-plasma-physics-library",
+   "name": "Furth Plasma Physics Library",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.350066,
+   "longitude": -74.603464,
+   "source": "princeton-campus-map:poi:1119"
+  },
+  {
+   "id": "garden-room",
+   "name": "Garden Room",
+   "aliases": [],
+   "category": "dining",
+   "latitude": 40.34708,
+   "longitude": -74.656578,
+   "source": "princeton-campus-map:poi:809"
+  },
+  {
+   "id": "gas-dynamics",
+   "name": "Gas Dynamics",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.345697,
+   "longitude": -74.614328,
+   "source": "princeton-campus-map:poi:299"
+  },
+  {
+   "id": "gbm-office",
+   "name": "GBM Office",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.340375,
+   "longitude": -74.653157,
+   "source": "princeton-campus-map:poi:198"
+  },
+  {
+   "id": "gender-sexuality-resource-center",
+   "name": "Gender Sexuality Resource Center",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346734,
+   "longitude": -74.655155,
+   "source": "princeton-campus-map:poi:1175"
+  },
+  {
+   "id": "genomics-cafe",
+   "name": "Genomics Cafe",
+   "aliases": [],
+   "category": "dining",
+   "latitude": 40.344375,
+   "longitude": -74.653271,
+   "source": "princeton-campus-map:poi:808"
+  },
+  {
+   "id": "gfdl",
+   "name": "GFDL",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.345462,
+   "longitude": -74.616439,
+   "source": "princeton-campus-map:poi:296"
+  },
+  {
+   "id": "gfdl-generator",
+   "name": "GFDL Generator",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.345302,
+   "longitude": -74.616887,
+   "source": "princeton-campus-map:poi:536"
+  },
+  {
+   "id": "golf-performance",
+   "name": "Golf Performance",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.334028,
+   "longitude": -74.659462,
+   "source": "princeton-campus-map:poi:534"
+  },
+  {
+   "id": "graduate-college-dining-hall",
+   "name": "Graduate College Dining Hall",
+   "aliases": [],
+   "category": "dining",
+   "latitude": 40.340801,
+   "longitude": -74.665445,
+   "source": "princeton-campus-map:poi:807"
+  },
+  {
+   "id": "graduate-residential-college",
+   "name": "Graduate Residential College",
+   "aliases": [
+    "Graduate College"
+   ],
+   "category": "residential",
+   "latitude": 40.340648,
+   "longitude": -74.666356,
+   "source": "princeton-campus-map:poi:1915"
+  },
+  {
+   "id": "graduate-student-government-gsg",
+   "name": "Graduate Student Government (GSG)",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346734,
+   "longitude": -74.655155,
+   "source": "princeton-campus-map:poi:1181"
+  },
+  {
+   "id": "green-hall",
+   "name": "Green Hall",
+   "aliases": [
+    "Green"
+   ],
+   "category": "academic",
+   "latitude": 40.349921,
+   "longitude": -74.655785,
+   "source": "princeton-campus-map:poi:118"
+  },
+  {
+   "id": "greenhouses-nursery",
+   "name": "Greenhouses & Nursery",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.34065,
+   "longitude": -74.636166,
+   "source": "princeton-campus-map:poi:442"
+  },
+  {
+   "id": "grousbeck",
+   "name": "Grousbeck",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.341828,
+   "longitude": -74.653897,
+   "source": "princeton-campus-map:poi:594"
+  },
+  {
+   "id": "gym-701-carnegie-center",
+   "name": "Gym - 701 Carnegie Center",
+   "aliases": [
+    "Gym"
+   ],
+   "category": "athletic",
+   "latitude": 40.323753,
+   "longitude": -74.649201,
+   "source": "princeton-campus-map:poi:3260"
+  },
+  {
+   "id": "haaga-house",
+   "name": "Haaga House",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.33977,
+   "longitude": -74.640222,
+   "source": "princeton-campus-map:poi:5903"
+  },
+  {
+   "id": "hagan-studio",
+   "name": "Hagan Studio",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.350679,
+   "longitude": -74.654896,
+   "source": "princeton-campus-map:poi:1466"
+  },
+  {
+   "id": "hamilton-hall",
+   "name": "Hamilton Hall",
+   "aliases": [
+    "Hamilton"
+   ],
+   "category": "academic",
+   "latitude": 40.348139,
+   "longitude": -74.66219,
+   "source": "princeton-campus-map:poi:330"
+  },
+  {
+   "id": "hamilton-murray-theater",
+   "name": "Hamilton Murray Theater",
+   "aliases": [
+    "Murray Theatre"
+   ],
+   "category": "social",
+   "latitude": 40.348013,
+   "longitude": -74.657673,
+   "source": "princeton-campus-map:poi:1465"
+  },
+  {
+   "id": "hargadon-hall",
+   "name": "Hargadon Hall",
+   "aliases": [
+    "Hargadon"
+   ],
+   "category": "academic",
+   "latitude": 40.34388,
+   "longitude": -74.658435,
+   "source": "princeton-campus-map:poi:310"
+  },
+  {
+   "id": "hariri",
+   "name": "Hariri",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.342806,
+   "longitude": -74.654148,
+   "source": "princeton-campus-map:poi:596"
+  },
+  {
+   "id": "helm",
+   "name": "Helm",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.336553,
+   "longitude": -74.655474,
+   "source": "princeton-campus-map:poi:57"
+  },
+  {
+   "id": "henry-hall",
+   "name": "Henry Hall",
+   "aliases": [
+    "Henry"
+   ],
+   "category": "academic",
+   "latitude": 40.345836,
+   "longitude": -74.660649,
+   "source": "princeton-campus-map:poi:357"
+  },
+  {
+   "id": "henry-house",
+   "name": "Henry House",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.349462,
+   "longitude": -74.658959,
+   "source": "princeton-campus-map:poi:204"
+  },
+  {
+   "id": "historical-society-of-princeton",
+   "name": "Historical Society of Princeton",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.350488,
+   "longitude": -74.657592,
+   "source": "princeton-campus-map:poi:1180"
+  },
+  {
+   "id": "hobey-baker-rink",
+   "name": "Hobey Baker Rink",
+   "aliases": [
+    "Baker Rink"
+   ],
+   "category": "academic",
+   "latitude": 40.342897,
+   "longitude": -74.657796,
+   "source": "princeton-campus-map:poi:68"
+  },
+  {
+   "id": "hobey-baker-rink-student-athlete-facilities",
+   "name": "Hobey Baker Rink Student Athlete Facilities",
+   "aliases": [
+    "Student Athlete Facilities"
+   ],
+   "category": "academic",
+   "latitude": 40.342927,
+   "longitude": -74.657389,
+   "source": "princeton-campus-map:poi:3263"
+  },
+  {
+   "id": "hobson-college",
+   "name": "Hobson College",
+   "aliases": [],
+   "category": "residential",
+   "latitude": 40.345261,
+   "longitude": -74.656587,
+   "source": "princeton-campus-map:poi:1914"
+  },
+  {
+   "id": "holder-hall",
+   "name": "Holder Hall",
+   "aliases": [
+    "Holder"
+   ],
+   "category": "academic",
+   "latitude": 40.348355,
+   "longitude": -74.661447,
+   "source": "princeton-campus-map:poi:413"
+  },
+  {
+   "id": "hoyt-laboratory",
+   "name": "Hoyt Laboratory",
+   "aliases": [
+    "Hoyt"
+   ],
+   "category": "academic",
+   "latitude": 40.349659,
+   "longitude": -74.65463,
+   "source": "princeton-campus-map:poi:14"
+  },
+  {
+   "id": "hpcrc",
+   "name": "HPCRC",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346121,
+   "longitude": -74.616068,
+   "source": "princeton-campus-map:poi:301"
+  },
+  {
+   "id": "hurley-gallery",
+   "name": "Hurley Gallery",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.342728,
+   "longitude": -74.659712,
+   "source": "princeton-campus-map:poi:1463"
+  },
+  {
+   "id": "icahn",
+   "name": "Icahn",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.344399,
+   "longitude": -74.653294,
+   "source": "princeton-campus-map:poi:109"
+  },
+  {
+   "id": "indoor-athletics-jadwin-gym",
+   "name": "Indoor Athletics - Jadwin Gym",
+   "aliases": [
+    "Indoor Athletics"
+   ],
+   "category": "athletic",
+   "latitude": 40.343385,
+   "longitude": -74.648652,
+   "source": "princeton-campus-map:poi:5875"
+  },
+  {
+   "id": "indoor-baseball-jadwin-gym",
+   "name": "Indoor Baseball - Jadwin Gym",
+   "aliases": [
+    "Indoor Baseball"
+   ],
+   "category": "athletic",
+   "latitude": 40.343385,
+   "longitude": -74.648652,
+   "source": "princeton-campus-map:poi:5877"
+  },
+  {
+   "id": "industrial-relations-section-library",
+   "name": "Industrial Relations Section Library",
+   "aliases": [
+    "Industrial Relations Section"
+   ],
+   "category": "library",
+   "latitude": 40.349267,
+   "longitude": -74.654863,
+   "source": "princeton-campus-map:poi:1117"
+  },
+  {
+   "id": "intramural-sports",
+   "name": "Intramural Sports",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.345428,
+   "longitude": -74.658676,
+   "source": "princeton-campus-map:poi:1140"
+  },
+  {
+   "id": "ivy",
+   "name": "Ivy Club",
+   "aliases": [
+    "Ivy"
+   ],
+   "category": "social",
+   "latitude": 40.348165,
+   "longitude": -74.652198,
+   "source": "princeton-campus-map:poi:83"
+  },
+  {
+   "id": "jadwin-gym",
+   "name": "Jadwin Gym",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.3434,
+   "longitude": -74.648646,
+   "source": "princeton-campus-map:poi:79"
+  },
+  {
+   "id": "jadwin-hall",
+   "name": "Jadwin Hall",
+   "aliases": [
+    "Jadwin"
+   ],
+   "category": "academic",
+   "latitude": 40.34487,
+   "longitude": -74.651802,
+   "source": "princeton-campus-map:poi:130"
+  },
+  {
+   "id": "james-stewart-film-theater",
+   "name": "James Stewart Film Theater",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.350679,
+   "longitude": -74.654896,
+   "source": "princeton-campus-map:poi:1462"
+  },
+  {
+   "id": "johnstone",
+   "name": "Johnstone",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.333865,
+   "longitude": -74.643632,
+   "source": "princeton-campus-map:poi:427"
+  },
+  {
+   "id": "joline-hall",
+   "name": "Joline Hall",
+   "aliases": [
+    "Joline"
+   ],
+   "category": "academic",
+   "latitude": 40.347883,
+   "longitude": -74.662069,
+   "source": "princeton-campus-map:poi:320"
+  },
+  {
+   "id": "jones-hall",
+   "name": "Jones Hall",
+   "aliases": [
+    "Jones"
+   ],
+   "category": "academic",
+   "latitude": 40.346431,
+   "longitude": -74.655863,
+   "source": "princeton-campus-map:poi:189"
+  },
+  {
+   "id": "jose-e-feliciano-hall",
+   "name": "José E. Feliciano Hall",
+   "aliases": [
+    "José E. Feliciano"
+   ],
+   "category": "academic",
+   "latitude": 40.341144,
+   "longitude": -74.655149,
+   "source": "princeton-campus-map:poi:592"
+  },
+  {
+   "id": "julis-romo-rabinowitz",
+   "name": "Julis Romo Rabinowitz",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.349135,
+   "longitude": -74.655402,
+   "source": "princeton-campus-map:poi:11"
+  },
+  {
+   "id": "kanji-hall",
+   "name": "Kanji Hall",
+   "aliases": [
+    "Kanji"
+   ],
+   "category": "academic",
+   "latitude": 40.342094,
+   "longitude": -74.65531,
+   "source": "princeton-campus-map:poi:590"
+  },
+  {
+   "id": "keller-center-for-innovation-in-engineering-education",
+   "name": "Keller Center for Innovation in Engineering Education",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.350406,
+   "longitude": -74.650684,
+   "source": "princeton-campus-map:poi:1179"
+  },
+  {
+   "id": "keller-center-makerspace",
+   "name": "Keller Center Makerspace",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.350657,
+   "longitude": -74.649365,
+   "source": "princeton-campus-map:poi:3246"
+  },
+  {
+   "id": "kwanza-jones-hall",
+   "name": "Kwanza Jones Hall",
+   "aliases": [
+    "Kwanza Jones"
+   ],
+   "category": "academic",
+   "latitude": 40.34164,
+   "longitude": -74.655232,
+   "source": "princeton-campus-map:poi:591"
+  },
+  {
+   "id": "lab-1",
+   "name": "Lab 1",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.353715,
+   "longitude": -74.718807,
+   "source": "princeton-campus-map:poi:531"
+  },
+  {
+   "id": "lab-2",
+   "name": "Lab 2",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.353585,
+   "longitude": -74.720179,
+   "source": "princeton-campus-map:poi:530"
+  },
+  {
+   "id": "lab-3",
+   "name": "Lab 3",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.353486,
+   "longitude": -74.719187,
+   "source": "princeton-campus-map:poi:537"
+  },
+  {
+   "id": "lab-4",
+   "name": "Lab 4",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.353856,
+   "longitude": -74.719034,
+   "source": "princeton-campus-map:poi:532"
+  },
+  {
+   "id": "labyrinth-book-store",
+   "name": "Labyrinth Book Store",
+   "aliases": [
+    "Labyrinth Books"
+   ],
+   "category": "academic",
+   "latitude": 40.350129,
+   "longitude": -74.658805,
+   "source": "princeton-campus-map:poi:1160"
+  },
+  {
+   "id": "lake-field",
+   "name": "Lake Field",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.341464,
+   "longitude": -74.648806,
+   "source": "princeton-campus-map:poi:1483"
+  },
+  {
+   "id": "laura-wooten-hall",
+   "name": "Laura Wooten Hall",
+   "aliases": [
+    "Laura Wooten"
+   ],
+   "category": "academic",
+   "latitude": 40.348073,
+   "longitude": -74.655565,
+   "source": "princeton-campus-map:poi:81"
+  },
+  {
+   "id": "lauritzen-hall",
+   "name": "Lauritzen Hall",
+   "aliases": [
+    "Lauritzen"
+   ],
+   "category": "academic",
+   "latitude": 40.343632,
+   "longitude": -74.658311,
+   "source": "princeton-campus-map:poi:385"
+  },
+  {
+   "id": "lee-music-room",
+   "name": "Lee Music Room",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.342606,
+   "longitude": -74.659213,
+   "source": "princeton-campus-map:poi:1461"
+  },
+  {
+   "id": "lenape-memorial-garden",
+   "name": "Lenape Memorial Garden",
+   "aliases": [],
+   "category": "other",
+   "latitude": 40.338916,
+   "longitude": -74.652878,
+   "source": "princeton-campus-map:poi:5924"
+  },
+  {
+   "id": "lenz-tennis-center",
+   "name": "Lenz Tennis Center",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.341664,
+   "longitude": -74.653184,
+   "source": "princeton-campus-map:poi:1484"
+  },
+  {
+   "id": "lewis-arts-complex",
+   "name": "Lewis Arts Complex",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.342458,
+   "longitude": -74.659499,
+   "source": "princeton-campus-map:poi:1544"
+  },
+  {
+   "id": "lewis-library",
+   "name": "Lewis Library",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.346188,
+   "longitude": -74.652683,
+   "source": "princeton-campus-map:poi:1116"
+  },
+  {
+   "id": "lewis-science-library",
+   "name": "Lewis Science Library",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.346166,
+   "longitude": -74.652838,
+   "source": "princeton-campus-map:poi:3236"
+  },
+  {
+   "id": "lewis-thomas-laboratory",
+   "name": "Lewis Thomas Laboratory",
+   "aliases": [
+    "Thomas"
+   ],
+   "category": "academic",
+   "latitude": 40.344968,
+   "longitude": -74.653808,
+   "source": "princeton-campus-map:poi:114"
+  },
+  {
+   "id": "library-technical-services",
+   "name": "Library Technical Services",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.324174,
+   "longitude": -74.639372,
+   "source": "princeton-campus-map:poi:1174"
+  },
+  {
+   "id": "little-hall",
+   "name": "Little Hall",
+   "aliases": [
+    "Little"
+   ],
+   "category": "academic",
+   "latitude": 40.346668,
+   "longitude": -74.659805,
+   "source": "princeton-campus-map:poi:389"
+  },
+  {
+   "id": "lockhart-hall",
+   "name": "Lockhart Hall",
+   "aliases": [
+    "Lockhart"
+   ],
+   "category": "academic",
+   "latitude": 40.346623,
+   "longitude": -74.661222,
+   "source": "princeton-campus-map:poi:387"
+  },
+  {
+   "id": "louis-a-simpson-international-building",
+   "name": "Louis A. Simpson International Building",
+   "aliases": [
+    "Louis A. Simpson"
+   ],
+   "category": "academic",
+   "latitude": 40.349274,
+   "longitude": -74.654853,
+   "source": "princeton-campus-map:poi:12"
+  },
+  {
+   "id": "lucas-gallery",
+   "name": "Lucas Gallery",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.350679,
+   "longitude": -74.654896,
+   "source": "princeton-campus-map:poi:1460"
+  },
+  {
+   "id": "maclean-house",
+   "name": "Maclean House",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.349118,
+   "longitude": -74.660202,
+   "source": "princeton-campus-map:poi:163"
+  },
+  {
+   "id": "macmillan",
+   "name": "MacMillan",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.342236,
+   "longitude": -74.657008,
+   "source": "princeton-campus-map:poi:211"
+  },
+  {
+   "id": "madison-hall",
+   "name": "Madison Hall",
+   "aliases": [
+    "Madison"
+   ],
+   "category": "academic",
+   "latitude": 40.348615,
+   "longitude": -74.662158,
+   "source": "princeton-campus-map:poi:115"
+  },
+  {
+   "id": "maeder-hall",
+   "name": "Maeder Hall",
+   "aliases": [
+    "Maeder"
+   ],
+   "category": "academic",
+   "latitude": 40.349203,
+   "longitude": -74.650848,
+   "source": "princeton-campus-map:poi:181"
+  },
+  {
+   "id": "maintenance-yard",
+   "name": "Maintenance Yard",
+   "aliases": [],
+   "category": "other",
+   "latitude": 40.33424,
+   "longitude": -74.644937,
+   "source": "princeton-campus-map:poi:2311"
+  },
+  {
+   "id": "mannion-hall",
+   "name": "Mannion Hall",
+   "aliases": [
+    "Mannion"
+   ],
+   "category": "academic",
+   "latitude": 40.341582,
+   "longitude": -74.653602,
+   "source": "princeton-campus-map:poi:593"
+  },
+  {
+   "id": "maps-geospatial-center",
+   "name": "Maps & Geospatial Center",
+   "aliases": [
+    "Map Collection"
+   ],
+   "category": "library",
+   "latitude": 40.346166,
+   "longitude": -74.652837,
+   "source": "princeton-campus-map:poi:1115"
+  },
+  {
+   "id": "marie-and-edward-matthews-53-acting-studio",
+   "name": "Marie and Edward Matthews '53 Acting Studio",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.350679,
+   "longitude": -74.654896,
+   "source": "princeton-campus-map:poi:1459"
+  },
+  {
+   "id": "marquand-library-of-art-and-archaeology",
+   "name": "Marquand Library of Art and Archaeology",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.349614,
+   "longitude": -74.657349,
+   "source": "princeton-campus-map:poi:1139"
+  },
+  {
+   "id": "mathey-college-dining-hall",
+   "name": "Mathey College Dining Hall",
+   "aliases": [],
+   "category": "dining",
+   "latitude": 40.348149,
+   "longitude": -74.66219,
+   "source": "princeton-campus-map:poi:820"
+  },
+  {
+   "id": "mathey-residential-college",
+   "name": "Mathey Residential College",
+   "aliases": [
+    "Mathey College"
+   ],
+   "category": "residential",
+   "latitude": 40.34771,
+   "longitude": -74.661655,
+   "source": "princeton-campus-map:poi:805"
+  },
+  {
+   "id": "matthews-theatre",
+   "name": "Matthews Theatre",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.344176,
+   "longitude": -74.660582,
+   "source": "princeton-campus-map:poi:1458"
+  },
+  {
+   "id": "mccarter-theatre",
+   "name": "McCarter Theatre",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.344176,
+   "longitude": -74.660582,
+   "source": "princeton-campus-map:poi:1457"
+  },
+  {
+   "id": "mccosh",
+   "name": "McCosh",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346023,
+   "longitude": -74.655436,
+   "source": "princeton-campus-map:poi:176"
+  },
+  {
+   "id": "mccosh-hall",
+   "name": "McCosh Hall",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.348306,
+   "longitude": -74.656503,
+   "source": "princeton-campus-map:poi:1448"
+  },
+  {
+   "id": "mcdonnell-hall",
+   "name": "McDonnell Hall",
+   "aliases": [
+    "McDonnell"
+   ],
+   "category": "academic",
+   "latitude": 40.345339,
+   "longitude": -74.65247,
+   "source": "princeton-campus-map:poi:139"
+  },
+  {
+   "id": "mcpartland",
+   "name": "McPartland",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.334108,
+   "longitude": -74.643307,
+   "source": "princeton-campus-map:poi:428"
+  },
+  {
+   "id": "mendel-music-library",
+   "name": "Mendel Music Library",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.347263,
+   "longitude": -74.655866,
+   "source": "princeton-campus-map:poi:1138"
+  },
+  {
+   "id": "meyers",
+   "name": "Meyers",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.333621,
+   "longitude": -74.643957,
+   "source": "princeton-campus-map:poi:426"
+  },
+  {
+   "id": "milberg-exhibition-gallery",
+   "name": "Milberg Exhibition Gallery",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.349614,
+   "longitude": -74.657349,
+   "source": "princeton-campus-map:poi:1456"
+  },
+  {
+   "id": "moffett-laboratory",
+   "name": "Moffett Laboratory",
+   "aliases": [
+    "Moffett"
+   ],
+   "category": "academic",
+   "latitude": 40.345652,
+   "longitude": -74.653892,
+   "source": "princeton-campus-map:poi:152"
+  },
+  {
+   "id": "moran",
+   "name": "Moran",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.334355,
+   "longitude": -74.642998,
+   "source": "princeton-campus-map:poi:429"
+  },
+  {
+   "id": "morrison-hall",
+   "name": "Morrison Hall",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.348033,
+   "longitude": -74.65974,
+   "source": "princeton-campus-map:poi:329"
+  },
+  {
+   "id": "morven-museum-and-gardens",
+   "name": "Morven Museum and Gardens",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.347788,
+   "longitude": -74.666916,
+   "source": "princeton-campus-map:poi:587"
+  },
+  {
+   "id": "mudd-manuscript-library",
+   "name": "Mudd Manuscript Library",
+   "aliases": [
+    "Mudd Library"
+   ],
+   "category": "library",
+   "latitude": 40.349607,
+   "longitude": -74.652039,
+   "source": "princeton-campus-map:poi:1137"
+  },
+  {
+   "id": "mullet",
+   "name": "Mullet",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.334718,
+   "longitude": -74.64352,
+   "source": "princeton-campus-map:poi:432"
+  },
+  {
+   "id": "murley-pivirotto-family-tower",
+   "name": "Murley-Pivirotto Family Tower",
+   "aliases": [
+    "Murley-Pivirotto"
+   ],
+   "category": "academic",
+   "latitude": 40.344005,
+   "longitude": -74.658368,
+   "source": "princeton-campus-map:poi:316"
+  },
+  {
+   "id": "murray-dodge-cafe",
+   "name": "Murray-Dodge Café",
+   "aliases": [],
+   "category": "dining",
+   "latitude": 40.347864,
+   "longitude": -74.657896,
+   "source": "princeton-campus-map:poi:3261"
+  },
+  {
+   "id": "myslik-field",
+   "name": "Myslik Field",
+   "aliases": [
+    "Sexton Field"
+   ],
+   "category": "athletic",
+   "latitude": 40.346034,
+   "longitude": -74.646036,
+   "source": "princeton-campus-map:poi:1491"
+  },
+  {
+   "id": "nassau-hall",
+   "name": "Nassau Hall",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.348714,
+   "longitude": -74.659323,
+   "source": "princeton-campus-map:poi:347"
+  },
+  {
+   "id": "nassau-herald",
+   "name": "Nassau Herald",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346506,
+   "longitude": -74.661173,
+   "source": "princeton-campus-map:poi:1222"
+  },
+  {
+   "id": "nassau-inn",
+   "name": "Nassau Inn",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.350479,
+   "longitude": -74.661413,
+   "source": "princeton-campus-map:poi:583"
+  },
+  {
+   "id": "nassau-presbyterian-church",
+   "name": "Nassau Presbyterian Church",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.348938,
+   "longitude": -74.66076,
+   "source": "princeton-campus-map:poi:588"
+  },
+  {
+   "id": "nassau-swim",
+   "name": "Nassau Swim",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.330684,
+   "longitude": -74.65868,
+   "source": "princeton-campus-map:poi:226"
+  },
+  {
+   "id": "neuroscience-institute",
+   "name": "Neuroscience Institute",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.343084,
+   "longitude": -74.652476,
+   "source": "princeton-campus-map:poi:2"
+  },
+  {
+   "id": "new-college-west",
+   "name": "New College West",
+   "aliases": [],
+   "category": "residential",
+   "latitude": 40.34186,
+   "longitude": -74.655268,
+   "source": "princeton-campus-map:poi:1912"
+  },
+  {
+   "id": "new-graduate-college",
+   "name": "New Graduate College",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.34107,
+   "longitude": -74.666082,
+   "source": "princeton-campus-map:poi:199"
+  },
+  {
+   "id": "new-south",
+   "name": "New South",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.343346,
+   "longitude": -74.658878,
+   "source": "princeton-campus-map:poi:377"
+  },
+  {
+   "id": "north-guard-gate",
+   "name": "North Guard Gate",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.348742,
+   "longitude": -74.660303,
+   "source": "princeton-campus-map:poi:383"
+  },
+  {
+   "id": "novogratz-bridge-year-program",
+   "name": "Novogratz Bridge Year Program",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.349267,
+   "longitude": -74.654863,
+   "source": "princeton-campus-map:poi:1194"
+  },
+  {
+   "id": "old-graduate-college",
+   "name": "Old Graduate College",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.340724,
+   "longitude": -74.665098,
+   "source": "princeton-campus-map:poi:289"
+  },
+  {
+   "id": "orange-key-guide-tours-service",
+   "name": "Orange Key Guide/Tours Service",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346734,
+   "longitude": -74.655155,
+   "source": "princeton-campus-map:poi:1221"
+  },
+  {
+   "id": "pace-center",
+   "name": "PACE Center",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346734,
+   "longitude": -74.655155,
+   "source": "princeton-campus-map:poi:1219"
+  },
+  {
+   "id": "palmer-house",
+   "name": "Palmer House",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.349042,
+   "longitude": -74.664278,
+   "source": "princeton-campus-map:poi:164"
+  },
+  {
+   "id": "palmer-square",
+   "name": "Palmer Square",
+   "aliases": [],
+   "category": "other",
+   "latitude": 40.350092,
+   "longitude": -74.661453,
+   "source": "princeton-campus-map:poi:2313"
+  },
+  {
+   "id": "pardee-field",
+   "name": "Pardee Field",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.343811,
+   "longitude": -74.653613,
+   "source": "princeton-campus-map:poi:1486"
+  },
+  {
+   "id": "patton-hall",
+   "name": "Patton Hall",
+   "aliases": [
+    "Patton"
+   ],
+   "category": "academic",
+   "latitude": 40.34543,
+   "longitude": -74.657541,
+   "source": "princeton-campus-map:poi:138"
+  },
+  {
+   "id": "peretsman-scully-hall",
+   "name": "Peretsman Scully Hall",
+   "aliases": [
+    "Peretsman Scully"
+   ],
+   "category": "academic",
+   "latitude": 40.343428,
+   "longitude": -74.652311,
+   "source": "princeton-campus-map:poi:541"
+  },
+  {
+   "id": "peyton-hall",
+   "name": "Peyton Hall",
+   "aliases": [
+    "Peyton"
+   ],
+   "category": "academic",
+   "latitude": 40.346549,
+   "longitude": -74.651684,
+   "source": "princeton-campus-map:poi:190"
+  },
+  {
+   "id": "plasma-physics-laboratory",
+   "name": "Plasma Physics Laboratory",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.349195,
+   "longitude": -74.600288,
+   "source": "princeton-campus-map:poi:1203"
+  },
+  {
+   "id": "plummer-field",
+   "name": "Plummer Field",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.342537,
+   "longitude": -74.653183,
+   "source": "princeton-campus-map:poi:1487"
+  },
+  {
+   "id": "poe-field",
+   "name": "Poe Field",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.343155,
+   "longitude": -74.655419,
+   "source": "princeton-campus-map:poi:1488"
+  },
+  {
+   "id": "porter-s-lodge",
+   "name": "Porter's Lodge",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.340801,
+   "longitude": -74.665445,
+   "source": "princeton-campus-map:poi:1217"
+  },
+  {
+   "id": "powers-field",
+   "name": "Powers Field",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.345734,
+   "longitude": -74.64996,
+   "source": "princeton-campus-map:poi:1489"
+  },
+  {
+   "id": "princeton-alumni-weekly-paw",
+   "name": "Princeton Alumni Weekly (PAW)",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.351318,
+   "longitude": -74.655151,
+   "source": "princeton-campus-map:poi:1216"
+  },
+  {
+   "id": "princeton-club-softball",
+   "name": "Princeton Club Softball",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.348468,
+   "longitude": -74.644086,
+   "source": "princeton-campus-map:poi:1171"
+  },
+  {
+   "id": "princeton-entrepreneurial-hub",
+   "name": "Princeton Entrepreneurial Hub",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.350254,
+   "longitude": -74.663401,
+   "source": "princeton-campus-map:poi:1170"
+  },
+  {
+   "id": "princeton-garden-theatre",
+   "name": "Princeton Garden Theatre",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.350768,
+   "longitude": -74.657615,
+   "source": "princeton-campus-map:poi:1455"
+  },
+  {
+   "id": "princeton-research-data-service",
+   "name": "Princeton Research Data Service",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.349614,
+   "longitude": -74.657349,
+   "source": "princeton-campus-map:poi:3229"
+  },
+  {
+   "id": "princeton-stadium",
+   "name": "Princeton Stadium",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346381,
+   "longitude": -74.650349,
+   "source": "princeton-campus-map:poi:510"
+  },
+  {
+   "id": "princeton-stadium-student-athlete-facilities",
+   "name": "Princeton Stadium Student Athlete Facilities",
+   "aliases": [
+    "Student Athlete Facilities"
+   ],
+   "category": "athletic",
+   "latitude": 40.345096,
+   "longitude": -74.64998,
+   "source": "princeton-campus-map:poi:3265"
+  },
+  {
+   "id": "princeton-student-agencies",
+   "name": "Princeton Student Agencies",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346506,
+   "longitude": -74.661173,
+   "source": "princeton-campus-map:poi:1169"
+  },
+  {
+   "id": "princeton-summer-sports-camps",
+   "name": "Princeton Summer Sports Camps",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.34545,
+   "longitude": -74.660911,
+   "source": "princeton-campus-map:poi:1168"
+  },
+  {
+   "id": "princeton-university-art-museum",
+   "name": "Princeton University Art Museum",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.347137,
+   "longitude": -74.657817,
+   "source": "princeton-campus-map:poi:1446"
+  },
+  {
+   "id": "princeton-university-art-museum-store",
+   "name": "Princeton University Art Museum Store",
+   "aliases": [
+    "Art Museum Store"
+   ],
+   "category": "academic",
+   "latitude": 40.349405,
+   "longitude": -74.661285,
+   "source": "princeton-campus-map:poi:546"
+  },
+  {
+   "id": "princeton-university-bulletin-pub",
+   "name": "Princeton University Bulletin (PUB)",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.349899,
+   "longitude": -74.663187,
+   "source": "princeton-campus-map:poi:1167"
+  },
+  {
+   "id": "princeton-university-chapel",
+   "name": "Princeton University Chapel",
+   "aliases": [
+    "University Chapel"
+   ],
+   "category": "academic",
+   "latitude": 40.348835,
+   "longitude": -74.656977,
+   "source": "princeton-campus-map:poi:144"
+  },
+  {
+   "id": "princeton-university-insignia-store",
+   "name": "Princeton University Insignia Store",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.350227,
+   "longitude": -74.658983,
+   "source": "princeton-campus-map:poi:1166"
+  },
+  {
+   "id": "princeton-university-investment-company-princo",
+   "name": "Princeton University Investment Company (PRINCO)",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.349899,
+   "longitude": -74.663187,
+   "source": "princeton-campus-map:poi:1165"
+  },
+  {
+   "id": "princeton-university-press",
+   "name": "Princeton University Press",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.349759,
+   "longitude": -74.653593,
+   "source": "princeton-campus-map:poi:1164"
+  },
+  {
+   "id": "princeton-university-store",
+   "name": "Princeton University Store",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.350325,
+   "longitude": -74.6591,
+   "source": "princeton-campus-map:poi:16"
+  },
+  {
+   "id": "prism-micro-nano-fabrication-laboratory",
+   "name": "PRISM Micro/Nano Fabrication Laboratory",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.350878,
+   "longitude": -74.650409,
+   "source": "princeton-campus-map:poi:1218"
+  },
+  {
+   "id": "procter-hall",
+   "name": "Procter Hall",
+   "aliases": [
+    "Procter"
+   ],
+   "category": "academic",
+   "latitude": 40.340414,
+   "longitude": -74.665344,
+   "source": "princeton-campus-map:poi:598"
+  },
+  {
+   "id": "prospect-gardens",
+   "name": "Prospect Gardens",
+   "aliases": [],
+   "category": "other",
+   "latitude": 40.346839,
+   "longitude": -74.656272,
+   "source": "princeton-campus-map:poi:2306"
+  },
+  {
+   "id": "prospect-house-association",
+   "name": "Prospect House Association",
+   "aliases": [
+    "Prospect House"
+   ],
+   "category": "academic",
+   "latitude": 40.347091,
+   "longitude": -74.656614,
+   "source": "princeton-campus-map:poi:1163"
+  },
+  {
+   "id": "public-policy-papers",
+   "name": "Public Policy Papers",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.349634,
+   "longitude": -74.65201,
+   "source": "princeton-campus-map:poi:1134"
+  },
+  {
+   "id": "pul-makerspace",
+   "name": "PUL Makerspace",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.345803,
+   "longitude": -74.65226,
+   "source": "princeton-campus-map:poi:3230"
+  },
+  {
+   "id": "pyne-hall",
+   "name": "Pyne Hall",
+   "aliases": [
+    "Pyne"
+   ],
+   "category": "academic",
+   "latitude": 40.345212,
+   "longitude": -74.659758,
+   "source": "princeton-campus-map:poi:346"
+  },
+  {
+   "id": "quadrangle",
+   "name": "Quadrangle Club",
+   "aliases": [
+    "Quadrangle"
+   ],
+   "category": "social",
+   "latitude": 40.348011,
+   "longitude": -74.652716,
+   "source": "princeton-campus-map:poi:71"
+  },
+  {
+   "id": "racquet-and-recreation-fieldhouse",
+   "name": "Racquet and Recreation Fieldhouse",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.3397,
+   "longitude": -74.642148,
+   "source": "princeton-campus-map:poi:5890"
+  },
+  {
+   "id": "recap",
+   "name": "RECAP",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.344754,
+   "longitude": -74.613945,
+   "source": "princeton-campus-map:poi:295"
+  },
+  {
+   "id": "research-collections-and-preservation-consortium-recap",
+   "name": "Research Collections and Preservation Consortium (ReCAP)",
+   "aliases": [
+    "Forrestal Annex Library"
+   ],
+   "category": "library",
+   "latitude": 40.344421,
+   "longitude": -74.613894,
+   "source": "princeton-campus-map:poi:1125"
+  },
+  {
+   "id": "richardson-auditorium-in-alexander-hall",
+   "name": "Richardson Auditorium in Alexander Hall",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.348347,
+   "longitude": -74.660594,
+   "source": "princeton-campus-map:poi:1454"
+  },
+  {
+   "id": "rickerson-field",
+   "name": "Rickerson Field",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.339614,
+   "longitude": -74.638625,
+   "source": "princeton-campus-map:poi:5905"
+  },
+  {
+   "id": "roberts-field-student-athlete-facilities",
+   "name": "Roberts Field Student Athlete Facilities",
+   "aliases": [
+    "Student Athlete Facilities"
+   ],
+   "category": "athletic",
+   "latitude": 40.34588,
+   "longitude": -74.646562,
+   "source": "princeton-campus-map:poi:3264"
+  },
+  {
+   "id": "roberts-stadium",
+   "name": "Roberts Stadium",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346608,
+   "longitude": -74.6464,
+   "source": "princeton-campus-map:poi:3168"
+  },
+  {
+   "id": "robertson-hall",
+   "name": "Robertson Hall",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.348412,
+   "longitude": -74.654708,
+   "source": "princeton-campus-map:poi:101"
+  },
+  {
+   "id": "rockefeller-college-dining-hall",
+   "name": "Rockefeller College Dining Hall",
+   "aliases": [],
+   "category": "dining",
+   "latitude": 40.34852,
+   "longitude": -74.662202,
+   "source": "princeton-campus-map:poi:819"
+  },
+  {
+   "id": "rockefeller-residential-college",
+   "name": "Rockefeller Residential College",
+   "aliases": [
+    "Rockefeller College"
+   ],
+   "category": "residential",
+   "latitude": 40.348569,
+   "longitude": -74.661737,
+   "source": "princeton-campus-map:poi:806"
+  },
+  {
+   "id": "rocky-mathey-theater",
+   "name": "Rocky/Mathey Theater",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.34852,
+   "longitude": -74.662202,
+   "source": "princeton-campus-map:poi:1453"
+  },
+  {
+   "id": "roots-ocean-prime",
+   "name": "Roots Ocean Prime",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.343311,
+   "longitude": -74.659381,
+   "source": "princeton-campus-map:poi:545"
+  },
+  {
+   "id": "sailing-pavilion-east",
+   "name": "Sailing Pavilion East",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.366722,
+   "longitude": -74.62589,
+   "source": "princeton-campus-map:poi:516"
+  },
+  {
+   "id": "sailing-pavilion-west",
+   "name": "Sailing Pavilion West",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.366561,
+   "longitude": -74.626041,
+   "source": "princeton-campus-map:poi:515"
+  },
+  {
+   "id": "sayre-hall",
+   "name": "Sayre Hall",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.344497,
+   "longitude": -74.615634,
+   "source": "princeton-campus-map:poi:297"
+  },
+  {
+   "id": "scheide-caldwell-house",
+   "name": "Scheide Caldwell House",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.349436,
+   "longitude": -74.658522,
+   "source": "princeton-campus-map:poi:44"
+  },
+  {
+   "id": "schultz-laboratory",
+   "name": "Schultz Laboratory",
+   "aliases": [
+    "Schultz"
+   ],
+   "category": "academic",
+   "latitude": 40.345381,
+   "longitude": -74.653963,
+   "source": "princeton-campus-map:poi:136"
+  },
+  {
+   "id": "scudder-plaza",
+   "name": "Scudder Plaza",
+   "aliases": [],
+   "category": "other",
+   "latitude": 40.348826,
+   "longitude": -74.654651,
+   "source": "princeton-campus-map:poi:2310"
+  },
+  {
+   "id": "sherrerd-field",
+   "name": "Sherrerd Field",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.341471,
+   "longitude": -74.651346,
+   "source": "princeton-campus-map:poi:1492"
+  },
+  {
+   "id": "sherrerd-green",
+   "name": "Sherrerd Green",
+   "aliases": [],
+   "category": "other",
+   "latitude": 40.347796,
+   "longitude": -74.656945,
+   "source": "princeton-campus-map:poi:2309"
+  },
+  {
+   "id": "sherrerd-hall",
+   "name": "Sherrerd Hall",
+   "aliases": [
+    "Sherrerd"
+   ],
+   "category": "academic",
+   "latitude": 40.349555,
+   "longitude": -74.652668,
+   "source": "princeton-campus-map:poi:65"
+  },
+  {
+   "id": "shultz-cafe",
+   "name": "Shultz Café",
+   "aliases": [],
+   "category": "dining",
+   "latitude": 40.348411,
+   "longitude": -74.654695,
+   "source": "princeton-campus-map:poi:3262"
+  },
+  {
+   "id": "soccer",
+   "name": "Soccer",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.342541,
+   "longitude": -74.6532,
+   "source": "princeton-campus-map:poi:1213"
+  },
+  {
+   "id": "society-of-fellows-in-the-liberal-arts",
+   "name": "Society of Fellows in the Liberal Arts",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.349408,
+   "longitude": -74.658931,
+   "source": "princeton-campus-map:poi:1212"
+  },
+  {
+   "id": "softball",
+   "name": "Softball",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.34239,
+   "longitude": -74.655305,
+   "source": "princeton-campus-map:poi:1211"
+  },
+  {
+   "id": "south-baker-hall",
+   "name": "South Baker Hall",
+   "aliases": [
+    "S Baker"
+   ],
+   "category": "academic",
+   "latitude": 40.343438,
+   "longitude": -74.658172,
+   "source": "princeton-campus-map:poi:69"
+  },
+  {
+   "id": "south-guard-gate",
+   "name": "South Guard Gate",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.341952,
+   "longitude": -74.655833,
+   "source": "princeton-campus-map:poi:215"
+  },
+  {
+   "id": "special-collections-firestone",
+   "name": "Special Collections - Firestone",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.349614,
+   "longitude": -74.657349,
+   "source": "princeton-campus-map:poi:3231"
+  },
+  {
+   "id": "special-collections-mudd",
+   "name": "Special Collections - Mudd",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.349634,
+   "longitude": -74.65201,
+   "source": "princeton-campus-map:poi:3232"
+  },
+  {
+   "id": "spelman-hall",
+   "name": "Spelman Hall",
+   "aliases": [
+    "Spelman"
+   ],
+   "category": "academic",
+   "latitude": 40.344664,
+   "longitude": -74.659187,
+   "source": "princeton-campus-map:poi:335"
+  },
+  {
+   "id": "springdale-golf-course",
+   "name": "Springdale Golf Course",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.338744,
+   "longitude": -74.661844,
+   "source": "princeton-campus-map:poi:2312"
+  },
+  {
+   "id": "sprint-football",
+   "name": "Sprint Football",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.345767,
+   "longitude": -74.649968,
+   "source": "princeton-campus-map:poi:1210"
+  },
+  {
+   "id": "stanhope-hall",
+   "name": "Stanhope Hall",
+   "aliases": [
+    "Stanhope"
+   ],
+   "category": "academic",
+   "latitude": 40.348713,
+   "longitude": -74.660017,
+   "source": "princeton-campus-map:poi:340"
+  },
+  {
+   "id": "stephens-fitness-center",
+   "name": "Stephens Fitness Center",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.345653,
+   "longitude": -74.658843,
+   "source": "princeton-campus-map:poi:5925"
+  },
+  {
+   "id": "stokes-library-for-public-and-international-affairs-population-research-collection",
+   "name": "Stokes Library for Public and International Affairs, Population Research Collection",
+   "aliases": [
+    "Stokes Library"
+   ],
+   "category": "library",
+   "latitude": 40.349271,
+   "longitude": -74.653601,
+   "source": "princeton-campus-map:poi:1133"
+  },
+  {
+   "id": "stoney-ford",
+   "name": "Stoney Ford",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.353779,
+   "longitude": -74.718594,
+   "source": "princeton-campus-map:poi:529"
+  },
+  {
+   "id": "storage",
+   "name": "Storage",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.340142,
+   "longitude": -74.652857,
+   "source": "princeton-campus-map:poi:188"
+  },
+  {
+   "id": "streicker-bridge",
+   "name": "Streicker Bridge",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.344125,
+   "longitude": -74.652204,
+   "source": "princeton-campus-map:poi:3268"
+  },
+  {
+   "id": "student-volunteers-council",
+   "name": "Student Volunteers Council",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346734,
+   "longitude": -74.655155,
+   "source": "princeton-campus-map:poi:1158"
+  },
+  {
+   "id": "studio-34",
+   "name": "Studio '34",
+   "aliases": [],
+   "category": "dining",
+   "latitude": 40.344555,
+   "longitude": -74.655525,
+   "source": "princeton-campus-map:poi:818"
+  },
+  {
+   "id": "survey-research-center",
+   "name": "Survey Research Center",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.350563,
+   "longitude": -74.656076,
+   "source": "princeton-campus-map:poi:1157"
+  },
+  {
+   "id": "tap-room",
+   "name": "Tap Room",
+   "aliases": [],
+   "category": "dining",
+   "latitude": 40.34708,
+   "longitude": -74.656578,
+   "source": "princeton-campus-map:poi:817"
+  },
+  {
+   "id": "taplin-auditorium",
+   "name": "Taplin Auditorium",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.345803,
+   "longitude": -74.65226,
+   "source": "princeton-campus-map:poi:1452"
+  },
+  {
+   "id": "taylor-auditorium",
+   "name": "Taylor Auditorium",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.344016,
+   "longitude": -74.650691,
+   "source": "princeton-campus-map:poi:1451"
+  },
+  {
+   "id": "tennis-center-jadwin-gym",
+   "name": "Tennis Center - Jadwin Gym",
+   "aliases": [
+    "Tennis Center"
+   ],
+   "category": "athletic",
+   "latitude": 40.343385,
+   "longitude": -74.648652,
+   "source": "princeton-campus-map:poi:5876"
+  },
+  {
+   "id": "terrace-club",
+   "name": "Terrace Club",
+   "aliases": [
+    "Terrace",
+    "Terrace"
+   ],
+   "category": "social",
+   "latitude": 40.347168,
+   "longitude": -74.653907,
+   "source": "princeton-campus-map:poi:202"
+  },
+  {
+   "id": "the-coffee-club",
+   "name": "The Coffee Club",
+   "aliases": [],
+   "category": "dining",
+   "latitude": 40.347577,
+   "longitude": -74.654434,
+   "source": "princeton-campus-map:poi:3269"
+  },
+  {
+   "id": "the-forum",
+   "name": "The Forum",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.342458,
+   "longitude": -74.659499,
+   "source": "princeton-campus-map:poi:3271"
+  },
+  {
+   "id": "theatre-intime",
+   "name": "Theatre Intime",
+   "aliases": [],
+   "category": "social",
+   "latitude": 40.348049,
+   "longitude": -74.657658,
+   "source": "princeton-campus-map:poi:1450"
+  },
+  {
+   "id": "thompson",
+   "name": "Thompson",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.333378,
+   "longitude": -74.644283,
+   "source": "princeton-campus-map:poi:424"
+  },
+  {
+   "id": "tiger",
+   "name": "Tiger Club",
+   "aliases": [
+    "Tiger"
+   ],
+   "category": "social",
+   "latitude": 40.348978,
+   "longitude": -74.652276,
+   "source": "princeton-campus-map:poi:7"
+  },
+  {
+   "id": "tiger-tea-room",
+   "name": "Tiger Tea Room",
+   "aliases": [],
+   "category": "dining",
+   "latitude": 40.349614,
+   "longitude": -74.657349,
+   "source": "princeton-campus-map:poi:816"
+  },
+  {
+   "id": "tower-club",
+   "name": "Tower Club",
+   "aliases": [
+    "Tower",
+    "Tower"
+   ],
+   "category": "social",
+   "latitude": 40.347675,
+   "longitude": -74.653956,
+   "source": "princeton-campus-map:poi:53"
+  },
+  {
+   "id": "track-and-field",
+   "name": "Track and Field",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.344522,
+   "longitude": -74.64948,
+   "source": "princeton-campus-map:poi:1154"
+  },
+  {
+   "id": "undergraduate-student-government-usg",
+   "name": "Undergraduate Student Government (USG)",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346734,
+   "longitude": -74.655155,
+   "source": "princeton-campus-map:poi:1152"
+  },
+  {
+   "id": "university-archives",
+   "name": "University Archives",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.349634,
+   "longitude": -74.65201,
+   "source": "princeton-campus-map:poi:1121"
+  },
+  {
+   "id": "university-league-nursery-school",
+   "name": "University League Nursery School",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.347651,
+   "longitude": -74.644778,
+   "source": "princeton-campus-map:poi:1151"
+  },
+  {
+   "id": "university-now-day-nursery",
+   "name": "University NOW Day Nursery",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346911,
+   "longitude": -74.644285,
+   "source": "princeton-campus-map:poi:3206"
+  },
+  {
+   "id": "university-store",
+   "name": "University Store",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.347123,
+   "longitude": -74.661532,
+   "source": "princeton-campus-map:poi:5927"
+  },
+  {
+   "id": "university-women-s-center",
+   "name": "University Women's Center",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346734,
+   "longitude": -74.655155,
+   "source": "princeton-campus-map:poi:1209"
+  },
+  {
+   "id": "video-service-center",
+   "name": "Video Service Center",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.349614,
+   "longitude": -74.657349,
+   "source": "princeton-campus-map:poi:3233"
+  },
+  {
+   "id": "viz-hub",
+   "name": "Viz Hub",
+   "aliases": [],
+   "category": "library",
+   "latitude": 40.349271,
+   "longitude": -74.653601,
+   "source": "princeton-campus-map:poi:3234"
+  },
+  {
+   "id": "von-neumann",
+   "name": "Von Neumann",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.350657,
+   "longitude": -74.649365,
+   "source": "princeton-campus-map:poi:263"
+  },
+  {
+   "id": "walker-hall",
+   "name": "Walker Hall",
+   "aliases": [
+    "Walker"
+   ],
+   "category": "academic",
+   "latitude": 40.345588,
+   "longitude": -74.656746,
+   "source": "princeton-campus-map:poi:150"
+  },
+  {
+   "id": "wallace-dance-building-theatre",
+   "name": "Wallace Dance Building & Theatre",
+   "aliases": [
+    "Wallace Dance & Theater"
+   ],
+   "category": "social",
+   "latitude": 40.342288,
+   "longitude": -74.659813,
+   "source": "princeton-campus-map:poi:1449"
+  },
+  {
+   "id": "wallace-hall",
+   "name": "Wallace Hall",
+   "aliases": [
+    "Wallace"
+   ],
+   "category": "academic",
+   "latitude": 40.349295,
+   "longitude": -74.653594,
+   "source": "princeton-campus-map:poi:203"
+  },
+  {
+   "id": "wawa",
+   "name": "Wawa",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.341784,
+   "longitude": -74.658845,
+   "source": "princeton-campus-map:poi:4"
+  },
+  {
+   "id": "weaver-track-stadium",
+   "name": "Weaver Track Stadium",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.345054,
+   "longitude": -74.649567,
+   "source": "princeton-campus-map:poi:3273"
+  },
+  {
+   "id": "wendell-hall-b",
+   "name": "Wendell Hall B",
+   "aliases": [
+    "Wendell B"
+   ],
+   "category": "academic",
+   "latitude": 40.344322,
+   "longitude": -74.658354,
+   "source": "princeton-campus-map:poi:326"
+  },
+  {
+   "id": "wendell-hall-c",
+   "name": "Wendell Hall C",
+   "aliases": [
+    "Wendell C"
+   ],
+   "category": "academic",
+   "latitude": 40.344115,
+   "longitude": -74.658041,
+   "source": "princeton-campus-map:poi:418"
+  },
+  {
+   "id": "west-lodge",
+   "name": "West Lodge",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.339646,
+   "longitude": -74.666422,
+   "source": "princeton-campus-map:poi:185"
+  },
+  {
+   "id": "whig-hall",
+   "name": "Whig Hall",
+   "aliases": [
+    "Whig"
+   ],
+   "category": "academic",
+   "latitude": 40.347816,
+   "longitude": -74.658626,
+   "source": "princeton-campus-map:poi:318"
+  },
+  {
+   "id": "white-peff-03-field",
+   "name": "White Peff '03 Field",
+   "aliases": [],
+   "category": "athletic",
+   "latitude": 40.344707,
+   "longitude": -74.645974,
+   "source": "princeton-campus-map:poi:3203"
+  },
+  {
+   "id": "whitman-college-dining-hall",
+   "name": "Whitman College Dining Hall",
+   "aliases": [],
+   "category": "dining",
+   "latitude": 40.344184,
+   "longitude": -74.657647,
+   "source": "princeton-campus-map:poi:815"
+  },
+  {
+   "id": "whitman-residential-college",
+   "name": "Whitman Residential College",
+   "aliases": [
+    "Whitman College"
+   ],
+   "category": "residential",
+   "latitude": 40.343813,
+   "longitude": -74.657938,
+   "source": "princeton-campus-map:poi:803"
+  },
+  {
+   "id": "whitman-butler-dining-pavilion",
+   "name": "Whitman-Butler Dining Pavilion",
+   "aliases": [],
+   "category": "dining",
+   "latitude": 40.344023,
+   "longitude": -74.657357,
+   "source": "princeton-campus-map:poi:3213"
+  },
+  {
+   "id": "wilf-hall",
+   "name": "Wilf Hall",
+   "aliases": [
+    "Wilf"
+   ],
+   "category": "academic",
+   "latitude": 40.344405,
+   "longitude": -74.655131,
+   "source": "princeton-campus-map:poi:108"
+  },
+  {
+   "id": "witherspoon-hall",
+   "name": "Witherspoon Hall",
+   "aliases": [
+    "Witherspoon"
+   ],
+   "category": "academic",
+   "latitude": 40.347452,
+   "longitude": -74.660128,
+   "source": "princeton-campus-map:poi:402"
+  },
+  {
+   "id": "witherspoon-s-cafe",
+   "name": "Witherspoon's Cafe",
+   "aliases": [
+    "Witherspoon's"
+   ],
+   "category": "dining",
+   "latitude": 40.346734,
+   "longitude": -74.655155,
+   "source": "princeton-campus-map:poi:814"
+  },
+  {
+   "id": "woolworth-center-of-musical-studies",
+   "name": "Woolworth Center of Musical Studies",
+   "aliases": [
+    "Woolworth"
+   ],
+   "category": "academic",
+   "latitude": 40.347254,
+   "longitude": -74.655841,
+   "source": "princeton-campus-map:poi:42"
+  },
+  {
+   "id": "wprb-radio-station",
+   "name": "WPRB Radio Station",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.343408,
+   "longitude": -74.656066,
+   "source": "princeton-campus-map:poi:1207"
+  },
+  {
+   "id": "wright-hall",
+   "name": "Wright Hall",
+   "aliases": [
+    "Wright"
+   ],
+   "category": "academic",
+   "latitude": 40.345759,
+   "longitude": -74.657613,
+   "source": "princeton-campus-map:poi:151"
+  },
+  {
+   "id": "wyman-house",
+   "name": "Wyman House",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.34007,
+   "longitude": -74.665629,
+   "source": "princeton-campus-map:poi:187"
+  },
+  {
+   "id": "yavneh-house",
+   "name": "Yavneh House",
+   "aliases": [],
+   "category": "academic",
+   "latitude": 40.346671,
+   "longitude": -74.653615,
+   "source": "princeton-campus-map:poi:1204"
+  },
+  {
+   "id": "yeh-college",
+   "name": "Yeh College",
+   "aliases": [],
+   "category": "residential",
+   "latitude": 40.342135,
+   "longitude": -74.654183,
+   "source": "princeton-campus-map:poi:1913"
+  },
+  {
+   "id": "yoseloff-hall",
+   "name": "Yoseloff Hall",
+   "aliases": [
+    "Yoseloff"
+   ],
+   "category": "academic",
+   "latitude": 40.344391,
+   "longitude": -74.656042,
+   "source": "princeton-campus-map:poi:96"
+  }
+ ]
+}

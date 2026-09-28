@@ -1,0 +1,192 @@
+[
+  {
+    "id": "mpu:70043",
+    "aliases": ["Tiger Apps"],
+    "urls": ["https://tigerapps.org/"],
+    "sources": ["https://tigerapps.org/"]
+  },
+  {
+    "id": "plaintext",
+    "name": "plaintext",
+    "aliases": ["p l a i n t e x t", "Princeton cryptography club"],
+    "groupType": "Student organization",
+    "categories": ["Academic", "Educational"],
+    "urls": ["https://princetonacm.github.io/events/plaintext/"],
+    "sources": ["https://princetonacm.github.io/events/plaintext/index.html"]
+  },
+  {
+    "id": "mpu:52941",
+    "aliases": ["Princeton ACM", "ACM"]
+  },
+  {
+    "id": "mpu:71474",
+    "aliases": ["OrangeHat", "Orange Hat"]
+  },
+  {
+    "id": "mpu:71395",
+    "name": "Department of Computer Science",
+    "aliases": ["CS department", "COS department"]
+  },
+  {
+    "id": "mpu:53242",
+    "name": "Princeton USG",
+    "aliases": ["USG", "Undergraduate Student Government", "USG Movies"]
+  },
+  {
+    "id": "mpu:53249",
+    "name": "Whig-Clio",
+    "aliases": ["Whig Clio", "American Whig-Cliosophic Society"]
+  },
+  {
+    "id": "mpu:53108",
+    "name": "Princeton University Players",
+    "aliases": ["PUP", "University Players"]
+  },
+  {
+    "id": "mpu:52987",
+    "aliases": ["CSA", "Princeton CSA"]
+  },
+  {
+    "id": "mpu:53133",
+    "aliases": ["PLASA"]
+  },
+  {
+    "id": "mpu:56464",
+    "aliases": ["PSQ", "Students in Quantum"]
+  },
+  {
+    "id": "mpu:53016",
+    "aliases": ["E-Club", "Princeton E Club", "Entrepreneurship Club"]
+  },
+  {
+    "id": "mpu:61944",
+    "aliases": ["Lewis Center"]
+  },
+  {
+    "id": "mpu:71340",
+    "aliases": ["Art Museum"]
+  },
+  {
+    "id": "mpu:62015",
+    "aliases": ["University Library"]
+  },
+  {
+    "id": "mpu:53219",
+    "aliases": ["Daily Princetonian", "Join the Prince"]
+  },
+  {
+    "id": "mpu:61756",
+    "aliases": ["Rocky College"]
+  },
+  {
+    "id": "mpu:53009",
+    "aliases": ["HackPrinceton"],
+    "urls": ["https://hackprinceton.com/"]
+  },
+  {
+    "id": "mpu:53081",
+    "aliases": ["Princeton Math Club", "Math Club"]
+  },
+  {
+    "id": "legacy:legal-access",
+    "name": "Princeton Legal Access Project",
+    "aliases": ["Legal Access Project", "PLAP"],
+    "groupType": "Student organization",
+    "categories": [],
+    "sources": ["legacy TigerMail registry"]
+  },
+  {
+    "id": "legacy:boomerang",
+    "name": "3 Boomerang Capital",
+    "aliases": ["Boomerang Capital"],
+    "groupType": "Student organization",
+    "categories": [],
+    "sources": ["legacy TigerMail registry"]
+  },
+  {
+    "id": "department:math",
+    "name": "Department of Mathematics",
+    "aliases": ["Mathematics Department"],
+    "groupType": "Academic Department",
+    "categories": ["Academic"],
+    "urls": ["https://www.math.princeton.edu/"],
+    "sources": ["https://www.math.princeton.edu/"]
+  },
+  {
+    "id": "department:pni",
+    "name": "Princeton Neuroscience Institute",
+    "aliases": ["Neuroscience Institute", "PNI"],
+    "groupType": "Academic Department",
+    "categories": ["Academic"],
+    "urls": ["https://pni.princeton.edu/"],
+    "sources": ["https://pni.princeton.edu/"]
+  },
+  {
+    "id": "office:career",
+    "name": "Center for Career Development",
+    "aliases": ["Career Development"],
+    "groupType": "Administrative Office",
+    "categories": [],
+    "sources": ["legacy TigerMail registry"]
+  },
+  {
+    "id": "office:pace",
+    "name": "Pace Center",
+    "aliases": ["Pace Center for Civic Engagement"],
+    "groupType": "Administrative Office",
+    "categories": ["Service"],
+    "sources": ["legacy TigerMail registry"]
+  },
+  {
+    "id": "arts:concerts",
+    "name": "Princeton University Concerts",
+    "aliases": ["University Concerts"],
+    "groupType": "Arts",
+    "categories": ["Music"],
+    "sources": ["legacy TigerMail registry"]
+  },
+  {
+    "id": "legacy:psci",
+    "name": "Princeton Student Climate Initiative",
+    "aliases": ["Student Climate Initiative", "PSCI"],
+    "groupType": "Student organization",
+    "categories": ["Environmental"],
+    "sources": ["legacy TigerMail registry"]
+  },
+  {
+    "id": "mpu:53391",
+    "aliases": ["Muslim Students Association", "MSA"]
+  },
+  {
+    "id": "mpu:53193",
+    "aliases": ["SASA"]
+  },
+  {
+    "id": "mpu:53307",
+    "aliases": ["Acts of Kindness", "Acts of Kindness Initiative"]
+  },
+  {
+    "id": "mpu:53111",
+    "aliases": ["Princeton Pre-Law Society"]
+  },
+  {
+    "id": "mpu:53275",
+    "aliases": ["KoKo Pops Dance Company"]
+  },
+  {
+    "id": "mpu:52945",
+    "aliases": ["All-Nighter Late-Night Show"]
+  },
+  {
+    "id": "mpu:53253",
+    "aliases": ["Princeton Women in Computer Science", "PWiCS"]
+  },
+  {
+    "id": "mpu:53015",
+    "aliases": ["E Council", "E-Council"]
+  },
+  {
+    "id": "mpu:53058",
+    "aliases": ["Princeton Kindred Spirit"]
+  }
+]

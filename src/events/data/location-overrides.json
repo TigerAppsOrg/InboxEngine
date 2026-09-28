@@ -1,0 +1,406 @@
+{
+  "note": "Curated corrections layered over campus-locations.json. Aliases are matched against an extracted location phrase (\"McCosh 50\", \"Frist MPR\"), never against arbitrary body text.",
+  "drop": [
+    "mccosh",
+    "frist-welcome-desk",
+    "frist-health-center",
+    "indoor-baseball-jadwin-gym",
+    "hobey-baker-rink-student-athlete-facilities",
+    "princeton-stadium-student-athlete-facilities",
+    "roberts-field-student-athlete-facilities",
+    "chilled-water-plant",
+    "cogeneration-plant",
+    "eden-way-substation",
+    "gfdl-generator",
+    "storage",
+    "maintenance-yard",
+    "gym-701-carnegie-center",
+    "princeton-university-investment-company-princo",
+    "princeton-university-bulletin-pub",
+    "annals-of-mathematics",
+    "nassau-herald",
+    "freshman-herald",
+    "library-technical-services",
+    "fisher",
+    "forbes",
+    "recap",
+    "tiger"
+  ],
+  "overrides": {
+    "frist-campus-center": {
+      "category": "social",
+      "aliases": [
+        "Frist",
+        "Frist Center",
+        "Frist MPR",
+        "Frist Multipurpose Room",
+        "Frist Campus Ctr"
+      ]
+    },
+    "mccosh-hall": {
+      "category": "academic",
+      "aliases": [
+        "McCosh",
+        "McCosh Courtyard"
+      ]
+    },
+    "friend-center": {
+      "aliases": [
+        "Friend",
+        "Friend Ctr"
+      ]
+    },
+    "computer-science": {
+      "name": "Computer Science Building",
+      "aliases": [
+        "CS Building",
+        "COS Building",
+        "CS",
+        "Computer Science Department"
+      ]
+    },
+    "engineering-quadrangle": {
+      "aliases": [
+        "E-Quad",
+        "EQuad",
+        "E Quad",
+        "Engineering Quad"
+      ]
+    },
+    "robertson-hall": {
+      "aliases": [
+        "Robertson",
+        "Bowl 016",
+        "Arthur Lewis Auditorium"
+      ]
+    },
+    "richardson-auditorium-in-alexander-hall": {
+      "name": "Richardson Auditorium",
+      "aliases": [
+        "Richardson",
+        "Alexander Hall",
+        "Richardson Auditorium in Alexander Hall"
+      ]
+    },
+    "princeton-university-chapel": {
+      "category": "other",
+      "aliases": [
+        "Chapel",
+        "University Chapel"
+      ]
+    },
+    "dillon-gym": {
+      "category": "athletic",
+      "aliases": [
+        "Dillon",
+        "Dillon Gymnasium",
+        "Dillon Pool",
+        "Dillon Dance Studio"
+      ]
+    },
+    "jadwin-gym": {
+      "category": "athletic",
+      "aliases": [
+        "Jadwin",
+        "Jadwin Gymnasium"
+      ]
+    },
+    "princeton-stadium": {
+      "category": "athletic",
+      "aliases": [
+        "Powers Field at Princeton Stadium"
+      ]
+    },
+    "hobey-baker-rink": {
+      "category": "athletic",
+      "aliases": [
+        "Baker Rink"
+      ]
+    },
+    "denunzio-pool": {
+      "category": "athletic"
+    },
+    "racquet-and-recreation-fieldhouse": {
+      "category": "athletic"
+    },
+    "roberts-stadium": {
+      "category": "athletic"
+    },
+    "firestone-library": {
+      "aliases": [
+        "Firestone"
+      ]
+    },
+    "lewis-library": {
+      "aliases": [
+        "Lewis Science Library"
+      ]
+    },
+    "whitman-residential-college": {
+      "name": "Whitman College",
+      "aliases": [
+        "Whitman",
+        "Whitman Residential College",
+        "Whitman Common Room"
+      ]
+    },
+    "butler-residential-college": {
+      "name": "Butler College",
+      "aliases": [
+        "Butler",
+        "Butler Residential College"
+      ]
+    },
+    "rockefeller-residential-college": {
+      "name": "Rockefeller College",
+      "aliases": [
+        "Rocky",
+        "Rockefeller",
+        "Rockefeller Residential College"
+      ]
+    },
+    "mathey-residential-college": {
+      "name": "Mathey College",
+      "aliases": [
+        "Mathey",
+        "Mathey Residential College"
+      ]
+    },
+    "forbes-residential-college": {
+      "name": "Forbes College",
+      "aliases": [
+        "Forbes",
+        "Forbes Residential College"
+      ]
+    },
+    "yeh-college": {
+      "aliases": [
+        "Yeh",
+        "Yeh Residential College"
+      ]
+    },
+    "new-college-west": {
+      "name": "New College West",
+      "aliases": [
+        "NCW",
+        "Hobson"
+      ]
+    },
+    "hobson-college": {
+      "aliases": [
+        "Hobson Residential College"
+      ]
+    },
+    "graduate-residential-college": {
+      "name": "Graduate College",
+      "aliases": [
+        "Grad College",
+        "GC"
+      ]
+    },
+    "choi-dining-hall-yeh-college-new-college-west": {
+      "name": "Choi Dining Hall",
+      "aliases": [
+        "Choi",
+        "Yeh/NCW Dining Hall"
+      ]
+    },
+    "carl-a-fields-center-for-equality-and-cultural-understanding": {
+      "name": "Carl A. Fields Center",
+      "category": "social",
+      "aliases": [
+        "Fields Center",
+        "CAF",
+        "Carl Fields Center"
+      ]
+    },
+    "center-for-jewish-life": {
+      "category": "social",
+      "aliases": [
+        "CJL"
+      ]
+    },
+    "murray-dodge-cafe": {
+      "aliases": [
+        "Murray-Dodge Cafe",
+        "Murray Dodge Cafe"
+      ]
+    },
+    "hamilton-murray-theater": {
+      "aliases": [
+        "Murray Theater",
+        "Murray-Dodge Theater"
+      ]
+    },
+    "lewis-arts-complex": {
+      "category": "social",
+      "aliases": [
+        "Lewis Arts",
+        "Lewis Center for the Arts",
+        "Wallace Theater",
+        "Forum, Lewis Arts Complex"
+      ]
+    },
+    "the-forum": {
+      "name": "The Forum (Lewis Arts Complex)",
+      "category": "social",
+      "aliases": [
+        "The Forum at Lewis Arts"
+      ]
+    },
+    "princeton-university-art-museum": {
+      "aliases": [
+        "Art Museum",
+        "PUAM"
+      ]
+    },
+    "mccarter-theatre": {
+      "aliases": [
+        "McCarter",
+        "McCarter Theatre Center"
+      ]
+    },
+    "theatre-intime": {
+      "aliases": [
+        "Theatre Intime",
+        "Intime"
+      ]
+    },
+    "wprb-radio-station": {
+      "category": "social",
+      "aliases": [
+        "WPRB"
+      ]
+    },
+    "keller-center-for-innovation-in-engineering-education": {
+      "name": "Keller Center",
+      "aliases": [
+        "Keller Center"
+      ]
+    },
+    "princeton-entrepreneurial-hub": {
+      "aliases": [
+        "E-Hub",
+        "Entrepreneurial Hub",
+        "Princeton E-Hub"
+      ]
+    },
+    "louis-a-simpson-international-building": {
+      "aliases": [
+        "Simpson International Building",
+        "Louis Simpson"
+      ]
+    },
+    "julis-romo-rabinowitz": {
+      "name": "Julis Romo Rabinowitz Building",
+      "aliases": [
+        "JRR",
+        "Julis Romo Rabinowitz"
+      ]
+    },
+    "east-pyne-hall": {
+      "aliases": [
+        "East Pyne"
+      ]
+    },
+    "pace-center": {
+      "aliases": [
+        "Pace Center for Civic Engagement"
+      ]
+    },
+    "cap-gown": {
+      "name": "Cap and Gown Club",
+      "aliases": [
+        "Cap & Gown",
+        "Cap and Gown",
+        "Cap"
+      ]
+    },
+    "charter": {
+      "name": "Charter Club",
+      "aliases": [
+        "Charter Club"
+      ]
+    },
+    "cloister": {
+      "name": "Cloister Inn",
+      "aliases": [
+        "Cloister"
+      ]
+    },
+    "colonial": {
+      "name": "Colonial Club",
+      "aliases": [
+        "Colonial"
+      ]
+    },
+    "cottage": {
+      "name": "University Cottage Club",
+      "aliases": [
+        "Cottage",
+        "Cottage Club"
+      ]
+    },
+    "ivy": {
+      "name": "Ivy Club",
+      "aliases": [
+        "Ivy"
+      ]
+    },
+    "quadrangle": {
+      "name": "Quadrangle Club",
+      "aliases": [
+        "Quad",
+        "Quadrangle"
+      ]
+    },
+    "terrace-club": {
+      "aliases": [
+        "Terrace",
+        "Terrace F. Club"
+      ]
+    },
+    "tower-club": {
+      "aliases": [
+        "Tower"
+      ]
+    },
+    "wendell-hall-b": {
+      "drop": true
+    },
+    "wendell-hall-c": {
+      "drop": true
+    },
+    "campus-club": {
+      "category": "social"
+    }
+  },
+  "additions": [
+    {
+      "id": "tiger-inn",
+      "name": "Tiger Inn",
+      "aliases": [
+        "TI"
+      ],
+      "category": "social",
+      "latitude": 40.347858,
+      "longitude": -74.654329,
+      "source": "curated"
+    },
+    {
+      "id": "online",
+      "name": "Online",
+      "aliases": [
+        "Zoom",
+        "Virtual",
+        "Google Meet",
+        "Microsoft Teams",
+        "Livestream"
+      ],
+      "category": "other",
+      "latitude": 0,
+      "longitude": 0,
+      "source": "curated"
+    }
+  ]
+}
