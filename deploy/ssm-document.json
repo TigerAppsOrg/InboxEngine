@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "2.2",
+  "description": "Deploy a checksum-verified InboxEngine release to the-forum-web",
+  "parameters": {
+    "Release": { "type": "String", "allowedPattern": "^[a-f0-9]{40}$" },
+    "Checksum": { "type": "String", "allowedPattern": "^[a-f0-9]{64}$" }
+  },
+  "mainSteps": [
+    {
+      "action": "aws:runShellScript",
+      "name": "deploy",
+      "precondition": { "StringEquals": ["platformType", "Linux"] },
+      "inputs": {
+        "timeoutSeconds": "1200",
+        "runCommand": [
+          "set -eu",
+          "release='{{ Release }}'",
+          "checksum='{{ Checksum }}'",
+          "root=/opt/inbox-engine",
+          "mkdir -p \"$root/releases/$release\"",
+          "artifact=\"/tmp/inbox-engine-$release.tar.gz\"",
+          "aws s3 cp \"s3://theforum-deploy-104733724423-us-east-1/releases/inbox-engine/$release.tar.gz\" \"$artifact\" --region us-east-1 --only-show-errors",
+          "printf '%s  %s\\n' \"$checksum\" \"$artifact\" | sha256sum -c -",
+          "tar --no-same-owner -xzf \"$artifact\" -C \"$root/releases/$release\"",
+          "bash \"$root/releases/$release/deploy/run-release.sh\" \"$release\"",
+          "rm -f \"$artifact\""
+        ]
+      }
+    }
+  ]
+}

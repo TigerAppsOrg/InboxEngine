@@ -1,0 +1,51 @@
+name: Deploy
+on:
+  workflow_run:
+    workflows: [CI]
+    branches: [main]
+    types: [completed]
+  workflow_dispatch: {}
+permissions:
+  contents: read
+  id-token: write
+concurrency:
+  group: inbox-engine-deploy
+  cancel-in-progress: false
+jobs:
+  deploy:
+    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push')
+    runs-on: ubuntu-latest
+    env:
+      AWS_REGION: us-east-1
+      BUCKET: theforum-deploy-104733724423-us-east-1
+      INSTANCE_ID: i-00a811982e8784203
+      SHA: ${{ github.event.workflow_run.head_sha || github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.SHA }}
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::104733724423:role/InboxEngineGitHubDeployRole
+          aws-region: ${{ env.AWS_REGION }}
+      - name: Upload release
+        run: |
+          set -euo pipefail
+          git archive --format=tar.gz -o /tmp/release.tar.gz "$SHA"
+          echo "DIGEST=$(sha256sum /tmp/release.tar.gz | cut -d' ' -f1)" >> "$GITHUB_ENV"
+          aws s3 cp /tmp/release.tar.gz "s3://$BUCKET/releases/inbox-engine/$SHA.tar.gz" --only-show-errors
+      - name: Deploy through SSM
+        run: |
+          set -euo pipefail
+          params=$(jq -n --arg r "$SHA" --arg c "$DIGEST" '{Release:[$r],Checksum:[$c]}')
+          id=$(aws ssm send-command --instance-ids "$INSTANCE_ID" --document-name InboxEngineDeploy --parameters "$params" --query Command.CommandId --output text)
+          for _ in $(seq 1 80); do
+            status=$(aws ssm get-command-invocation --command-id "$id" --instance-id "$INSTANCE_ID" --query Status --output text 2>/dev/null || echo Pending)
+            case "$status" in
+              Success) aws ssm get-command-invocation --command-id "$id" --instance-id "$INSTANCE_ID" --query StandardOutputContent --output text | tail -5; exit 0 ;;
+              Failed|Cancelled|TimedOut|Cancelling)
+                aws ssm get-command-invocation --command-id "$id" --instance-id "$INSTANCE_ID" --query '{out:StandardOutputContent,err:StandardErrorContent}'; exit 1 ;;
+            esac
+            sleep 10
+          done
+          echo 'Deployment timed out'; exit 1

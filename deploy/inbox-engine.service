@@ -1,0 +1,23 @@
+[Unit]
+Description=InboxEngine (API, MCP and LISTSERV/MyPrincetonU poller)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=inbox-engine
+Group=inbox-engine
+WorkingDirectory=/opt/inbox-engine/current
+EnvironmentFile=/opt/inbox-engine/shared/environment
+ExecStart=/usr/bin/node --import tsx src/server/main.ts
+Restart=always
+RestartSec=5
+MemoryMax=512M
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/tmp
+
+[Install]
+WantedBy=multi-user.target

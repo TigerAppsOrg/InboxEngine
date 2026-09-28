@@ -111,6 +111,14 @@ Only organization-level fields are kept. Officer and member rosters are never fe
 Regenerate the venue gazetteer from The Forum's campus map export with `npm run build:locations -- <pois.json>`;
 curate aliases in `src/events/data/location-overrides.json`.
 
+## Deployment
+`main` deploys automatically after CI: GitHub OIDC (`InboxEngineGitHubDeployRole`) uploads a
+checksummed `git archive` to S3 and runs the `InboxEngineDeploy` SSM document on the
+`the-forum-web` EC2 host, which executes `deploy/run-release.sh` (npm ci, migrations, systemd
+`inbox-engine.service` on 127.0.0.1:8300, health check with rollback, nginx site for
+`inbox-engine.tigerapps.org`). Runtime secrets live in the SecureString parameter
+`/inbox-engine/production/environment`; the database is `inbox_engine` on the shared RDS instance.
+
 ## Privacy
 - Reads public LISTSERV archives through a NOMAIL service account and the public MyPrincetonU feed; sends nothing.
 - `EVENT_EXTRACTOR=rules` never sends email content off-host. `llm` sends message text to Anthropic.
