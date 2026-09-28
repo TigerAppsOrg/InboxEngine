@@ -4,7 +4,7 @@
  * several events are left to the LLM extractor, which returns a list.
  */
 import * as chrono from 'chrono-node';
-import { CAMPUS_TZ } from './time.ts';
+import { CAMPUS_TZ, campusLocalString, campusLocalToUtc } from './time.ts';
 import { resolveLocation, ONLINE_LOCATION_ID, getLocation, type LocationMatch } from './locations.ts';
 import { tagsFromText, TAG_RULES } from './taxonomy.ts';
 import type { ExtractedEvent, ExtractionInput, ExtractionResult } from './types.ts';
@@ -75,8 +75,26 @@ export function findLocation(text: string): { phrase: string; match: LocationMat
 
 type Pick = { start: Date; end: Date | null; exact: boolean; index: number; inSubject: boolean };
 
+/** A Date whose *host-local* wall clock equals the campus wall clock at `instant`. */
+function campusWallClock(instant: Date): Date {
+  const [date, time] = campusLocalString(instant).split('T');
+  const [y, m, d] = date.split('-').map(Number);
+  const [h, mi] = time.slice(0, 5).split(':').map(Number);
+  return new Date(y, m - 1, d, h, mi);
+}
+
+/** Convert chrono components (campus wall clock unless the text named a zone) to a UTC instant. */
+function toInstant(c: chrono.ParsedComponents, addHours: number): Date {
+  if (c.isCertain('timezoneOffset')) return new Date(c.date().getTime() + addHours * 3600_000);
+  const pad = (n: number) => String(n).padStart(2, '0');
+  const hour = (c.get('hour') ?? 12) + addHours;
+  const local = `${c.get('year')}-${pad(c.get('month') ?? 1)}-${pad(c.get('day') ?? 1)}T${pad(hour % 24)}:${pad(c.get('minute') ?? 0)}`;
+  const utc = campusLocalToUtc(local)!;
+  return hour >= 24 ? new Date(utc.getTime() + 86400_000) : utc;
+}
+
 function pickDate(subject: string, body: string, sentAt: Date): Pick | null {
-  const ref = { instant: sentAt, timezone: CAMPUS_TZ };
+  const ref = campusWallClock(sentAt);
   const opts = { forwardDate: true };
   const from = sentAt.getTime() - 6 * 3600_000;
   const until = sentAt.getTime() + 180 * 86400_000;
@@ -86,17 +104,14 @@ function pickDate(subject: string, body: string, sentAt: Date): Pick | null {
       if (RELATIVE.test(r.text) || DEADLINE_TIME.test(r.text)) continue;
       // "5:30" with no am/pm: campus events between 1 and 7 o'clock are afternoon/evening.
       const hour = r.start.get('hour');
-      const shift =
-        r.start.isCertain('hour') && !r.start.isCertain('meridiem') && hour !== null && hour >= 1 && hour <= 7
-          ? 12 * 3600_000
-          : 0;
-      const start = new Date(r.start.date().getTime() + shift);
+      const shift = r.start.isCertain('hour') && !r.start.isCertain('meridiem') && hour !== null && hour >= 1 && hour <= 7 ? 12 : 0;
+      const start = toInstant(r.start, shift);
       // Relative weekday or time alone: meaningful only near the send date.
       const hasDay = r.start.isCertain('day') || r.start.isCertain('weekday') || /\b(?:today|tonight|tomorrow)\b/i.test(r.text);
       const exact = r.start.isCertain('hour');
       if (!hasDay && !exact) continue;
       if (start.getTime() < from || start.getTime() > until) continue;
-      let end = r.end ? new Date(r.end.date().getTime() + (r.end.isCertain('meridiem') ? 0 : shift)) : null;
+      let end = r.end ? toInstant(r.end, r.end.isCertain('meridiem') ? 0 : shift && (r.end.get('hour') ?? 0) <= 11 ? 12 : 0) : null;
       if (end && end.getTime() <= start.getTime()) end = null;
       results.push({ start, end, exact, index: r.index, inSubject });
     }
