@@ -203,7 +203,7 @@ export async function markDuplicates(sql: Sql): Promise<number> {
         l.host_org_id = o.host_org_id
         OR similarity_words(l.title, o.title) >= 0.5
       )
-    RETURNING l.id`;
+    RETURNING l.id, l.duplicate_of`;
   // Reminder emails ("final call", "tomorrow!") re-announce the same event: keep the earliest
   // extraction and mark later ones as its duplicates.
   const reminders = await sql`
@@ -225,6 +225,10 @@ export async function markDuplicates(sql: Sql): Promise<number> {
           AND abs(extract(epoch FROM p.starts_at - o.starts_at)) <= 1800
           AND similarity_words(p.title, o.title) >= 0.4
       )
-    RETURNING l.id`;
+    RETURNING l.id, l.duplicate_of`;
+  // The surviving event gained an announcement; bump it so consumers re-read its promotion data.
+  const targets = [...new Set([...official, ...reminders].map((r) => String(r.duplicateOf)))];
+  if (targets.length)
+    await sql`UPDATE events SET updated_at = now(), revision = nextval('revision_seq') WHERE id IN ${sql(targets)}`;
   return official.length + reminders.length;
 }

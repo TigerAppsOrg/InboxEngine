@@ -175,6 +175,16 @@ function eventPayload(r: Row) {
     publishable: !!r.publishable,
     extractionVersion: String(r.extractionVersion),
     imageUrl: (r.imageUrl as string) ?? null,
+    /**
+     * Listserv promotion: how many campus emails announced this event (its own email, if any, plus
+     * reminder/cross-list emails folded into it) and when it was first announced. Official
+     * MyPrincetonU events that nobody emailed have 0 and null.
+     */
+    announcements: {
+      emails: (r.source === 'listserv' ? 1 : 0) + Number(r.repeatCount ?? 0),
+      listservs: [...new Set([...((r.lists as string[]) ?? []), ...((r.repeatLists as string[]) ?? [])])].sort(),
+      firstAnnouncedAt: r.firstAnnouncedAt ? new Date(r.firstAnnouncedAt as string).toISOString() : null
+    },
     series: r.seriesId ? { id: String(r.seriesId), size: Number(r.seriesSize) } : null,
     duplicateOf: (r.duplicateOf as string) ?? null,
     source:
@@ -206,7 +216,12 @@ function eventPayload(r: Row) {
 
 const EVENT_COLUMNS = (sql: Sql) => sql`
   e.*, m.subject, m.sender_name, m.sent_at, m.source_url,
-  (SELECT array_agg(listserv ORDER BY listserv) FROM message_lists l WHERE l.message_id = e.message_id) AS lists`;
+  (SELECT array_agg(listserv ORDER BY listserv) FROM message_lists l WHERE l.message_id = e.message_id) AS lists,
+  (SELECT count(*)::int FROM events d WHERE d.duplicate_of = e.id) AS repeat_count,
+  (SELECT array_agg(DISTINCT l2.listserv) FROM events d JOIN message_lists l2 ON l2.message_id = d.message_id
+     WHERE d.duplicate_of = e.id) AS repeat_lists,
+  LEAST(m.sent_at, (SELECT min(m2.sent_at) FROM events d JOIN messages m2 ON m2.id = d.message_id
+     WHERE d.duplicate_of = e.id)) AS first_announced_at`;
 
 export async function listEvents(sql: Sql, f: EventFilters) {
   const limit = Math.min(Math.max(f.limit ?? 50, 1), 200);
