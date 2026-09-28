@@ -52,6 +52,8 @@ export type EngineEvent = {
   publishable: boolean;
   extractionVersion: string;
   imageUrl: string | null;
+  /** How many campus listserv emails announced this event, on which lists, and when first. */
+  announcements: { emails: number; listservs: string[]; firstAnnouncedAt: string | null };
   /** Recurring official events share a series (same host + title); `size` counts occurrences in the feed. */
   series: { id: string; size: number } | null;
   duplicateOf: string | null;

@@ -64,5 +64,9 @@ test('reminder emails for the same event collapse to the first announcement', { 
   const dupes = await sql`SELECT duplicate_of FROM events WHERE status = 'duplicate' AND title ILIKE '%MealMates%'`;
   assert.equal(active.length, 1);
   assert.equal(dupes.length, 1);
+  const { listEvents } = await import('../src/queries.ts');
+  const [kept] = (await listEvents(sql, { from: '2026-09-28T00:00:00Z', query: 'MealMates' })).results;
+  assert.equal(kept.announcements.emails, 2, 'the reminder counts as a second announcement');
+  assert.equal(kept.announcements.firstAnnouncedAt, '2026-09-28T13:00:00.000Z');
   await closeDb();
 });
