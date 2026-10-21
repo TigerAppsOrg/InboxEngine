@@ -29,7 +29,7 @@
   "dependencies": {
     "@anthropic-ai/sdk": "^0.126.0",
     "@hono/node-server": "^1.14.0",
-    "@modelcontextprotocol/sdk": "^1.30.0",
+    "@modelcontextprotocol/sdk": "^1.32.0",
     "chrono-node": "^2.8.0",
     "dom-serializer": "^3.1.1",
     "domhandler": "^6.0.1",
